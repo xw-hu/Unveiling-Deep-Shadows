@@ -12,7 +12,7 @@ This repository contains the codebase for deep models used in shadow detection, 
 
 ## Image Shadow Detection
 
-### Comparing image shadow detection methods on SBU-Refine and CUHKShadow: [Results]() \& [Models]()
+### Comparing image shadow detection methods on SBU-Refine and CUHK-Shadow: [Results]() \& [Models]()
 
 | Input Size | Methods                                   | BER (SBU-Refine) | BER (CUHK-Shadow) | Params (M) | Infer. (images/s) |
 |:----------:|:-----------------------------------------:|:----------------:|:-----------------:|:----------:|:-----------------:|
@@ -39,9 +39,26 @@ This repository contains the codebase for deep models used in shadow detection, 
 - *: real-time shadow detector
 - #: extra supervision from other methods
 
-### Cross-dataset generalization evaluation. Models were trained on SBU-Refine and tested on SRD.
+### Cross-dataset generalization evaluation. Trained on SBU-Refine and tested on SRD: [Results]()
 
-
+| Input Size | Methods                                   | BER  |
+|:----------:|:-----------------------------------------:|:----:|
+| 256x256    | DSC (CVPR'18, TPAMI'20)                   | 11.10 |
+|            | BDRAR (ECCV'18)                           | 9.05  |
+|            | DSDNet# (CVPR'19)                         | 10.32 |
+|            | MTMT-Net$ (CVPR'20)                       | 9.82  |
+|            | FDRNet (ICCV'21)                          | 11.82 |
+|            | FSDNet* (TIP'21)                          | 12.13 |
+|            | ECA (MM'21)                               | 11.97 |
+|            | SDDNet (MM'23)                            | 8.64  |
+| 512x512    | DSC (CVPR'18, TPAMI'20)                   | 11.62 |
+|            | BDRAR (ECCV'18)                           | 8.37  |
+|            | DSDNet# (CVPR'19)                         | 8.88  |
+|            | MTMT-Net$ (CVPR'20)                       | 9.08  |
+|            | FDRNet (ICCV'21)                          | 8.81  |
+|            | FSDNet* (TIP'21)                          | 11.94 |
+|            | ECA (MM'21)                               | 12.71 |
+|            | SDDNet (MM'23)                            | 7.65  |
 
 
 ### Datasets
