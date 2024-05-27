@@ -61,7 +61,7 @@ This repository contains the codebase for deep models used in shadow detection, 
 
 ## Instance Shadow Detection
 
-### Comparing image instance shadow detection methods on the SOBA-testing Set: [Results]() \& [Models]()
+### Comparing image instance shadow detection methods on the SOBA-testing set: [Results]() \& [Models]()
 
 | Methods                        | $SOAP_{segm}$ | $SOAP_{bbox}$ | Asso. $AP_{segm}$ | Asso. $AP_{bbox}$ | Ins. $AP_{segm}$ | Ins. $AP_{bbox}$ | Param. (M) | Infer. (images/s) |
 |:-------------------------------|:-------------:|:-------------:|:-----------------:|:-----------------:|:----------------:|:----------------:|:----------:|:-----------------:|
@@ -69,7 +69,7 @@ This repository contains the codebase for deep models used in shadow detection, 
 | SSIS (CVPR 2021)       | 29.9          | 26.8          | 52.3              | 59.2              | 43.5             | 41.5             | 57.87      | 5.83              |
 | SSISv2 (TPAMI 2023)     | 35.3          | 29.0          | 59.2              | 63.0              | 50.2             | 44.4             | 76.77      | 5.17              |
 
-### Comparing image instance shadow detection methods on the SOBA-challenge Set:[Results]() 
+### Comparing image instance shadow detection methods on the SOBA-challenge set: [Results]() 
 
 | Methods                        | $SOAP_{segm}$ | $SOAP_{bbox}$ | Asso. $AP_{segm}$ | Asso. $AP_{bbox}$ | Ins. $AP_{segm}$ | Ins. $AP_{bbox}$ | Param. (M) | Infer. (images/s) |
 |:-------------------------------|:-------------:|:-------------:|:-----------------:|:-----------------:|:----------------:|:----------------:|:----------:|:-----------------:|
