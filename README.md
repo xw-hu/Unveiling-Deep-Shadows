@@ -12,7 +12,7 @@ This repository contains the codebase for deep models used in shadow detection, 
 
 ## Image Shadow Detection
 
-### Shadow Detection Evaluation on SBU-Refine and CUHKShadow
+### Comparing image shadow detection methods on SBU-Refine and CUHKShadow
 
 | Input Size | Methods                                   | BER (SBU-Refine) | BER (CUHK-Shadow) | Params (M) | Infer. (images/s) |
 |:----------:|:-----------------------------------------:|:----------------:|:-----------------:|:----------:|:-----------------:|
@@ -39,6 +39,15 @@ This repository contains the codebase for deep models used in shadow detection, 
 - *: real-time shadow detector
 - #: extra supervision from other methods
 
+### Cross-dataset generalization evaluation. Models were trained on SBU-Refine and tested on SRD.
+
+
+
+
+### Datasets
+- [SBU-Refine](https://github.com/hanyangclarence/SILT/releases/tag/refined_sbu)
+- [CUHK-Shadow](https://github.com/xw-hu/CUHK-Shadow#cuhk-shadow-dateset)
+- SRD [Training](https://drive.google.com/file/d/1W8vBRJYDG9imMgr9I2XaA13tlFIEHOjS/view?pli=1), [Testing](https://drive.google.com/file/d/1GTi4BmQ0SJ7diDMmf-b7x2VismmXtfTo/view), and [masks](https://yuhaoliu7456.github.io/projects/RRL-Net/index.html)
 
 ## Video Shadow Detection
 
