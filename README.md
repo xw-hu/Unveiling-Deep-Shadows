@@ -8,13 +8,20 @@ This repository contains the codebase for deep models used in shadow detection, 
 + Cross-Dataset Generalization Study: assess the generalization capability of deep models across diverse datasets.
 
 
+## Image Shadow Detection
+
+
+## Video Shadow Detection
+
+
+## Instance Shadow Detection
 
 
 ## Bibtex
 If you find our work, models or results useful, please consider citing our paper as follows:
 ```
 @article{hu2024unveiling,
-  title={Unveiling-Deep-Shadows: A Survey on Image and Video Shadow Detection, Removal, and Generation in the Era of Deep Learning},
+  title={Unveiling Deep Shadows: A Survey on Image and Video Shadow Detection, Removal, and Generation in the Era of Deep Learning},
   author={Hu, Xiaowei and Xing, Zhenghao and Wang, Tianyu and Fu, Chi-Wing and Heng, Pheng-Ann},
   journal={arXiv preprint arXiv:24},
   year={2024}
