@@ -16,22 +16,22 @@ This repository contains the codebase for deep models used in shadow detection, 
 
 | Input Size | Methods                                   | BER (SBU-Refine) | BER (CUHK-Shadow) | Params (M) | Infer. (images/s) |
 |:----------:|:-----------------------------------------:|:----------------:|:-----------------:|:----------:|:-----------------:|
-| 256x256    | DSC (CVPR'18, TPAMI'20) | 6.79             | 10.97             | 122.49     | 26.86             |
-|            | BDRAR (ECCV'18)         | 6.01             | 9.68              | 42.46      | 39.76             |
-|            | DSDNet# (CVPR'19)      | 5.33             | 8.23              | 58.16      | 37.53             |
-|            | MTMT-Net$ (CVPR'20)          | 6.30             | 8.64              | 44.13      | 34.04             |
-|            | FDRNet (ICCV'21)           | 5.64             | 14.39             | 10.77      | 41.39             |
-|            | FSDNet* (TIP'21)           | 7.16             | 9.93              | 4.39       | 150.99            |
-|            | ECA (MM'21)                | 7.08             | 8.58              | 157.76     | 27.55             |
-|            | SDDNet (MM'23)             | 5.39             | 8.66              | 15.02      | 36.73             |
-| 512x512    | DSC (CVPR'18, TPAMI'20)   | 6.34             | 9.53              | 122.49     | 22.59             |
-|            | BDRAR (ECCV'18)        | 5.44             | 8.42              | 42.46      | 31.34             |
-|            | DSDNet# (CVPR'19)       | 4.98             | 7.58              | 58.16      | 32.69             |
-|            | MTMT-Net$ (CVPR'20)            | 5.77             | 8.03              | 44.13      | 28.75             |
-|            | FDRNet (ICCV'21)          | 5.39             | 6.58              | 10.77      | 35.00             |
-|            | FSDNet* (TIP'21)           | 6.80             | 8.84              | 4.39       | 134.47            |
-|            | ECA (MM'21)                 | 7.52             | 7.99              | 157.76     | 22.41             |
-|            | SDDNet (MM'23)             | 4.86             | 7.65              | 15.02      | 37.65             |
+| 256x256    | DSC (CVPR 2018, TPAMI 2020) | 6.79             | 10.97             | 122.49     | 26.86             |
+|            | BDRAR (ECCV 2018)         | 6.01             | 9.68              | 42.46      | 39.76             |
+|            | DSDNet# (CVPR 2019)      | 5.33             | 8.23              | 58.16      | 37.53             |
+|            | MTMT-Net$ (CVPR 2020)          | 6.30             | 8.64              | 44.13      | 34.04             |
+|            | FDRNet (ICCV 2021)           | 5.64             | 14.39             | 10.77      | 41.39             |
+|            | FSDNet* (TIP 2021)           | 7.16             | 9.93              | 4.39       | 150.99            |
+|            | ECA (MM 2021)                | 7.08             | 8.58              | 157.76     | 27.55             |
+|            | SDDNet (MM 2023)             | 5.39             | 8.66              | 15.02      | 36.73             |
+| 512x512    | DSC (CVPR 2018, TPAMI 2020)   | 6.34             | 9.53              | 122.49     | 22.59             |
+|            | BDRAR (ECCV 2018)        | 5.44             | 8.42              | 42.46      | 31.34             |
+|            | DSDNet# (CVPR 2019)       | 4.98             | 7.58              | 58.16      | 32.69             |
+|            | MTMT-Net$ (CVPR 2020)            | 5.77             | 8.03              | 44.13      | 28.75             |
+|            | FDRNet (ICCV 2021)          | 5.39             | 6.58              | 10.77      | 35.00             |
+|            | FSDNet* (TIP 2021)           | 6.80             | 8.84              | 4.39       | 134.47            |
+|            | ECA (MM 2021)                 | 7.52             | 7.99              | 157.76     | 22.41             |
+|            | SDDNet (MM 2023)             | 4.86             | 7.65              | 15.02      | 37.65             |
 
 **Notes**:
 - Evaluation on NVIDIA GeForce RTX 4090 GPU
@@ -41,7 +41,7 @@ This repository contains the codebase for deep models used in shadow detection, 
 
 ### Cross-dataset generalization evaluation. Trained on SBU-Refine and tested on SRD: [Results]()
 
-| Input Size | DSC (CVPR'18, TPAMI'20) | BDRAR (ECCV'18) | DSDNet# (CVPR'19) | MTMT-Net$ (CVPR'20) | FDRNet (ICCV'21) | FSDNet* (TIP'21) | ECA (MM'21) | SDDNet (MM'23) |
+| Input Size | DSC (CVPR 2018, TPAMI 2020) | BDRAR (ECCV 2018) | DSDNet# (CVPR 2019) | MTMT-Net$ (CVPR 2020) | FDRNet (ICCV 2021) | FSDNet* (TIP 2021) | ECA (MM 2021) | SDDNet (MM 2023) |
 |:----------:|:------------------------:|:---------------:|:-----------------:|:-------------------:|:----------------:|:----------------:|:-----------:|:--------------:|
 | 256x256    | 11.10                    | 9.05            | 10.32             | 9.82                | 11.82            | 12.13            | 11.97        | 8.64           |
 | 512x512    | 11.62                    | 8.37            | 8.88              | 9.08                | 8.81             | 11.94            | 12.71        | 7.65           |
@@ -54,15 +54,39 @@ This repository contains the codebase for deep models used in shadow detection, 
 - SRD [Training](https://drive.google.com/file/d/1W8vBRJYDG9imMgr9I2XaA13tlFIEHOjS/view?pli=1), [Testing](https://drive.google.com/file/d/1GTi4BmQ0SJ7diDMmf-b7x2VismmXtfTo/view), and [Masks](https://yuhaoliu7456.github.io/projects/RRL-Net/index.html)
 
 ### Metrics
-- BER [Python]()
+- BER: [Python]()
 
 ## Video Shadow Detection
 
 
 ## Instance Shadow Detection
 
+### Comparing image instance shadow detection methods on the SOBA-testing Set: [Results]() \& [Models]()
 
+| Methods                        | $SOAP_{segm}$ | $SOAP_{bbox}$ | Asso. $AP_{segm}$ | Asso. $AP_{bbox}$ | Ins. $AP_{segm}$ | Ins. $AP_{bbox}$ | Param. (M) | Infer. (images/s) |
+|:-------------------------------|:-------------:|:-------------:|:-----------------:|:-----------------:|:----------------:|:----------------:|:----------:|:-----------------:|
+| LISA (CVPR 2020)       | 23.5          | 21.9          | 42.7              | 50.4              | 39.7             | 38.2             | 91.26      | 8.16              |
+| SSIS (CVPR 2021)       | 29.9          | 26.8          | 52.3              | 59.2              | 43.5             | 41.5             | 57.87      | 5.83              |
+| SSISv2 (TPAMI 2023)     | 35.3          | 29.0          | 59.2              | 63.0              | 50.2             | 44.4             | 76.77      | 5.17              |
 
+### Comparing image instance shadow detection methods on the SOBA-challenge Set:[Results]() 
+
+| Methods                        | $SOAP_{segm}$ | $SOAP_{bbox}$ | Asso. $AP_{segm}$ | Asso. $AP_{bbox}$ | Ins. $AP_{segm}$ | Ins. $AP_{bbox}$ | Param. (M) | Infer. (images/s) |
+|:-------------------------------|:-------------:|:-------------:|:-----------------:|:-----------------:|:----------------:|:----------------:|:----------:|:-----------------:|
+| LISA (CVPR 2020)       | 10.2          | 9.8           | 21.6              | 26.0              | 23.9             | 24.7             | 91.26      | 4.52              |
+| SSIS (CVPR 2021)       | 12.8          | 12.9          | 28.4              | 32.5              | 25.7             | 26.5             | 57.87      | 2.26              |
+| SSISv2 (TPAMI 2023)     | 17.7          | 15.0          | 34.5              | 37.2              | 31.0             | 28.4             | 76.77      | 1.91              |
+
+**Notes**:
+- Evaluation on NVIDIA GeForce RTX 4090 GPU
+
+### Datasets
+- [SOBA](https://drive.google.com/drive/folders/1MKxyq3R6AUeyLai9i9XWzG2C_n5f0ppP)
+- [SOBA-VID]()
+
+### Metrics
+- SOAP: [Python](https://github.com/stevewongv/SSIS)
+- SOAP-VID: [Python]()
 
 ## Bibtex
 If you find our work, models or results useful, please consider citing our paper as follows:
