@@ -51,12 +51,17 @@ This repository contains the codebase for deep models used in shadow detection, 
 ### Datasets
 - [SBU-Refine](https://github.com/hanyangclarence/SILT/releases/tag/refined_sbu)
 - [CUHK-Shadow](https://github.com/xw-hu/CUHK-Shadow#cuhk-shadow-dateset)
-- SRD [Training](https://drive.google.com/file/d/1W8vBRJYDG9imMgr9I2XaA13tlFIEHOjS/view?pli=1), [Testing](https://drive.google.com/file/d/1GTi4BmQ0SJ7diDMmf-b7x2VismmXtfTo/view), and [masks](https://yuhaoliu7456.github.io/projects/RRL-Net/index.html)
+- SRD [Training](https://drive.google.com/file/d/1W8vBRJYDG9imMgr9I2XaA13tlFIEHOjS/view?pli=1), [Testing](https://drive.google.com/file/d/1GTi4BmQ0SJ7diDMmf-b7x2VismmXtfTo/view), and [Masks](https://yuhaoliu7456.github.io/projects/RRL-Net/index.html)
+
+### Metrics
+- BER [Python]()
 
 ## Video Shadow Detection
 
 
 ## Instance Shadow Detection
+
+
 
 
 ## Bibtex
