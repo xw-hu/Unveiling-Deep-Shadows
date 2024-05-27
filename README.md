@@ -41,24 +41,11 @@ This repository contains the codebase for deep models used in shadow detection, 
 
 ### Cross-dataset generalization evaluation. Trained on SBU-Refine and tested on SRD: [Results]()
 
-| Input Size | Methods                                   | BER  |
-|:----------:|:-----------------------------------------:|:----:|
-| 256x256    | DSC (CVPR'18, TPAMI'20)                   | 11.10 |
-|            | BDRAR (ECCV'18)                           | 9.05  |
-|            | DSDNet# (CVPR'19)                         | 10.32 |
-|            | MTMT-Net$ (CVPR'20)                       | 9.82  |
-|            | FDRNet (ICCV'21)                          | 11.82 |
-|            | FSDNet* (TIP'21)                          | 12.13 |
-|            | ECA (MM'21)                               | 11.97 |
-|            | SDDNet (MM'23)                            | 8.64  |
-| 512x512    | DSC (CVPR'18, TPAMI'20)                   | 11.62 |
-|            | BDRAR (ECCV'18)                           | 8.37  |
-|            | DSDNet# (CVPR'19)                         | 8.88  |
-|            | MTMT-Net$ (CVPR'20)                       | 9.08  |
-|            | FDRNet (ICCV'21)                          | 8.81  |
-|            | FSDNet* (TIP'21)                          | 11.94 |
-|            | ECA (MM'21)                               | 12.71 |
-|            | SDDNet (MM'23)                            | 7.65  |
+| Input Size | DSC (CVPR'18, TPAMI'20) | BDRAR (ECCV'18) | DSDNet# (CVPR'19) | MTMT-Net$ (CVPR'20) | FDRNet (ICCV'21) | FSDNet* (TIP'21) | ECA (MM'21) | SDDNet (MM'23) |
+|:----------:|:------------------------:|:---------------:|:-----------------:|:-------------------:|:----------------:|:----------------:|:-----------:|:--------------:|
+| 256x256    | 11.10                    | 9.05            | 10.32             | 9.82                | 11.82            | 12.13            | 11.97        | 8.64           |
+| 512x512    | 11.62                    | 8.37            | 8.88              | 9.08                | 8.81             | 11.94            | 12.71        | 7.65           |
+
 
 
 ### Datasets
