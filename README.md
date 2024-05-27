@@ -12,7 +12,7 @@ This repository contains the codebase for deep models used in shadow detection, 
 
 ## Image Shadow Detection
 
-### Comparing image shadow detection methods on SBU-Refine and CUHKShadow
+### Comparing image shadow detection methods on SBU-Refine and CUHKShadow: [Results]() \& [Models]()
 
 | Input Size | Methods                                   | BER (SBU-Refine) | BER (CUHK-Shadow) | Params (M) | Infer. (images/s) |
 |:----------:|:-----------------------------------------:|:----------------:|:-----------------:|:----------:|:-----------------:|
