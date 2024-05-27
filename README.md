@@ -41,10 +41,10 @@ This repository contains the results and trained models for deep-learning method
 
 ### Cross-dataset generalization evaluation. Trained on SBU-Refine and tested on SRD: [Results]()
 
-| Input Size | DSC (CVPR 2018, TPAMI 2020) | BDRAR (ECCV 2018) | DSDNet# (CVPR 2019) | MTMT-Net$ (CVPR 2020) | FDRNet (ICCV 2021) | FSDNet* (TIP 2021) | ECA (MM 2021) | SDDNet (MM 2023) |
-|:----------:|:------------------------:|:---------------:|:-----------------:|:-------------------:|:----------------:|:----------------:|:-----------:|:--------------:|
-| 256x256    | 11.10                    | 9.05            | 10.32             | 9.82                | 11.82            | 12.13            | 11.97        | 8.64           |
-| 512x512    | 11.62                    | 8.37            | 8.88              | 9.08                | 8.81             | 11.94            | 12.71        | 7.65           |
+| Input Size | Metric | DSC (CVPR 2018, TPAMI 2020) | BDRAR (ECCV 2018) | DSDNet# (CVPR 2019) | MTMT-Net$ (CVPR 2020) | FDRNet (ICCV 2021) | FSDNet* (TIP 2021) | ECA (MM 2021) | SDDNet (MM 2023) |
+|:----------:|:-------:|:------------------------:|:---------------:|:-----------------:|:-------------------:|:----------------:|:----------------:|:-----------:|:--------------:|
+| 256x256    | BER     | 11.10                    | 9.05            | 10.32             | 9.82                | 11.82            | 12.13            | 11.97        | 8.64          |
+| 512x512    | BER     | 11.62                    | 8.37            | 8.88              | 9.08                | 8.81             | 11.94            | 12.71        | 7.65          |
 
 
 
