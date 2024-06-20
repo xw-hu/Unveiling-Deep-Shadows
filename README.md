@@ -71,7 +71,7 @@ This repository contains the results and trained models for deep-learning method
 - $: additional training data
 - *: real-time shadow detector
 
-### Dataset
+### Datasets
 - [ViSha](https://erasernut.github.io/ViSha.html)
 
 ### Metrics
