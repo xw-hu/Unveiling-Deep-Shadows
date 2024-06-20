@@ -57,8 +57,29 @@ This repository contains the results and trained models for deep-learning method
 - BER: [Python]()
 
 ## Video Shadow Detection
+### Comparison of video shadow detection methods on ViSha: [Results]() \& [Models]()
+| Methods                       | BER $\downarrow$ | IoU [%] $\uparrow$ | TS [%] $\uparrow$ | AVG $\uparrow$ | Param. (M) | Infer. (frames/s) |
+|:-----------------------------:|:----------------:|:------------------:|:-----------------:|:--------------:|:----------:|:-----------------:|
+| TVSD-Net (CVPR 2021) | 14.21            | 56.36              | 22.69             | 39.53          | 60.83      | 15.50             |
+| STICT\$* (CVPR 2022)    | 13.05            | 43.75              | 39.10             | 41.43          | 26.17      | 91.34             |
+| SC-Cor (ECCV 2022) | 12.80            | 55.56              | 23.68             | 39.62          | 58.16      | 27.91             |
+| SCOTCH and SODA (CVPR 2023) | 10.36     | 61.24              | 25.76             | 43.50          | 53.11      | 16.16             |
+| ShadowSAM (TCSVT 2023) | 13.38            | 61.72              | 23.77             | 42.75          | 93.74      | 15.53             |
 
+**Notes**:
+- Evaluation on NVIDIA GeForce RTX 4090 GPU
+- $: additional training data
+- *: real-time shadow detector
 
+### Dataset
+- [ViSha](https://erasernut.github.io/ViSha.html)
+
+### Metrics
+- TS: [Python]()
+- IoU: [Python]()
+- BER: [Python]()
+
+  
 ## Instance Shadow Detection
 
 ### Comparing image instance shadow detection methods on the SOBA-testing set: [Results]() \& [Models]()
@@ -97,6 +118,8 @@ This repository contains the results and trained models for deep-learning method
 ### Metrics
 - SOAP: [Python](https://github.com/stevewongv/SSIS)
 - SOAP-VID: [Python]()
+
+  
 
 ## Bibtex
 If you find our work, models or results useful, please consider citing our paper as follows:
