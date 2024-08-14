@@ -113,11 +113,11 @@ This repository contains the results and trained models for deep-learning method
 
 ### Datasets
 - [SOBA](https://drive.google.com/drive/folders/1MKxyq3R6AUeyLai9i9XWzG2C_n5f0ppP)
-- [SOBA-VID]()
+- [SOBA-VID](https://github.com/HarryHsing/Video-Instance-Shadow-Detection)
 
 ### Metrics
 - SOAP: [Python](https://github.com/stevewongv/SSIS)
-- SOAP-VID: [Python]()
+- SOAP-VID: [Python](https://github.com/HarryHsing/Video-Instance-Shadow-Detection)
 
   
 
