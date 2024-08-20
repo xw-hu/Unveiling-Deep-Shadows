@@ -51,7 +51,7 @@ This repository contains the results and trained models for deep-learning method
 ### Datasets
 - [SBU-Refine](https://github.com/hanyangclarence/SILT/releases/tag/refined_sbu)
 - [CUHK-Shadow](https://github.com/xw-hu/CUHK-Shadow#cuhk-shadow-dateset)
-- SRD [Training](https://drive.google.com/file/d/1W8vBRJYDG9imMgr9I2XaA13tlFIEHOjS/view?pli=1), [Testing](https://drive.google.com/file/d/1GTi4BmQ0SJ7diDMmf-b7x2VismmXtfTo/view), and [Masks](https://yuhaoliu7456.github.io/projects/RRL-Net/index.html)
+- SRD [Training](https://drive.google.com/file/d/1W8vBRJYDG9imMgr9I2XaA13tlFIEHOjS/view?pli=1), [Test](https://drive.google.com/file/d/1GTi4BmQ0SJ7diDMmf-b7x2VismmXtfTo/view), and [Masks](https://yuhaoliu7456.github.io/projects/RRL-Net/index.html)
 
 ### Metrics
 - BER: see this GitHub repository.
@@ -170,9 +170,7 @@ This repository contains the results and trained models for deep-learning method
 - DESOBA only labels cast shadows and we set the self shadows on objects as "don’t care" in evaluation. 
 
 ### Datasets
-- [SRD Train](https://drive.google.com/file/d/1W8vBRJYDG9imMgr9I2XaA13tlFIEHOjS/view)
-- [SRD Test](https://drive.google.com/file/d/1GTi4BmQ0SJ7diDMmf-b7x2VismmXtfTo/view)
-- [SRD Masks](https://yuhaoliu7456.github.io/projects/RRL-Net/index.html)
+- - SRD [Training](https://drive.google.com/file/d/1W8vBRJYDG9imMgr9I2XaA13tlFIEHOjS/view?pli=1), [Test](https://drive.google.com/file/d/1GTi4BmQ0SJ7diDMmf-b7x2VismmXtfTo/view), and [Masks](https://yuhaoliu7456.github.io/projects/RRL-Net/index.html)
 - [ISTD+](https://drive.google.com/file/d/1rsCSWrotVnKFUqu9A_Nw9Uf-bJq_ryOv/view)
 - [DESOBA](https://github.com/bcmi/Object-Shadow-Generation-Dataset-DESOBA)
 
