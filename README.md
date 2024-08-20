@@ -48,7 +48,6 @@ This repository contains the results and trained models for deep-learning method
 | 512x512    | BER     | 11.62                    | 8.37            | 8.88              | 9.08                | 8.81             | 11.94            | 12.71        | 7.65          |
 
 
-
 ### Datasets
 - [SBU-Refine](https://github.com/hanyangclarence/SILT/releases/tag/refined_sbu)
 - [CUHK-Shadow](https://github.com/xw-hu/CUHK-Shadow#cuhk-shadow-dateset)
@@ -108,7 +107,13 @@ This repository contains the results and trained models for deep-learning method
 | SSIS (CVPR 2021)               | 32.1          | 26.6          | 58.6              | 64.0              | 46.4             | 41.0             |
 | SSISv2 (TPAMI 2023)            | 37.0          | 26.7          | 63.6              | 67.5              | 51.8             | 42.8             |
 
+### Datasets
+- [SOBA](https://drive.google.com/drive/folders/1MKxyq3R6AUeyLai9i9XWzG2C_n5f0ppP)
+- [SOBA-VID](https://github.com/HarryHsing/Video-Instance-Shadow-Detection)
 
+### Metrics
+- SOAP: [Python](https://github.com/stevewongv/SSIS)
+- SOAP-VID: [Python](https://github.com/HarryHsing/Video-Instance-Shadow-Detection)
 
 ## Image Shadow Removal
 
@@ -161,18 +166,20 @@ This repository contains the results and trained models for deep-learning method
 | 512x512    | PSNR    | 15.18             | 23.87                | 20.96                     | 19.08           | 24.16           | 24.56                     | 21.25                   | 23.65            | 24.53                    | 22.34                     | 24.81                | 23.11                      | 24.89                   |
 
 
-
 **Notes**:
-- Evaluation on NVIDIA GeForce RTX 4090 GPU
+- DESOBA only labels cast shadows and we set the self shadows on objects as "don’t care" in evaluation. 
 
 ### Datasets
-- [SOBA](https://drive.google.com/drive/folders/1MKxyq3R6AUeyLai9i9XWzG2C_n5f0ppP)
-- [SOBA-VID](https://github.com/HarryHsing/Video-Instance-Shadow-Detection)
+- [SRD](https://drive.google.com/drive/folders/1MKxyq3R6AUeyLai9i9XWzG2C_n5f0ppP)
+- [SRD masks]()
+- [ISTD+](https://github.com/HarryHsing/Video-Instance-Shadow-Detection)
+- [DESOBA]()
 
 ### Metrics
-- SOAP: [Python](https://github.com/stevewongv/SSIS)
-- SOAP-VID: [Python](https://github.com/HarryHsing/Video-Instance-Shadow-Detection)
-
+- MAE: see this GitHub repository.
+- PSNE: see this GitHub repository.
+- SSIM: see this GitHub repository.
+- LPIPS: see this GitHub repository. 
   
 
 ## Bibtex
