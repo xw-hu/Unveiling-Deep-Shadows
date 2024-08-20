@@ -5,7 +5,7 @@ This repository contains the results and trained models for deep-learning method
 ## Highlights
 + A Comprehensive Survey of Shadow Analysis in the Deep Learning Era.
 + Fair Comparisons of the Existing Methods. Unified platform + newly refined datasets with corrected noisy labels and ground-truth images.
-+ Exploration of Model Size, Speed, and Performance Relationships. a more comprehensive comparison of different evaluation aspects.
++ Exploration of Model Size, Speed, and Performance Relationships. A more comprehensive comparison of different evaluation aspects.
 + Cross-Dataset Generalization Study. Assess the generalization capability of deep models across diverse datasets.
 + Overview of Open Issues and Future Directions with AIGC and Large Models.
 + Publicly Available Results, Trained Models, and Evaluation Metrics.
