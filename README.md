@@ -54,7 +54,7 @@ This repository contains the results and trained models for deep-learning method
 - SRD [Training](https://drive.google.com/file/d/1W8vBRJYDG9imMgr9I2XaA13tlFIEHOjS/view?pli=1), [Testing](https://drive.google.com/file/d/1GTi4BmQ0SJ7diDMmf-b7x2VismmXtfTo/view), and [Masks](https://yuhaoliu7456.github.io/projects/RRL-Net/index.html)
 
 ### Metrics
-- BER: [Python]()
+- BER: see this GitHub repository.
 
 ## Video Shadow Detection
 ### Comparison of video shadow detection methods on ViSha: [Results]() \& [Models]()
@@ -75,9 +75,9 @@ This repository contains the results and trained models for deep-learning method
 - [ViSha](https://erasernut.github.io/ViSha.html)
 
 ### Metrics
-- TS: [Python]()
-- IoU: [Python]()
-- BER: [Python]()
+- TS: see this GitHub repository.
+- IoU: see this GitHub repository.
+- BER: see this GitHub repository.
 
   
 ## Instance Shadow Detection
