@@ -26,7 +26,7 @@ This repository contains the results and trained models for deep-learning method
 |            | ECA (MM 2021)                | 7.08             | 8.58              | 157.76     | 27.55             |
 |            | SDDNet (MM 2023)             | 5.39             | 8.66              | 15.02      | 36.73             |
 | 512x512    | DSC (CVPR 2018, TPAMI 2020)   | 6.34             | 9.53              | 122.49     | 22.59             |
-|            | BDRAR (ECCV 2018)        | 5.44             | 8.42              | 42.46      | 31.34             |
+|            | BDRAR (ECCV 2018)        | 5.44             | 8.42              | 42.46      | 31.34               |
 |            | DSDNet# (CVPR 2019)       | 4.98             | 7.58              | 58.16      | 32.69             |
 |            | MTMT-Net$ (CVPR 2020)            | 5.77             | 8.03              | 44.13      | 28.75             |
 |            | FDRNet (ICCV 2021)          | 5.39             | 6.58              | 10.77      | 35.00             |
@@ -107,6 +107,44 @@ This repository contains the results and trained models for deep-learning method
 | LISA (CVPR 2020)               | 22.6          | 21.1          | 44.2              | 53.6              | 39.0             | 37.3             |
 | SSIS (CVPR 2021)               | 32.1          | 26.6          | 58.6              | 64.0              | 46.4             | 41.0             |
 | SSISv2 (TPAMI 2023)            | 37.0          | 26.7          | 63.6              | 67.5              | 51.8             | 42.8             |
+
+
+
+## Image Shadow Removal
+
+### Comparing image shadow removal methods on SRD and ISTD+: [Results]() \& [Models]()
+
+| Input Size | Methods                                | MAE (SRD) | PSNR (SRD) | SSIM (SRD) | LPIPS (SRD) | MAE (ISTD+) | PSNR (ISTD+) | SSIM (ISTD+) | LPIPS (ISTD+) | Params (M) | Infer. (images/s) |
+|:----------:|:--------------------------------------:|:---------:|:----------:|:----------:|:-----------:|:-----------:|:------------:|:------------:|:-------------:|:----------:|:-----------------:|
+| -          | input                                  | 9.47      | 17.91      | 0.801      | 0.194       | 7.16        | 20.20        | 0.885        | 0.107         | -          | -                 |
+| 256x256    | ST-CGAN (ECCV 2018)                    | 8.91      | 18.02      | 0.389      | 0.567       | 7.43        | 20.04        | 0.387        | 0.497         | 58.49      | 71.69             |
+|            | SP+M-Net (CVPR 2019)                   | 6.46      | 20.71      | 0.641      | 0.441       | 4.64        | 23.36        | 0.714        | 0.376         | 54.42      | 33.88             |
+|            | Mask-ShadowGAN (ICCV 2019)             | 4.32      | 24.67      | 0.662      | 0.427       | 3.70        | 25.50        | 0.720        | 0.377         | 22.76      | 64.77             |
+|            | DSC (TPAMI 2020)                       | 5.36      | 22.59      | 0.650      | 0.422       | 5.59        | 23.07        | 0.679        | 0.395         | 122.49     | 46.75             |
+|            | Auto (ICCV 2021)                       | 5.37      | 23.20      | 0.694      | 0.370       | 3.53        | 26.10        | 0.718        | 0.365         | 196.76     | 33.23             |
+|            | G2R-ShadowNet (ICCV 2021)              | 6.08      | 21.72      | 0.619      | 0.460       | 4.37        | 24.23        | 0.696        | 0.396         | 22.76      | 3.62              |
+|            | DC-ShadowNet (CVPR 2021)               | 4.27      | 24.72      | 0.670      | 0.383       | 3.89        | 25.18        | 0.693        | 0.406         | 10.59      | 40.51             |
+|            | BMNet (CVPR 2022)                      | 4.39      | 24.24      | 0.721      | 0.327       | 3.34        | 26.62        | 0.731        | 0.354         | 0.58       | 17.42             |
+|            | SG-ShadowNet (ECCV 2022)               | 4.60      | 24.10      | 0.636      | 0.443       | 3.32        | 26.80        | 0.717        | 0.369         | 6.17       | 16.51             |
+|            | ShadowDiffusion (CVPR 2023)            | 4.84      | 23.26      | 0.684      | 0.363       | 3.44        | 26.51        | 0.688        | 0.404         | 55.52      | 9.73              |
+|            | ShadowFormer (CVPR 2023)               | 4.44      | 24.28      | 0.715      | 0.348       | 3.45        | 26.55        | 0.728        | 0.350         | 11.37      | 32.57             |
+|            | ShadowMaskFormer (CVPR 2024)           | 4.69      | 23.85      | 0.671      | 0.386       | 3.39        | 26.57        | 0.698        | 0.395         | 2.28       | 17.63             |
+|            | HomoFormer (CVPR 2024)                 | 4.17      | 24.64      | 0.723      | 0.325       | 3.37        | 26.72        | 0.732        | 0.348         | 17.81      | 16.14             |
+
+**Notes**:
+- Evaluation on NVIDIA GeForce RTX 4090 GPU
+- LPIPS uses VGG as the extractor.
+- Mask-ShadowGAN and DC-ShadowNet are unsupervised methods.
+- G2R-ShadowNet is a weakly-supervised method.
+
+### Cross-dataset generalization evaluation. Trained on SRD and tested on DESOBA: [Results]()
+
+| Input Size | Metric | ST-CGAN (ECCV 2018) | SP+M-Net (CVPR 2019) | Mask-ShadowGAN (ICCV 2019) | DSC (TPAMI 2020) | Auto (ICCV 2021) | G2R-ShadowNet (ICCV 2021) | DC-ShadowNet (CVPR 2021) | BMNet (CVPR 2022) | SG-ShadowNet (ECCV 2022) | ShadowDiffusion (CVPR 2023) | ShadowFormer (CVPR 2023) | ShadowMaskFormer (CVPR 2024) | HomoFormer (CVPR 2024) |
+|:----------:|:-------:|:-----------------:|:--------------------:|:-------------------------:|:---------------:|:---------------:|:-------------------------:|:-----------------------:|:----------------:|:-----------------------:|:-------------------------:|:----------------------:|:--------------------------:|:-----------------------:|
+| 256x256    | MAE     | 12.28             | 5.51                 | 6.94                      | 9.90            | 5.88            | 5.13                      | 6.88                    | 5.37             | 4.92                     | 5.59                      | 5.01                 | 5.82                       | 5.02                    |
+| 256x256    | PSNR    | 15.38             | 22.65                | 20.47                     | 17.90           | 22.62           | 23.14                     | 20.58                   | 22.75            | 23.36                    | 22.08                     | 23.49                | 22.14                      | 23.41                   |
+
+
 
 
 **Notes**:
