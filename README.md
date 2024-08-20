@@ -170,10 +170,11 @@ This repository contains the results and trained models for deep-learning method
 - DESOBA only labels cast shadows and we set the self shadows on objects as "don’t care" in evaluation. 
 
 ### Datasets
-- [SRD](https://drive.google.com/drive/folders/1MKxyq3R6AUeyLai9i9XWzG2C_n5f0ppP)
-- [SRD masks]()
-- [ISTD+](https://github.com/HarryHsing/Video-Instance-Shadow-Detection)
-- [DESOBA]()
+- [SRD Train](https://drive.google.com/file/d/1W8vBRJYDG9imMgr9I2XaA13tlFIEHOjS/view)
+- [SRD Test](https://drive.google.com/file/d/1GTi4BmQ0SJ7diDMmf-b7x2VismmXtfTo/view)
+- [SRD Masks](https://yuhaoliu7456.github.io/projects/RRL-Net/index.html)
+- [ISTD+](https://drive.google.com/file/d/1rsCSWrotVnKFUqu9A_Nw9Uf-bJq_ryOv/view)
+- [DESOBA](https://github.com/bcmi/Object-Shadow-Generation-Dataset-DESOBA)
 
 ### Metrics
 - MAE: see this GitHub repository.
