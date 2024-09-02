@@ -10,8 +10,6 @@ from skimage.metrics import peak_signal_noise_ratio as compare_psnr
 from skimage.metrics import structural_similarity as compare_ssim
 from skimage.color import rgb2lab
 import scipy
-import cv2
-import os
 
 loss_fn_vgg = lpips.LPIPS(net='vgg').cuda() # vgg is used in the paper
 
