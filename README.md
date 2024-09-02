@@ -15,7 +15,7 @@ This repository contains the results and trained models for deep-learning method
 
 ### Comparing image shadow detection methods on SBU-Refine and CUHK-Shadow: [Results]() \& [Models]()
 
-| Input Size | Methods                                   | BER (SBU-Refine) | BER (CUHK-Shadow) | Params (M) | Infer. (images/s) |
+| Input Size | Methods                                   | BER (SBU-Refine) (↓) | BER (CUHK-Shadow) (↓) | Params (M) | Infer. (images/s) |
 |:----------:|:-----------------------------------------:|:----------------:|:-----------------:|:----------:|:-----------------:|
 | 256x256    | DSC (CVPR 2018, TPAMI 2020)               | 6.79             | 10.97             | 122.49     | 26.86             |
 |            | BDRAR (ECCV 2018)                         | 6.27             | 10.09             | 42.46      | 39.76             |
@@ -45,8 +45,8 @@ This repository contains the results and trained models for deep-learning method
 
 | Input Size | Metric | DSC (CVPR 2018, TPAMI 2020) | BDRAR (ECCV 2018) | DSDNet# (CVPR 2019) | MTMT-Net$ (CVPR 2020) | FDRNet (ICCV 2021) | FSDNet* (TIP 2021) | ECA (MM 2021) | SDDNet (MM 2023) |
 |:----------:|:-------:|:------------------------:|:---------------:|:-----------------:|:-------------------:|:----------------:|:----------------:|:-----------:|:--------------:|
-| 256x256    | BER     | 11.10                    | 9.13            | 10.29             | 9.97                | 11.82            | 12.13            | 11.97        | 8.64          |
-| 512x512    | BER     | 11.62                    | 8.53            | 8.92              | 9.19                | 8.81             | 11.94            | 12.71        | 7.65          |
+| 256x256    | BER (↓)   | 11.10                    | 9.13            | 10.29             | 9.97                | 11.82            | 12.13            | 11.97        | 8.64          |
+| 512x512    | BER (↓)   | 11.62                    | 8.53            | 8.92              | 9.19                | 8.81             | 11.94            | 12.71        | 7.65          |
 
 
 ### Datasets
@@ -59,7 +59,7 @@ This repository contains the results and trained models for deep-learning method
 
 ## Video Shadow Detection
 ### Comparison of video shadow detection methods on ViSha: [Results]() \& [Models]()
-| Methods                       | BER $\downarrow$ | IoU [%] $\uparrow$ | TS [%] $\uparrow$ | AVG $\uparrow$ | Param. (M) | Infer. (frames/s) |
+| Methods                       | BER (↓) | IoU [%] (↑) | TS [%] (↑) | AVG (↑) | Param. (M) | Infer. (frames/s) |
 |:-----------------------------:|:----------------:|:------------------:|:-----------------:|:--------------:|:----------:|:-----------------:|
 | TVSD-Net (CVPR 2021) | 14.21            | 56.36              | 22.69             | 39.53          | 60.83      | 15.50             |
 | STICT\$* (CVPR 2022)    | 13.05            | 43.75              | 39.10             | 41.43          | 26.17      | 91.34             |
@@ -120,7 +120,7 @@ This repository contains the results and trained models for deep-learning method
 
 ### Comparing image shadow removal methods on SRD and ISTD+: [Results]() \& [Models]()
 
-| Input Size | Methods                                | RMSE (SRD) | PSNR (SRD) | SSIM (SRD) | LPIPS (SRD) | RMSE (ISTD+) | PSNR (ISTD+) | SSIM (ISTD+) | LPIPS (ISTD+) | Params (M) | Infer. (images/s) |
+| Input Size | Methods                                | RMSE (SRD) (↓) | PSNR (SRD) (↑) | SSIM (SRD) (↑) | LPIPS (SRD) (↓) | RMSE (ISTD+) (↓) | PSNR (ISTD+) (↑) | SSIM (ISTD+) (↑) | LPIPS (ISTD+) (↓) | Params (M) | Infer. (images/s) |
 |:----------:|:--------------------------------------:|:---------:|:----------:|:----------:|:-----------:|:-----------:|:------------:|:------------:|:-------------:|:----------:|:-----------------:|
 | 256x256    | ST-CGAN (CVPR 2018)                    | 4.15      | 25.08      | 0.637      | 0.443       | 3.77        | 25.74        | 0.691        | 0.408         | 58.49      | 111.79            |
 |            | SP+M-Net (ICCV 2019)                   | 5.68      | 22.25      | 0.636      | 0.444       | 3.37        | 26.58        | 0.717        | 0.373         | 54.42      | 33.88             |
@@ -160,10 +160,10 @@ This repository contains the results and trained models for deep-learning method
 
 | Input Size | Metric | ST-CGAN (CVPR 2018) | SP+M-Net (ICCV 2019) | Mask-ShadowGAN (ICCV 2019) | DSC (TPAMI 2020) | Auto (CVPR 2021) | G2R-ShadowNet (CVPR 2021) | DC-ShadowNet (ICCV 2021) | BMNet (CVPR 2022) | SG-ShadowNet (ECCV 2022) | ShadowDiffusion (CVPR 2023) | ShadowFormer (AAAI 2023) | ShadowMaskFormer (arXiv 2024) | HomoFormer (CVPR 2024) |
 |:----------:|:-------:|:-----------------:|:--------------------:|:-------------------------:|:---------------:|:---------------:|:-------------------------:|:-----------------------:|:----------------:|:-----------------------:|:-------------------------:|:----------------------:|:--------------------------:|:-----------------------:|
-| 256x256    | RMSE    | 7.07              | 5.10                 | 6.94                      | 6.66            | 5.88            | 5.13                      | 6.88                    | 5.37             | 4.92                     | 5.59                      | 5.01                 | 5.82                       | 5.02                    |
-| 256x256    | PSNR    | 20.23             | 23.35                | 20.47                     | 20.71           | 22.62           | 23.14                     | 20.58                   | 22.75            | 23.36                    | 22.08                     | 23.49                | 22.14                      | 23.41                   |
-| 512x512    | RMSE    | 6.65              | 4.57                 | 6.74                      | 5.58            | 5.05            | 4.60                      | 6.62                    | 5.06             | 4.47                     | 5.50                      | 4.55                 | 5.51                       | 4.42                    |
-| 512x512    | PSNR    | 20.98             | 24.80                | 20.96                     | 22.61           | 24.16           | 24.56                     | 21.25                   | 23.65            | 24.53                    | 22.34                     | 24.81                | 23.11                      | 24.89                   |
+| 256x256    | RMSE (↓)   | 7.07              | 5.10                 | 6.94                      | 6.66            | 5.88            | 5.13                      | 6.88                    | 5.37             | 4.92                     | 5.59                      | 5.01                 | 5.82                       | 5.02                    |
+| 256x256    | PSNR (↑)   | 20.23             | 23.35                | 20.47                     | 20.71           | 22.62           | 23.14                     | 20.58                   | 22.75            | 23.36                    | 22.08                     | 23.49                | 22.14                      | 23.41                   |
+| 512x512    | RMSE (↓)   | 6.65              | 4.57                 | 6.74                      | 5.58            | 5.05            | 4.60                      | 6.62                    | 5.06             | 4.47                     | 5.50                      | 4.55                 | 5.51                       | 4.42                    |
+| 512x512    | PSNR (↑)   | 20.98             | 24.80                | 20.96                     | 22.61           | 24.16           | 24.56                     | 21.25                   | 23.65            | 24.53                    | 22.34                     | 24.81                | 23.11                      | 24.89                   |
 
 
 **Notes**:
@@ -179,7 +179,20 @@ This repository contains the results and trained models for deep-learning method
 - PSNE: see this GitHub repository.
 - SSIM: see this GitHub repository.
 - LPIPS: see this GitHub repository. 
-  
+
+## Document Shadow Removal
+
+### Comparing document shadow removal methods on RDD: [Results]() \& [Models]()
+
+| Methods                                  | RMSE (↓)  | PSNR (↑)  | SSIM (↑)  | LPIPS (↓)  | Param.(M) | Infer. (images/s) |
+|:----------------------------------------:|:---------:|:---------:|:---------:|:----------:|:---------:|:-----------------:|
+| BEDSR-Net (CVPR 2020)                    | 3.13      | 28.480    | 0.912     | 0.171      | 32.21     | 10.41             |
+| FSENet (ICCV 2023)                       | 2.46      | 31.251    | 0.948     | 0.161      | 29.40     | 19.37             |
+
+
+**Notes**:
+- Evaluation on an NVIDIA GeForce RTX 4090 GPU
+- LPIPS uses VGG as the extractor.
 
 ## Bibtex
 If you find our work, models or results useful, please consider citing our paper as follows:
