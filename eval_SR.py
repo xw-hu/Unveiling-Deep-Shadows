@@ -13,13 +13,7 @@ import scipy
 import cv2
 import os
 
-# set cuda to device 1
-# os.environ["CUDA_VISIBLE_DEVICES"] = "1"
-
-
 loss_fn_vgg = lpips.LPIPS(net='vgg').cuda() # vgg is used in the paper
-# loss_fn_vgg = lpips.LPIPS(net='alex').cuda()
-
 
 def load_item(gt_path, pre_path, mask_path):
 
@@ -37,10 +31,6 @@ def load_item(gt_path, pre_path, mask_path):
     pre = resize(pre, (gt.shape[0], gt.shape[1]))
     if mask_path is not None:
         mask = resize(mask, (gt.shape[0], gt.shape[1]))
-        # resize to pred size
-        # pre = resize(pre, (512, 512))
-        # mask = resize(mask, (512, 512))
-
         mask = (mask > 255 * 0.9).astype(np.uint8) * 255
 
     if mask_path is not None:
@@ -119,45 +109,14 @@ def evaluation(gt_root, pre_root, mask_root):
         gt, pre, mask = load_item(gt_path, pre_path, mask_path)
 
         psnr_all, ssim_all, lpips_all, rmse_all = metric(gt, pre)
-        # psnr_non, ssim_non, lpips_non, rmse_non = metric(gt * (1 - mask), pre * (1 - mask))
-        # psnr_shadow, ssim_shadow, lpips_shadow, rmse_shadow = metric(gt * mask, pre * mask)
 
         psnr_all_list.append(psnr_all)
         ssim_all_list.append(ssim_all)
         lpips_all_list.append(lpips_all)
         rmse_all_list.append(rmse_all)
 
-        # psnr_non_list.append(psnr_non)
-        # ssim_non_list.append(ssim_non)
-        # lpips_non_list.append(lpips_non)
-        # rmse_non_list.append(rmse_non)
-
-        # psnr_shadow_list.append(psnr_shadow)
-        # ssim_shadow_list.append(ssim_shadow)
-        # lpips_shadow_list.append(lpips_shadow)
-        # rmse_shadow_list.append(rmse_shadow)
-
-        # print(f'ALL psnr: {round(psnr_all, 4)}/{round(np.average(psnr_all_list), 4)}  '
-        #       f'ssim: {round(ssim_all, 4)}/{round(np.average(ssim_all_list), 4)}  '
-        #       f'lpips: {round(lpips_all, 4)}/{round(np.average(lpips_all_list), 4)}  '
-        #       f'rmse: {round(rmse_all, 4)}/{round(np.average(rmse_all_list), 4)} | '
-
-        #       f'Shadow psnr: {round(psnr_shadow, 4)}/{round(np.average(psnr_shadow_list), 4)}  '
-        #       f'ssim: {round(ssim_shadow, 4)}/{round(np.average(ssim_shadow_list), 4)}  '
-        #       f'lpips: {round(lpips_shadow, 4)}/{round(np.average(lpips_shadow_list), 4)}  '
-        #       f'rmse: {round(rmse_shadow, 4)}/{round(np.average(rmse_shadow_list), 4)} | '
-
-        #       f'Non psnr: {round(psnr_non, 4)}/{round(np.average(psnr_non_list), 4)}  '
-        #       f'ssim: {round(ssim_non, 4)}/{round(np.average(ssim_non_list), 4)}  '
-        #       f'lpips: {round(lpips_non, 4)}/{round(np.average(lpips_non_list), 4)}  '
-        #       f'rmse: {round(rmse_non, 4)}/{round(np.average(rmse_non_list), 4)}  '
-
-        #       f'{len(psnr_all_list)}')
-
     print('-----------------------------------------------------------------------------')
     print(f'All psnr: {round(np.average(psnr_all_list), 4)} ssim: {round(np.average(ssim_all_list), 4)} lpips: {round(np.average(lpips_all_list), 4)} rmse: {round(np.average(rmse_all_list), 4)}')
-    # print(f'Shadow psnr: {round(np.average(psnr_shadow_list), 4)} ssim: {round(np.average(ssim_shadow_list), 4)} lpips: {round(np.average(lpips_shadow_list), 4)} rmse: {round(np.average(rmse_shadow_list), 4)}')
-    # print(f'Non psnr: {round(np.average(psnr_non_list), 4)} ssim: {round(np.average(ssim_non_list), 4)} lpips: {round(np.average(lpips_non_list), 4)} rmse: {round(np.average(rmse_non_list), 4)}')
 
 ########## Set the paths for evaluation ##########
 # gt_root: ground truth root path
