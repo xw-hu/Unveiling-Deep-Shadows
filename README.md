@@ -36,7 +36,7 @@ This repository contains the results and trained models for deep-learning method
 
 
 **Notes**:
-- Evaluation on NVIDIA GeForce RTX 4090 GPU
+- Evaluation on an NVIDIA GeForce RTX 4090 GPU
 - $: additional training data
 - *: real-time shadow detector
 - #: extra supervision from other methods
@@ -68,7 +68,7 @@ This repository contains the results and trained models for deep-learning method
 | ShadowSAM (TCSVT 2023) | 13.38            | 61.72              | 23.77             | 42.75          | 93.74      | 15.53             |
 
 **Notes**:
-- Evaluation on NVIDIA GeForce RTX 4090 GPU
+- Evaluation on an NVIDIA GeForce RTX 4090 GPU
 - $: additional training data
 - *: real-time shadow detector
 
@@ -120,13 +120,12 @@ This repository contains the results and trained models for deep-learning method
 
 ### Comparing image shadow removal methods on SRD and ISTD+: [Results]() \& [Models]()
 
-| Input Size | Methods                                | MAE (SRD) | PSNR (SRD) | SSIM (SRD) | LPIPS (SRD) | MAE (ISTD+) | PSNR (ISTD+) | SSIM (ISTD+) | LPIPS (ISTD+) | Params (M) | Infer. (images/s) |
+| Input Size | Methods                                | RMSE (SRD) | PSNR (SRD) | SSIM (SRD) | LPIPS (SRD) | RMSE (ISTD+) | PSNR (ISTD+) | SSIM (ISTD+) | LPIPS (ISTD+) | Params (M) | Infer. (images/s) |
 |:----------:|:--------------------------------------:|:---------:|:----------:|:----------:|:-----------:|:-----------:|:------------:|:------------:|:-------------:|:----------:|:-----------------:|
-| -          | input                                  | 9.47      | 17.91      | 0.801      | 0.194       | 7.16        | 20.20        | 0.885        | 0.107         | -          | -                 |
-| 256x256    | ST-CGAN (CVPR 2018)                    | 8.91      | 18.02      | 0.389      | 0.567       | 7.43        | 20.04        | 0.387        | 0.497         | 58.49      | 71.69             |
-|            | SP+M-Net (ICCV 2019)                   | 6.46      | 20.71      | 0.641      | 0.441       | 4.64        | 23.36        | 0.714        | 0.376         | 54.42      | 33.88             |
+| 256x256    | ST-CGAN (CVPR 2018)                    | 4.15      | 25.08      | 0.637      | 0.443       | 3.77        | 25.74        | 0.691        | 0.408         | 58.49      | 111.79            |
+|            | SP+M-Net (ICCV 2019)                   | 5.68      | 22.25      | 0.636      | 0.444       | 3.37        | 26.58        | 0.717        | 0.373         | 54.42      | 33.88             |
 |            | Mask-ShadowGAN (ICCV 2019)             | 4.32      | 24.67      | 0.662      | 0.427       | 3.70        | 25.50        | 0.720        | 0.377         | 22.76      | 64.77             |
-|            | DSC (TPAMI 2020)                       | 5.36      | 22.59      | 0.650      | 0.422       | 5.59        | 23.07        | 0.679        | 0.395         | 122.49     | 46.75             |
+|            | DSC (TPAMI 2020)                       | 3.97      | 25.46      | 0.678      | 0.412       | 3.44        | 26.53        | 0.738        | 0.347         | 122.49     | 57.40             |
 |            | Auto (CVPR 2021)                       | 5.37      | 23.20      | 0.694      | 0.370       | 3.53        | 26.10        | 0.718        | 0.365         | 196.76     | 33.23             |
 |            | G2R-ShadowNet (CVPR 2021)              | 6.08      | 21.72      | 0.619      | 0.460       | 4.37        | 24.23        | 0.696        | 0.396         | 22.76      | 3.62              |
 |            | DC-ShadowNet (ICCV 2021)               | 4.27      | 24.72      | 0.670      | 0.383       | 3.89        | 25.18        | 0.693        | 0.406         | 10.59      | 40.51             |
@@ -136,10 +135,10 @@ This repository contains the results and trained models for deep-learning method
 |            | ShadowFormer (AAAI 2023)               | 4.44      | 24.28      | 0.715      | 0.348       | 3.45        | 26.55        | 0.728        | 0.350         | 11.37      | 32.57             |
 |            | ShadowMaskFormer (arXiv 2024)          | 4.69      | 23.85      | 0.671      | 0.386       | 3.39        | 26.57        | 0.698        | 0.395         | 2.28       | 17.63             |
 |            | HomoFormer (CVPR 2024)                 | 4.17      | 24.64      | 0.723      | 0.325       | 3.37        | 26.72        | 0.732        | 0.348         | 17.81      | 16.14             |
-| 512x512    | ST-CGAN (CVPR 2018)                    | 9.26      | 17.63      | 0.363      | 0.504       | 7.25        | 20.40        | 0.417        | 0.567         | 58.49      | 42.89             |
-|            | SP+M-Net (ICCV 2019)                   | 5.95      | 21.56      | 0.779      | 0.280       | 4.29        | 24.29        | 0.860        | 0.190         | 54.42      | 24.48             |
+| 512x512    | ST-CGAN (CVPR 2018)                    | 3.44      | 26.95      | 0.786      | 0.282       | 3.36        | 27.32        | 0.829        | 0.252         | 58.49      | 52.84             |
+|            | SP+M-Net (ICCV 2019)                   | 4.35      | 24.89      | 0.792      | 0.269       | 2.96        | 28.31        | 0.866        | 0.183         | 54.42      | 24.48             |
 |            | Mask-ShadowGAN (ICCV 2019)             | 3.83      | 25.98      | 0.803      | 0.270       | 3.42        | 26.51        | 0.865        | 0.196         | 22.76      | 52.70             |
-|            | DSC (TPAMI 2020)                       | 5.01      | 23.88      | 0.752      | 0.311       | 5.37        | 24.15        | 0.801        | 0.260         | 122.49     | 37.80             |
+|            | DSC (TPAMI 2020)                       | 3.29      | 27.39      | 0.802      | 0.263       | 2.75        | 28.85        | 0.861        | 0.196         | 122.49     | 31.37             |
 |            | Auto (CVPR 2021)                       | 4.71      | 24.32      | 0.800      | 0.247       | 2.99        | 28.07        | 0.853        | 0.189         | 196.76     | 28.28             |
 |            | G2R-ShadowNet (CVPR 2021)              | 5.72      | 22.44      | 0.765      | 0.302       | 3.31        | 27.13        | 0.841        | 0.221         | 22.76      | 2.50              |
 |            | DC-ShadowNet (ICCV 2021)               | 3.68      | 26.47      | 0.808      | 0.255       | 3.64        | 26.06        | 0.835        | 0.234         | 10.59      | 39.45             |
@@ -152,7 +151,7 @@ This repository contains the results and trained models for deep-learning method
 
 
 **Notes**:
-- Evaluation on NVIDIA GeForce RTX 4090 GPU
+- Evaluation on an NVIDIA GeForce RTX 4090 GPU
 - LPIPS uses VGG as the extractor.
 - Mask-ShadowGAN and DC-ShadowNet are unsupervised methods.
 - G2R-ShadowNet is a weakly-supervised method.
@@ -161,10 +160,10 @@ This repository contains the results and trained models for deep-learning method
 
 | Input Size | Metric | ST-CGAN (CVPR 2018) | SP+M-Net (ICCV 2019) | Mask-ShadowGAN (ICCV 2019) | DSC (TPAMI 2020) | Auto (CVPR 2021) | G2R-ShadowNet (CVPR 2021) | DC-ShadowNet (ICCV 2021) | BMNet (CVPR 2022) | SG-ShadowNet (ECCV 2022) | ShadowDiffusion (CVPR 2023) | ShadowFormer (AAAI 2023) | ShadowMaskFormer (arXiv 2024) | HomoFormer (CVPR 2024) |
 |:----------:|:-------:|:-----------------:|:--------------------:|:-------------------------:|:---------------:|:---------------:|:-------------------------:|:-----------------------:|:----------------:|:-----------------------:|:-------------------------:|:----------------------:|:--------------------------:|:-----------------------:|
-| 256x256    | MAE     | 12.28             | 5.51                 | 6.94                      | 9.90            | 5.88            | 5.13                      | 6.88                    | 5.37             | 4.92                     | 5.59                      | 5.01                 | 5.82                       | 5.02                    |
-| 256x256    | PSNR    | 15.38             | 22.65                | 20.47                     | 17.90           | 22.62           | 23.14                     | 20.58                   | 22.75            | 23.36                    | 22.08                     | 23.49                | 22.14                      | 23.41                   |
-| 512x512    | MAE     | 12.51             | 5.06                 | 6.74                      | 8.82            | 5.05            | 4.60                      | 6.62                    | 5.06             | 4.47                     | 5.50                      | 4.55                 | 5.51                       | 4.42                    |
-| 512x512    | PSNR    | 15.18             | 23.87                | 20.96                     | 19.08           | 24.16           | 24.56                     | 21.25                   | 23.65            | 24.53                    | 22.34                     | 24.81                | 23.11                      | 24.89                   |
+| 256x256    | RMSE    | 7.07              | 5.10                 | 6.94                      | 6.66            | 5.88            | 5.13                      | 6.88                    | 5.37             | 4.92                     | 5.59                      | 5.01                 | 5.82                       | 5.02                    |
+| 256x256    | PSNR    | 20.23             | 23.35                | 20.47                     | 20.71           | 22.62           | 23.14                     | 20.58                   | 22.75            | 23.36                    | 22.08                     | 23.49                | 22.14                      | 23.41                   |
+| 512x512    | RMSE    | 6.65              | 4.57                 | 6.74                      | 5.58            | 5.05            | 4.60                      | 6.62                    | 5.06             | 4.47                     | 5.50                      | 4.55                 | 5.51                       | 4.42                    |
+| 512x512    | PSNR    | 20.98             | 24.80                | 20.96                     | 22.61           | 24.16           | 24.56                     | 21.25                   | 23.65            | 24.53                    | 22.34                     | 24.81                | 23.11                      | 24.89                   |
 
 
 **Notes**:
