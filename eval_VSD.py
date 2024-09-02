@@ -185,5 +185,5 @@ for name in tqdm(all_name):
 pred_path = root_path # Prediction root dir
 computeBER_mth(gt_path, pred_path)
 
-log = 'TS:{}'.format(temporal_record.avg)
+log = 'Temporal Stability (TS):{}'.format(temporal_record.avg)
 print(log)
