@@ -50,4 +50,5 @@ if __name__ == '__main__':
     args = parser.parse_args()
     print("Pred: ", args.pred_path)
     print("GT: ", args.gd_path)
+    # evaluation starts here
     calculate_ber(args.pred_path, args.gd_path)
