@@ -4,7 +4,6 @@ import torchvision
 import torchvision.transforms.functional as F
 from PIL import Image
 from imageio.v2 import imread
-import cv2
 import skimage
 from skimage.metrics import peak_signal_noise_ratio as compare_psnr
 from skimage.metrics import structural_similarity as compare_ssim
