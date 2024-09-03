@@ -164,7 +164,8 @@ This repository contains the results and trained models for deep-learning method
 - LPIPS uses VGG as the extractor.
 - Mask-ShadowGAN and DC-ShadowNet are unsupervised methods.
 - G2R-ShadowNet is a weakly-supervised method.
-- We provide pytorch implementation of [DSC](https://github.com/stevewongv/DSC-PyTorch/tree/master) for shadow removal based on [DSC(Caffe)](https://github.com/xw-hu/DSC).
+- We provide a PyTorch implementation of [DSC](https://github.com/stevewongv/DSC-PyTorch/tree/master) for shadow removal based on [DSC(Caffe)](https://github.com/xw-hu/DSC).
+- We use the PyTorch implementation of [ST-CGAN](https://github.com/IsHYuhi/ST-CGAN_Stacked_Conditional_Generative_Adversarial_Networks?tab=readme-ov-file).
 
 ### Cross-dataset generalization evaluation. Trained on SRD and tested on DESOBA: [Results]()
 
