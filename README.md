@@ -63,7 +63,7 @@ This repository contains the results and trained models for deep-learning method
 - [CUHK-Shadow](https://github.com/xw-hu/CUHK-Shadow#cuhk-shadow-dateset)
 - SRD [Training](https://drive.google.com/file/d/1W8vBRJYDG9imMgr9I2XaA13tlFIEHOjS/view?pli=1), [Test](https://drive.google.com/file/d/1GTi4BmQ0SJ7diDMmf-b7x2VismmXtfTo/view), and [Masks](https://yuhaoliu7456.github.io/projects/RRL-Net/index.html)
 
-### Metrics
+### Metric
 - BER: see this GitHub repository.
 
 ## Video Shadow Detection
@@ -81,7 +81,7 @@ This repository contains the results and trained models for deep-learning method
 - $: additional training data
 - *: real-time shadow detector
 
-### Datasets
+### Dataset
 - [ViSha](https://erasernut.github.io/ViSha.html)
 
 ### Metrics
