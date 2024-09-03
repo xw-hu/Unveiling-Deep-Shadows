@@ -123,6 +123,10 @@ This repository contains the results and trained models for deep-learning method
 
 ## Image Shadow Removal
 
+| ![Cannot find!](./removal.png) |
+|:--------------------------------------:|
+|Shadow removal methods on the SRD (left) and ISTD+ (right) datasets: accuracy, parameters (indicated by the area of the bubbles), and speed.|
+
 ### Comparing image shadow removal methods on SRD and ISTD+: [Results]() \& [Models]()
 
 | Input Size | Methods                                | RMSE (SRD) (↓) | PSNR (SRD) (↑) | SSIM (SRD) (↑) | LPIPS (SRD) (↓) | RMSE (ISTD+) (↓) | PSNR (ISTD+) (↑) | SSIM (ISTD+) (↑) | LPIPS (ISTD+) (↓) | Params (M) | Infer. (images/s) |
