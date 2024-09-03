@@ -15,6 +15,11 @@ This repository contains the results and trained models for deep-learning method
 
 ### Comparing image shadow detection methods on SBU-Refine and CUHK-Shadow: [Results]() \& [Models]()
 
+| ![Image 1](./shadow_detection_SBU.pdf) | ![Image 2](./shadow_detection_CUHK.pdf) |
+|:-------------------------------:|:-------------------------------:|
+|Shadow detection methods on the SBU-Refine (left) and CUHK-Shadow (right) datasets: accuracy, parameters (indicated by the area of the bubbles), and speed.|
+
+
 | Input Size | Methods                                   | BER (SBU-Refine) (↓) | BER (CUHK-Shadow) (↓) | Params (M) | Infer. (images/s) |
 |:----------:|:-----------------------------------------:|:----------------:|:-----------------:|:----------:|:-----------------:|
 | 256x256    | DSC (CVPR 2018, TPAMI 2020)               | 6.79             | 10.97             | 122.49     | 26.86             |
