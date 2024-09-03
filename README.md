@@ -205,6 +205,9 @@ This repository contains the results and trained models for deep-learning method
 - Evaluation on an NVIDIA GeForce RTX 4090 GPU
 - LPIPS uses VGG as the extractor.
 
+### Dataset
+- [RDD](https://github.com/hyyh1314/RDD)
+
 ## Bibtex
 If you find our work, models or results useful, please consider citing our paper as follows:
 ```
