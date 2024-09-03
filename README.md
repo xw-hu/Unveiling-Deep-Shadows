@@ -213,7 +213,7 @@ This repository contains the results and trained models for deep-learning method
 - [RDD](https://github.com/hyyh1314/RDD)
 
 ## Bibtex
-If you find our work, models or results useful, please consider citing our paper as follows:
+If you find our work, results, models, and unified evaluation code useful, please consider citing our paper as follows:
 ```
 @article{hu2024unveiling,
   title={Unveiling Deep Shadows: A Survey on Image and Video Shadow Detection, Removal, and Generation in the Era of Deep Learning},
