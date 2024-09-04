@@ -1,6 +1,8 @@
 # Unveiling Deep Shadows: A Survey on Image and Video Shadow Detection, Removal, and Generation in the Era of Deep Learning
 
-by Xiaowei Hu*, Zhenghao Xing*, Tianyu Wang, Chi-Wing Fu, and Pheng-Ann Heng
+by Xiaowei Hu*, Zhenghao Xing*, Tianyu Wang, Chi-Wing Fu, and Pheng-Ann Heng             
+
+https://arxiv.org/abs/2409.02108
 
 ***
 
@@ -218,7 +220,7 @@ If you find our work, results, models, and unified evaluation code useful, pleas
 @article{hu2024unveiling,
   title={Unveiling Deep Shadows: A Survey on Image and Video Shadow Detection, Removal, and Generation in the Era of Deep Learning},
   author={Hu, Xiaowei and Xing, Zhenghao and Wang, Tianyu and Fu, Chi-Wing and Heng, Pheng-Ann},
-  journal={arXiv preprint arXiv:24},
+  journal={arXiv preprint arXiv:2409.02108},
   year={2024}
 }
 ```
