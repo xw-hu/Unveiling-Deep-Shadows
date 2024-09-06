@@ -69,36 +69,37 @@ This repository contains the results and trained models for deep-learning method
 - BER: see this GitHub repository.
 
 ### Papers
-1. **CNN-CRF**: Khan et al., "Automatic feature learning for robust shadow detection," CVPR, 2014. Khan et al., "Automatic shadow detection and removal from a single image," TPAMI, 2016.
-2. **SCNN-LinearOpt**: Shen et al., "Shadow detection using deep learning," CVPR, 2015.
-3. **Stacked-CNN**: Vicente et al., "Large-scale training of shadow detectors with noisily-annotated shadow examples," ECCV, 2016. Hou et al., "large scale shadow annotation and detection using lazy annotation and stacked CNNs," TPAMI, 2021.
-4. **scGAN**: Nguyen et al., "Shadow detection with a conditional generative adversarial network," ICCV, 2017.
-5. **Patched-CNN**: Hosseinzadeh et al., "Fast shadow detection using a patched-CNN," IROS, 2018.
-6. **ST-CGAN**: Wang et al., "Stacked conditional generative adversarial networks for shadow detection and removal," CVPR, 2018. 
-7. **DSC**: Hu et al., "Direction-aware spatial context features for shadow detection," CVPR, 2018. Hu et al., "Direction-aware spatial context features for shadow detection and removal," TPAMI, 2020.
-8. **DC-DSPF**: Wang et al., "Densely connected deep shadow detection," IJCAI, 2018.
-9. **CPNet**: Mohajerani et al., "CPNet: A convolutional pathway network for shadow detection," MMSP, 2018.
-10. **A+D Net**: Le et al., "A+D Net: A real-time approach for shadow detection," ECCV, 2018.
-11. **BDRAR**: Zhu et al., "Bidirectional recurrent attentive refinement network for shadow detection," ECCV, 2018.
-12. **DSDNet**: Zheng et al., "Distraction-aware shadow detection," CVPR, 2019.
-13. **ARGAN/ARGAN+SS**: Ding et al., "ARGAN: Adversarial shadow detection with auxiliary structure," ICCV, 2019.
-14. **CPAdv-Net**: Mohajerani et al., "Adversarially learned shadow detection network," TIP, 2019.
-15. **MTMT-Net**: Chen et al., "Multi-task multi-training shadow detection network," CVPR, 2020.
-16. **DSSDNet**: Luo et al., "Deeply supervised shadow detection network," P&RS, 2020.
-17. **FDRNet**: Zhu et al., "FDRNet: Fast detection and removal of shadows," ICCV, 2021.
-18. **FSDNet**: Hu et al., "FSDNet: A fast and efficient shadow detection network," TIP, 2021.
-19. **ECA**: Fang et al., "Robust shadow detection with efficient channel attention," ACM MM, 2021.
-20. **RCMPNet**: Liao et al., "Robust multi-scale shadow detection with cross-modal information," ACM MM, 2021.
-21. **SDCM**: Zhu et al., "Single-stage detection with cross-modal information fusion," ACM MM, 2022.
-22. **TransShadow**: Jie et al., "Fast shadow detection using transformers," ICASSP, 2022.
-23. **SILT**: Yang et al., "Self-supervised image-level shadow detection," ICCV, 2023.
-24. **R2D**: Valanarasu et al., "Fine-grained robust shadow detection," WACV, 2023.
-25. **LRA/LDRA**: Yucel et al., "Learning robust attention for shadow detection," WACV, 2023.
-26. **SDDNet**: Cong et al., "Self-distributed deep shadow detection network," ACM MM, 2023.
-27. **SDTR/SDTR+**: Wu et al., "SDTR: Semi-supervised shadow detection and removal," TCSVT, 2023.
-28. **SAM-Adapter**: Chen et al., "SAM-Adapter: Shadow detection using SAM and transformers," ICCVW, 2023.
-29. **ShadowSAM**: Chen et al., "ShadowSAM: Unsupervised shadow detection using SAM," TGRS, 2023.
-30. **AdapterShadow**: Jie et al., "AdapterShadow: Shadow detection using adapters," arXiv, 2023.
+1. **CNN-CRF**: Khan et al., "Automatic feature learning for robust shadow detection", CVPR, 2014. Khan et al., "Automatic shadow detection and removal from a single image", TPAMI, 2016.
+2. **SCNN-LinearOpt**: Shen et al., "Shadow optimization from structured deep edge detection", CVPR, 2015.  
+3. **Stacked-CNN**: Vicente et al., "Large-scale training of shadow detectors with noisily-annotated shadow examples", ECCV, 2016. Hou et al., "large scale shadow annotation and detection using lazy annotation and stacked CNNs", TPAMI, 2021.
+4. **scGAN**: Nguyen et al., "Shadow detection with conditional generative adversarial networks", ICCV, 2017.  
+5. **Patched-CNN**: Hosseinzadeh et al., "Fast shadow detection from a single image using a patched convolutional neural network", IROS, 2018.  
+6. **ST-CGAN**: Wang et al., "Stacked conditional generative adversarial networks for jointly learning shadow detection and shadow removal", CVPR, 2018.  
+7. **DSC**: Hu et al., "Direction-aware spatial context features for shadow detection", CVPR, 2018. Hu et al., "Direction-aware spatial context features for shadow detection and removal," TPAMI, 2020.
+8. **DC-DSPF**: Wang et al., "Densely cascaded shadow detection network via deeply supervised parallel fusion", IJCAI, 2018.  
+9. **CPNet**: Mohajerani et al., "CPNet: A context preserver convolutional neural network for detecting shadows in single RGB images", MMSP, 2018.  
+10. **A+D Net***: Le et al., "A+D Net: Training a shadow detector with adversarial shadow attenuation", ECCV, 2018.  
+11. **BDRAR**: Zhu et al., "Bidirectional feature pyramid network with recurrent attention residual modules for shadow detection", ECCV, 2018.  
+12. **DSDNet**: Zheng et al., "Distraction-aware shadow detection", CVPR, 2019.  
+13. **ARGAN/ARGAN+SS**: Ding et al., "ARGAN: Attentive recurrent generative adversarial network for shadow detection and removal", ICCV, 2019.  
+14. **CPAdv-Net**: Mohajerani et al., "Shadow detection in single RGB images using a context preserver convolutional neural network trained by multiple adversarial examples", TIP, 2019.  
+15. **MTMT-Net**: Chen et al., "A multi-task mean teacher for semi-supervised shadow detection", CVPR, 2020.  
+16. **DSSDNet**: Luo et al., "Deeply supervised convolutional neural network for shadow detection based on a novel aerial shadow imagery dataset", P&RS, 2020.  
+17. **FDRNet**: Zhu et al., "Mitigating intensity bias in shadow detection via feature decomposition and reweighting", ICCV, 2021.  
+18. **FSDNet***: Hu et al., "Revisiting shadow detection: A new benchmark dataset for complex world", TIP, 2021.  
+19. **ECA**: Fang et al., "Robust shadow detection by exploring effective shadow contexts", ACM MM, 2021.  
+20. **RCMPNet**: Liao et al., "Shadow detection via predicting the confidence maps of shadow detection methods", ACM MM, 2021.  
+21. **SDCM**: Zhu et al., "Single image shadow detection via complementary mechanism", ACM MM, 2022.  
+22. **TransShadow**: Jie et al., "A fast and efficient network for single image shadow detection", ICASSP, 2022.  
+23. **SILT**: Yang et al., "SILT: Shadow-aware iterative label tuning for learning to detect shadows from noisy labels", ICCV, 2023.  
+24. **Sun et al.**: Sun et al., "Adaptive illumination mapping for shadow detection in raw images", ICCV, 2023.  
+25. **R2D**: Valanarasu et al., "Fine-context shadow detection using shadow removal", WACV, 2023.  
+26. **LRA&LDRA**: Yücel et al., "LRA&LDRA: Rethinking residual predictions for efficient shadow detection and removal", WACV, 2023.  
+27. **SDDNet**: Cong et al., "SDDNet: Style-guided dual-layer disentanglement network for shadow detection", ACM MM, 2023.  
+28. **SDTR/SDTR+***: Wu et al., "How many annotations do we need for generalizing new-coming shadow images?", TCSVT, 2023.  
+29. **SAM-Adapter**: Chen et al., "SAM-Adapter: Adapting segment anything in underperformed scenes", ICCVW, 2023.  
+30. **ShadowSAM**: Chen et al., "Make segment anything model perfect on shadow detection", TGRS, 2023.  
+31. **AdapterShadow**: Jie et al., "AdapterShadow: Adapting segment anything model for shadow detection", arXiv, 2023.
 
 ## Video Shadow Detection
 ### Comparison of video shadow detection methods on ViSha: [Results](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/VideoShadowDetection.zip) 
@@ -124,16 +125,17 @@ This repository contains the results and trained models for deep-learning method
 - BER: see this GitHub repository.
 
 ### Papers
-1. **TVSD-Net**: Chen et al., "Triple-cooperative Video Shadow Detection", CVPR, 2021.
-2. **Hu et al.**: Hu et al., "Temporal feature warping for video shadow detection", arXiv, 2021.
-3. **STICT**: Lu et al., "Video shadow detection via spatio-temporal interpolation consistency training", CVPR, 2022.
-4. **SC-Cor**: Ding et al., "Learning shadow correspondence for video shadow detection", ECCV, 2022.
-5. **STF-Net**: Lin et al., "Spatial-temporal Fusion Network for Fast Video Shadow Detection", VRCAI, 2022.
-6. **SCOTCH and SODA**: Liu et al., "SCOTCH and SODA: A Transformer Video Shadow Detection Framework", CVPR, 2023.
-7. **ShadowSAM**: Wang et al., "Detect Any Shadow: Segment Anything for Video Shadow Detection", TCSVT, 2023.
-8. **RSM-Net**: Wang et al., "Language-Driven Interactive Shadow Detection", ACM MM, 2024.
-9. **TBGDiff**: Zhou et al., "Timeline and Boundary Guided Diffusion Network for Video Shadow Detection", ACM MM, 2024.
-10. **Duan et al.**: Duan et al., "Two-Stage Video Shadow Detection via Temporal-Spatial Adaption", ECCV, 2024.
+1. **TVSD-Net**: Chen et al., "Triple-cooperative video shadow detection", CVPR, 2021.  
+2. **Hu et al.**: Hu et al., "Temporal feature warping for video shadow detection", arXiv, 2021.  
+3. **STICT***: Lu et al., "Video shadow detection via spatio-temporal interpolation consistency training", CVPR, 2022.  
+4. **SC-Cor**: Ding et al., "Learning shadow correspondence for video shadow detection", ECCV, 2022.  
+5. **STF-Net***: Lin and Wang, "Spatial-temporal fusion network for fast video shadow detection", VRCAI, 2022.  
+6. **SCOTCH and SODA**: Liu et al., "SCOTCH and SODA: a transformer video shadow detection framework", CVPR, 2023.  
+7. **ShadowSAM**: Wang et al., "Detect any shadow: segment anything for video shadow detection", TCSVT, 2023.  
+8. **RSM-Net**: Wang et al., "Language-driven interactive shadow detection", ACM MM, 2024.  
+9. **TBGDiff**: Zhou et al., "Timeline and boundary guided diffusion network for video shadow detection", ACM MM, 2024.  
+10. **Duan et al.**: Duan et al., "Two-stage video shadow detection via temporal-spatial adaption", ECCV, 2024.
+
   
 ## Instance Shadow Detection
 
