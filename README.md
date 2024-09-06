@@ -45,6 +45,7 @@ This repository contains the results and trained models for deep-learning method
 |            | ECA (MM 2021)                             | 7.52             | 7.99              | 157.76     | 22.41             |
 |            | SDDNet (MM 2023)                          | 4.86             | 7.65              | 15.02      | 37.65             |
 
+**Weights**:
 | Methods                                  | Weights (256x256)  | Weights (512x512)  |
 |:----------------------------------------:|:------------------:|:------------------:|
 | DSC (CVPR 2018, TPAMI 2020)              | [link](#)          | [link](#)          |
