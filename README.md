@@ -45,6 +45,16 @@ This repository contains the results and trained models for deep-learning method
 |            | ECA (MM 2021)                             | 7.52             | 7.99              | 157.76     | 22.41             |
 |            | SDDNet (MM 2023)                          | 4.86             | 7.65              | 15.02      | 37.65             |
 
+| Methods                                  | Weights (256x256)  | Weights (512x512)  |
+|:----------------------------------------:|:------------------:|:------------------:|
+| DSC (CVPR 2018, TPAMI 2020)              | [link](#)          | [link](#)          |
+| BDRAR (ECCV 2018)                        | [link](#)          | [link](#)          |
+| DSDNet# (CVPR 2019)                      | [link](#)          | [link](#)          |
+| MTMT-Net$ (CVPR 2020)                    | [link](#)          | [link](#)          |
+| FDRNet (ICCV 2021)                       | [link](#)          | [link](#)          |
+| FSDNet* (TIP 2021)                       | [link](#)          | [link](#)          |
+| ECA (MM 2021)                            | [link](#)          | [link](#)          |
+| SDDNet (MM 2023)                         | [link](#)          | [link](#)          |
 
 **Notes**:
 - Evaluation on an NVIDIA GeForce RTX 4090 GPU
