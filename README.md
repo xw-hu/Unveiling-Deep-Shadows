@@ -46,16 +46,17 @@ This repository contains the results and trained models for deep-learning method
 |            | SDDNet (MM 2023)                          | 4.86             | 7.65              | 15.02      | 37.65             |
 
 **Weights**:
-| Methods                                  | Weights (256x256)  | Weights (512x512)  |
-|:----------------------------------------:|:------------------:|:------------------:|
-| DSC (CVPR 2018, TPAMI 2020)              | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/DSC_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/DSC_512.zip)          |
-| BDRAR (ECCV 2018)                        | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/BDRAR_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/BDRAR_512.zip)          |
-| DSDNet# (CVPR 2019)                      | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/DSDNet_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/DSDNet_512.zip)          |
-| MTMT-Net$ (CVPR 2020)                    | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/MTMT-Net_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/MTMT-Net_512.zip)          |
-| FDRNet (ICCV 2021)                       | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/FDRNet_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/FDRNet_512.zip)          |
-| FSDNet* (TIP 2021)                       | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/FSDNet_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/FSDNet_512.zip)          |
-| ECA (MM 2021)                            | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/ECA_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/ECA_512.zip)          |
-| SDDNet (MM 2023)                         | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/SDDNet_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/SDDNet_512.zip)          |
+| Methods                                  | Weights (256x256)  | Weights (512x512)  | Codes  |
+|:----------------------------------------:|:------------------:|:------------------:|:------------------:|
+| DSC (CVPR 2018, TPAMI 2020)              | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/DSC_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/DSC_512.zip)          | [link](#)          |
+| BDRAR (ECCV 2018)                        | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/BDRAR_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/BDRAR_512.zip)          | [link](#)          |
+| DSDNet# (CVPR 2019)                      | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/DSDNet_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/DSDNet_512.zip)          | [link](#)          |
+| MTMT-Net$ (CVPR 2020)                    | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/MTMT-Net_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/MTMT-Net_512.zip)          | [link](#)          |
+| FDRNet (ICCV 2021)                       | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/FDRNet_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/FDRNet_512.zip)          | [link](#)          |
+| FSDNet* (TIP 2021)                       | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/FSDNet_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/FSDNet_512.zip)          | [link](#)          |
+| ECA (MM 2021)                            | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/ECA_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/ECA_512.zip)          | [link](#)          |
+| SDDNet (MM 2023)                         | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/SDDNet_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/SDDNet_512.zip)          | [link](#)          |
+
 
 **Notes**:
 - Evaluation on an NVIDIA GeForce RTX 4090 GPU
@@ -246,21 +247,21 @@ This repository contains the results and trained models for deep-learning method
 |            | HomoFormer (CVPR 2024)                 | 3.62      | 26.21      | 0.827      | 0.219       | 2.88        | 28.53        | 0.857        | 0.196         | 17.81      | 12.60             |
 
 **Weights**:
-| Methods                                | Weights (256x256)  | Weights (512x512)  |
-|:--------------------------------------:|:------------------:|:------------------:|
-| ST-CGAN (CVPR 2018)                    | [link](#)          | [link](#)          |
-| SP+M-Net (ICCV 2019)                   | [link](#)          | [link](#)          |
-| Mask-ShadowGAN (ICCV 2019)             | [link](#)          | [link](#)          |
-| DSC (TPAMI 2020)                       | [link](#)          | [link](#)          |
-| Auto (CVPR 2021)                       | [link](#)          | [link](#)          |
-| G2R-ShadowNet (CVPR 2021)              | [link](#)          | [link](#)          |
-| DC-ShadowNet (ICCV 2021)               | [link](#)          | [link](#)          |
-| BMNet (CVPR 2022)                      | [link](#)          | [link](#)          |
-| SG-ShadowNet (ECCV 2022)               | [link](#)          | [link](#)          |
-| ShadowDiffusion (CVPR 2023)            | [link](#)          | [link](#)          |
-| ShadowFormer (AAAI 2023)               | [link](#)          | [link](#)          |
-| ShadowMaskFormer (arXiv 2024)          | [link](#)          | [link](#)          |
-| HomoFormer (CVPR 2024)                 | [link](#)          | [link](#)          |
+| Methods                                | Weights (256x256)  | Weights (512x512)  | Codes  |
+|:--------------------------------------:|:------------------:|:------------------:|:------------------:|
+| ST-CGAN (CVPR 2018)                    | [link](#)          | [link](#)          | [link](#)          |
+| SP+M-Net (ICCV 2019)                   | [link](#)          | [link](#)          | [link](#)          |
+| Mask-ShadowGAN (ICCV 2019)             | [link](#)          | [link](#)          | [link](#)          |
+| DSC (TPAMI 2020)                       | [link](#)          | [link](#)          | [link](#)          |
+| Auto (CVPR 2021)                       | [link](#)          | [link](#)          | [link](#)          |
+| G2R-ShadowNet (CVPR 2021)              | [link](#)          | [link](#)          | [link](#)          |
+| DC-ShadowNet (ICCV 2021)               | [link](#)          | [link](#)          | [link](#)          |
+| BMNet (CVPR 2022)                      | [link](#)          | [link](#)          | [link](#)          |
+| SG-ShadowNet (ECCV 2022)               | [link](#)          | [link](#)          | [link](#)          |
+| ShadowDiffusion (CVPR 2023)            | [link](#)          | [link](#)          | [link](#)          |
+| ShadowFormer (AAAI 2023)               | [link](#)          | [link](#)          | [link](#)          |
+| ShadowMaskFormer (arXiv 2024)          | [link](#)          | [link](#)          | [link](#)          |
+| HomoFormer (CVPR 2024)                 | [link](#)          | [link](#)          | [link](#)          |
 
 **Notes**:
 - Evaluation on an NVIDIA GeForce RTX 4090 GPU
