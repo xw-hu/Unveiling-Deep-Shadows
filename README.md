@@ -123,7 +123,7 @@ This repository contains the results and trained models for deep-learning method
 | ShadowSAM (TCSVT 2023) | 13.38            | 61.72              | 23.77             | 42.75          | 93.74      | 15.53             |
 
 **Weights**:
-| Methods                       | Weights (512x512)  |
+| Methods                       | Weights  |
 |:-----------------------------:|:------------------:|
 | TVSD-Net (CVPR 2021)           | [link](#)          |
 | STICT$* (CVPR 2022)            | [link](#)          |
@@ -352,7 +352,7 @@ This repository contains the results and trained models for deep-learning method
 | FSENet (ICCV 2023)                       | 2.46      | 31.251    | 0.948     | 0.161      | 29.40     | 19.37             |
 
 **Weights**:
-| Methods                                  | Weights (512x512)  |
+| Methods                                  | Weights  |
 |:----------------------------------------:|:------------------:|
 | BEDSR-Net (CVPR 2020)                    | [link](#)          |
 | FSENet (ICCV 2023)                       | [link](#)          |
