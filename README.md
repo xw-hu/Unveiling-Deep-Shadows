@@ -227,6 +227,22 @@ This repository contains the results and trained models for deep-learning method
 |            | ShadowMaskFormer (arXiv 2024)          | 4.15      | 25.13      | 0.798      | 0.249       | 2.95        | 28.34        | 0.849        | 0.211         | 2.28       | 14.25             |
 |            | HomoFormer (CVPR 2024)                 | 3.62      | 26.21      | 0.827      | 0.219       | 2.88        | 28.53        | 0.857        | 0.196         | 17.81      | 12.60             |
 
+**Weights**:
+| Methods                                | Weights (256x256)  | Weights (512x512)  |
+|:--------------------------------------:|:------------------:|:------------------:|
+| ST-CGAN (CVPR 2018)                    | [link](#)          | [link](#)          |
+| SP+M-Net (ICCV 2019)                   | [link](#)          | [link](#)          |
+| Mask-ShadowGAN (ICCV 2019)             | [link](#)          | [link](#)          |
+| DSC (TPAMI 2020)                       | [link](#)          | [link](#)          |
+| Auto (CVPR 2021)                       | [link](#)          | [link](#)          |
+| G2R-ShadowNet (CVPR 2021)              | [link](#)          | [link](#)          |
+| DC-ShadowNet (ICCV 2021)               | [link](#)          | [link](#)          |
+| BMNet (CVPR 2022)                      | [link](#)          | [link](#)          |
+| SG-ShadowNet (ECCV 2022)               | [link](#)          | [link](#)          |
+| ShadowDiffusion (CVPR 2023)            | [link](#)          | [link](#)          |
+| ShadowFormer (AAAI 2023)               | [link](#)          | [link](#)          |
+| ShadowMaskFormer (arXiv 2024)          | [link](#)          | [link](#)          |
+| HomoFormer (CVPR 2024)                 | [link](#)          | [link](#)          |
 
 **Notes**:
 - Evaluation on an NVIDIA GeForce RTX 4090 GPU
