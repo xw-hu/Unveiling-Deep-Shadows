@@ -127,6 +127,7 @@ You can download the weights and find the code repositories for these models bel
 | ShadowSAM (TCSVT 2023) | 13.38            | 61.72              | 23.77             | 42.75          | 93.74      | 15.53             |
 
 **Trained Models and Code**
+
 You can download the weights and find the code repositories for these models below:
 | Methods                       | Weights  | Codes  |
 |:-----------------------------:|:------------------:|:------------------:|
@@ -190,6 +191,7 @@ You can download the weights and find the code repositories for these models bel
 | SSISv2 (TPAMI 2023)            | 37.0          | 26.7          | 63.6              | 67.5              | 51.8             | 42.8             |
 
 **Trained Models and Code**
+
 You can download the weights and find the code repositories for these models below:
 | Methods                        | Weights  | Codes  |
 |:-------------------------------:|:------------------:|:------------------:|
@@ -252,6 +254,7 @@ You can download the weights and find the code repositories for these models bel
 |            | HomoFormer (CVPR 2024)                 | 3.62      | 26.21      | 0.827      | 0.219       | 2.88        | 28.53        | 0.857        | 0.196         | 17.81      | 12.60             |
 
 **Trained Models and Code**
+
 You can download the weights and find the code repositories for these models below:
 | Methods                                | Weights (256x256)  | Weights (512x512)  | Codes  |
 |:--------------------------------------:|:------------------:|:------------------:|:------------------:|
@@ -360,6 +363,7 @@ You can download the weights and find the code repositories for these models bel
 | FSENet (ICCV 2023)                       | 2.46      | 31.251    | 0.948     | 0.161      | 29.40     | 19.37             |
 
 **Trained Models and Code**
+
 You can download the weights and find the code repositories for these models below:
 | Methods                                  | Weights  | Codes  |
 |:----------------------------------------:|:------------------:|:------------------:|
