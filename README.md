@@ -19,7 +19,7 @@ This repository contains the results and trained models for deep-learning method
 
 ## Image Shadow Detection
 
-### Comparing image shadow detection methods on SBU-Refine and CUHK-Shadow: [Results-part1](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowDetection-1.zip) [Results-part2](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowDetection-2.zip) \& [Models]()
+### Comparing image shadow detection methods on SBU-Refine and CUHK-Shadow: [Results-Part1](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowDetection-1.zip), [Results-Part2](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowDetection-2.zip) \& [Models]()
 
 | ![Cannot find!](./detection.png) |
 |:--------------------------------------:|
@@ -52,7 +52,7 @@ This repository contains the results and trained models for deep-learning method
 - *: real-time shadow detector
 - #: extra supervision from other methods
 
-### Cross-dataset generalization evaluation. Trained on SBU-Refine and tested on SRD: [Results]()
+### Cross-dataset generalization evaluation. Trained on SBU-Refine and tested on SRD: [Results](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowDetection_CrossVal.zip)
 
 | Input Size | Metric | DSC (CVPR 2018, TPAMI 2020) | BDRAR (ECCV 2018) | DSDNet# (CVPR 2019) | MTMT-Net$ (CVPR 2020) | FDRNet (ICCV 2021) | FSDNet* (TIP 2021) | ECA (MM 2021) | SDDNet (MM 2023) |
 |:----------:|:-------:|:------------------------:|:---------------:|:-----------------:|:-------------------:|:----------------:|:----------------:|:-----------:|:--------------:|
