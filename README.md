@@ -1,6 +1,6 @@
 # Unveiling Deep Shadows: A Survey on Image and Video Shadow Detection, Removal, and Generation in the Era of Deep Learning
 
-by Xiaowei Hu*, Zhenghao Xing*, Tianyu Wang, Chi-Wing Fu, and Pheng-Ann Heng             
+by [Xiaowei Hu](https://xw-hu.github.io/)*, Zhenghao Xing*, [Tianyu Wang](https://stevewongv.github.io/), [Chi-Wing Fu](https://www.cse.cuhk.edu.hk/~cwfu/), and [Pheng-Ann Heng](http://www.cse.cuhk.edu.hk/~pheng)             
 
 https://arxiv.org/abs/2409.02108
 
