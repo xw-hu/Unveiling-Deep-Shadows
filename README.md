@@ -68,7 +68,7 @@ This repository contains the results and trained models for deep-learning method
 ### Metric
 - BER: see this GitHub repository.
 
-### Papers:
+### Papers
 1. **CNN-CRF**: Khan et al., "Automatic feature learning for robust shadow detection," CVPR, 2014. Khan et al., "Automatic shadow detection and removal from a single image," TPAMI, 2016.
 2. **SCNN-LinearOpt**: Shen et al., "Shadow detection using deep learning," CVPR, 2015.
 3. **Stacked-CNN**: Vicente et al., "Large-scale training of shadow detectors with noisily-annotated shadow examples," ECCV, 2016. Hou et al., "large scale shadow annotation and detection using lazy annotation and stacked CNNs," TPAMI, 2021.
@@ -123,6 +123,17 @@ This repository contains the results and trained models for deep-learning method
 - IoU: see this GitHub repository.
 - BER: see this GitHub repository.
 
+### Papers
+1. **TVSD-Net**: Chen et al., "Triple-cooperative Video Shadow Detection", CVPR, 2021.
+2. **Hu et al.**: Hu et al., "Temporal feature warping for video shadow detection", arXiv, 2021.
+3. **STICT**: Lu et al., "Video shadow detection via spatio-temporal interpolation consistency training", CVPR, 2022.
+4. **SC-Cor**: Ding et al., "Learning shadow correspondence for video shadow detection", ECCV, 2022.
+5. **STF-Net**: Lin et al., "Spatial-temporal Fusion Network for Fast Video Shadow Detection", VRCAI, 2022.
+6. **SCOTCH and SODA**: Liu et al., "SCOTCH and SODA: A Transformer Video Shadow Detection Framework", CVPR, 2023.
+7. **ShadowSAM**: Wang et al., "Detect Any Shadow: Segment Anything for Video Shadow Detection", TCSVT, 2023.
+8. **RSM-Net**: Wang et al., "Language-Driven Interactive Shadow Detection", ACM MM, 2024.
+9. **TBGDiff**: Zhou et al., "Timeline and Boundary Guided Diffusion Network for Video Shadow Detection", ACM MM, 2024.
+10. **Duan et al.**: Duan et al., "Two-Stage Video Shadow Detection via Temporal-Spatial Adaption", ECCV, 2024.
   
 ## Instance Shadow Detection
 
