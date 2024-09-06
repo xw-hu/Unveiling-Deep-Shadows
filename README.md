@@ -254,7 +254,7 @@ This repository contains the results and trained models for deep-learning method
 2. **DeshadowNet**: Qu et al., "DeshadowNet: A multi-context embedding deep network for shadow removal", CVPR, 2017.  
 3. **ST-CGAN**: Wang et al., "Stacked conditional generative adversarial networks for jointly learning shadow detection and shadow removal", CVPR, 2018.  
 4. **AngularGAN**: Sidorov et al., "Conditional GANs for multi-illuminant color constancy: revolution or yet another approach?", CVPRW, 2019.  
-5. **ARGAN/ARGAN+SS\$**: Ding et al., "ARGAN: Attentive recurrent generative adversarial network for shadow detection and removal", ICCV, 2019.  
+5. **ARGAN/ARGAN+SS**: Ding et al., "ARGAN: Attentive recurrent generative adversarial network for shadow detection and removal", ICCV, 2019.  
 6. **SP+M-Net**: Le et al., "Shadow removal via shadow image decomposition", ICCV, 2019.  
 7. **Mask-ShadowGAN**: Hu et al., "Mask-ShadowGAN: Learning to remove shadows from unpaired data", ICCV, 2019.  
 8. **DSC**: Hu et al., "Direction-aware spatial context features for shadow detection and removal", TPAMI, 2020.  
@@ -284,8 +284,8 @@ This repository contains the results and trained models for deep-learning method
 32. **TSRFormer**: Chang et al., "TSRFormer: Transformer-based two-stage refinement for single image shadow removal", CVPRW, 2023.  
 33. **PES**: Cui et al., "Pyramid ensemble structure for high-resolution image shadow removal", CVPRW, 2023.  
 34. **BCDiff**: Guo et al., "Boundary-aware divide and conquer: A diffusion-based solution for unsupervised shadow removal", ICCV, 2023.  
-35. **Inpaint4shadow\$**: Li et al., "Leveraging inpainting for single-image shadow removal", ICCV, 2023.  
-36. **LRA&LDRA\$**: Yücel et al., "LRA&LDRA: Rethinking residual predictions for efficient shadow detection and removal", WACV, 2023.  
+35. **Inpaint4shadow**: Li et al., "Leveraging inpainting for single-image shadow removal", ICCV, 2023.  
+36. **LRA&LDRA**: Yücel et al., "LRA&LDRA: Rethinking residual predictions for efficient shadow detection and removal", WACV, 2023.  
 37. **SHARDS**: Sen et al., "SHARDS: Efficient shadow removal using dual stage network for high-resolution images", WACV, 2023.  
 38. **TBRNet**: Liu et al., "A shadow imaging bilinear model and three-branch residual network for shadow removal", TNNLS, 2023.  
 39. **PRNet**: Wang et al., "Progressive recurrent network for shadow removal", CVIU, 2024.  
