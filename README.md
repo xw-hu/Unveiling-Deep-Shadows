@@ -48,14 +48,14 @@ This repository contains the results and trained models for deep-learning method
 **Weights**:
 | Methods                                  | Weights (256x256)  | Weights (512x512)  |
 |:----------------------------------------:|:------------------:|:------------------:|
-| DSC (CVPR 2018, TPAMI 2020)              | [link](#)          | [link](#)          |
-| BDRAR (ECCV 2018)                        | [link](#)          | [link](#)          |
-| DSDNet# (CVPR 2019)                      | [link](#)          | [link](#)          |
-| MTMT-Net$ (CVPR 2020)                    | [link](#)          | [link](#)          |
-| FDRNet (ICCV 2021)                       | [link](#)          | [link](#)          |
-| FSDNet* (TIP 2021)                       | [link](#)          | [link](#)          |
-| ECA (MM 2021)                            | [link](#)          | [link](#)          |
-| SDDNet (MM 2023)                         | [link](#)          | [link](#)          |
+| DSC (CVPR 2018, TPAMI 2020)              | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/DSC_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/DSC_512.zip)          |
+| BDRAR (ECCV 2018)                        | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/BDRAR_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/BDRAR_512.zip)          |
+| DSDNet# (CVPR 2019)                      | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/DSDNet_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/DSDNet_512.zip)          |
+| MTMT-Net$ (CVPR 2020)                    | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/MTMT-Net_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/MTMT-Net_512.zip)          |
+| FDRNet (ICCV 2021)                       | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/FDRNet_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/FDRNet_512.zip)          |
+| FSDNet* (TIP 2021)                       | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/FSDNet_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/FSDNet_512.zip)          |
+| ECA (MM 2021)                            | [link]([#](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/ECA_256.zip))          | [link]([#](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/ECA_512.zip))          |
+| SDDNet (MM 2023)                         | [link]([#](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/SDDNet_256.zip))          | [link]([#](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/SDDNet_512.zip))          |
 
 **Notes**:
 - Evaluation on an NVIDIA GeForce RTX 4090 GPU
