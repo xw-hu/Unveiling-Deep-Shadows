@@ -184,7 +184,7 @@ This repository contains the results and trained models for deep-learning method
 | SSIS (CVPR 2021)               | 32.1          | 26.6          | 58.6              | 64.0              | 46.4             | 41.0             |
 | SSISv2 (TPAMI 2023)            | 37.0          | 26.7          | 63.6              | 67.5              | 51.8             | 42.8             |
 
-**Weights**:
+### Weights
 | Methods                        | Weights  |
 |:-------------------------------:|:------------------:|
 | LISA (CVPR 2020)               | [link](#)          |
@@ -351,6 +351,11 @@ This repository contains the results and trained models for deep-learning method
 | BEDSR-Net (CVPR 2020)                    | 3.13      | 28.480    | 0.912     | 0.171      | 32.21     | 10.41             |
 | FSENet (ICCV 2023)                       | 2.46      | 31.251    | 0.948     | 0.161      | 29.40     | 19.37             |
 
+**Weights**:
+| Methods                                  | Weights (512x512)  |
+|:----------------------------------------:|:------------------:|
+| BEDSR-Net (CVPR 2020)                    | [link](#)          |
+| FSENet (ICCV 2023)                       | [link](#)          |
 
 **Notes**:
 - Evaluation on an NVIDIA GeForce RTX 4090 GPU
