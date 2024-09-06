@@ -48,7 +48,7 @@ This repository contains the results and trained models for deep-learning method
 
 ### Trained Models and Code
 You can download the weights and find the code repositories for these models below:
-| Methods                                  | Weights (256x256)  | Weights (512x512)  | Codes  |
+| Methods                                  | Weights (256x256)  | Weights (512x512)  | Code  |
 |:----------------------------------------:|:------------------:|:------------------:|:------------------:|
 | DSC (CVPR 2018, TPAMI 2020)              | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/DSC_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/DSC_512.zip)          | [link](https://github.com/stevewongv/DSC-PyTorch)          |
 | BDRAR (ECCV 2018)                        | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/BDRAR_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/BDRAR_512.zip)          | [link](https://github.com/zijundeng/BDRAR)          |
@@ -127,7 +127,7 @@ You can download the weights and find the code repositories for these models bel
 
 ### Trained Models and Code
 You can download the weights and find the code repositories for these models below:
-| Methods                       | Weights  | Codes  |
+| Methods                       | Weights  | Code  |
 |:-----------------------------:|:------------------:|:------------------:|
 | TVSD-Net (CVPR 2021)           | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_VSD/TVSD-Net.zip)          | [link](https://github.com/eraserNut/ViSha)          |
 | STICT$* (CVPR 2022)            | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_VSD/STICT.zip)          | [link](https://github.com/yihong-97/STICT)          |
@@ -190,7 +190,7 @@ You can download the weights and find the code repositories for these models bel
 
 ### Trained Models and Code
 You can download the weights and find the code repositories for these models below:
-| Methods                        | Weights  | Codes  |
+| Methods                        | Weights  | Code  |
 |:-------------------------------:|:------------------:|:------------------:|
 | LISA (CVPR 2020)               | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_ISD/LISA.zip)          | [link](https://github.com/stevewongv/InstanceShadowDetection)          |
 | SSIS (CVPR 2021)               | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_ISD/SSIS.zip)          | [link](https://github.com/stevewongv/SSIS)          |
@@ -252,7 +252,7 @@ You can download the weights and find the code repositories for these models bel
 
 ### Trained Models and Code
 You can download the weights and find the code repositories for these models below:
-| Methods                                | Weights (256x256)  | Weights (512x512)  | Codes  |
+| Methods                                | Weights (256x256)  | Weights (512x512)  | Code  |
 |:--------------------------------------:|:------------------:|:------------------:|:------------------:|
 | ST-CGAN (CVPR 2018)                    | [link](#)          | [link](#)          | [link](#)          |
 | SP+M-Net (ICCV 2019)                   | [link](#)          | [link](#)          | [link](#)          |
@@ -360,7 +360,7 @@ You can download the weights and find the code repositories for these models bel
 
 ### Trained Models and Code
 You can download the weights and find the code repositories for these models below:
-| Methods                                  | Weights  | Codes  |
+| Methods                                  | Weights  | Code  |
 |:----------------------------------------:|:------------------:|:------------------:|
 | BEDSR-Net (CVPR 2020)                    | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_DSR/BEDSR-Net.zip)          | [link](https://github.com/IsHYuhi/BEDSR-Net_A_Deep_Shadow_Removal_Network_from_a_Single_Document_Image)          |
 | FSENet (ICCV 2023)                       | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_DSR/FSENet.zip)          | [link](https://github.com/CXH-Research/DocShadow-SD7K)          |
