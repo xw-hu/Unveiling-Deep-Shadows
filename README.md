@@ -125,11 +125,11 @@ This repository contains the results and trained models for deep-learning method
 **Weights**:
 | Methods                       | Weights  |
 |:-----------------------------:|:------------------:|
-| TVSD-Net (CVPR 2021)           | [link](#)          |
-| STICT$* (CVPR 2022)            | [link](#)          |
-| SC-Cor (ECCV 2022)             | [link](#)          |
-| SCOTCH and SODA (CVPR 2023)    | [link](#)          |
-| ShadowSAM (TCSVT 2023)         | [link](#)          |
+| TVSD-Net (CVPR 2021)           | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_VSD/TVSD-Net.zip)          |
+| STICT$* (CVPR 2022)            | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_VSD/STICT.zip)          |
+| SC-Cor (ECCV 2022)             | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_VSD/SC-Cor.zip)          |
+| SCOTCH and SODA (CVPR 2023)    | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_VSD/SCOTCH_and_SODA.zip)          |
+| ShadowSAM (TCSVT 2023)         | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_VSD/ShadowSAM.zip)          |
 
 **Notes**:
 - Evaluation on an NVIDIA GeForce RTX 4090 GPU
@@ -187,9 +187,9 @@ This repository contains the results and trained models for deep-learning method
 ### Weights
 | Methods                        | Weights  |
 |:-------------------------------:|:------------------:|
-| LISA (CVPR 2020)               | [link](#)          |
-| SSIS (CVPR 2021)               | [link](#)          |
-| SSISv2 (TPAMI 2023)            | [link](#)          |
+| LISA (CVPR 2020)               | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_ISD/LISA.zip)          |
+| SSIS (CVPR 2021)               | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_ISD/SSIS.zip)          |
+| SSISv2 (TPAMI 2023)            | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_ISD/SSISv2.zip)          |
 
 
 ### Datasets
@@ -354,8 +354,8 @@ This repository contains the results and trained models for deep-learning method
 **Weights**:
 | Methods                                  | Weights  |
 |:----------------------------------------:|:------------------:|
-| BEDSR-Net (CVPR 2020)                    | [link](#)          |
-| FSENet (ICCV 2023)                       | [link](#)          |
+| BEDSR-Net (CVPR 2020)                    | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_DSR/BEDSR-Net.zip)          |
+| FSENet (ICCV 2023)                       | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_DSR/FSENet.zip)          |
 
 **Notes**:
 - Evaluation on an NVIDIA GeForce RTX 4090 GPU
