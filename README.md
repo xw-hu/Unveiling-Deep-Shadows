@@ -126,11 +126,11 @@ This repository contains the results and trained models for deep-learning method
 **Weights**:
 | Methods                       | Weights  | Codes  |
 |:-----------------------------:|:------------------:|:------------------:|
-| TVSD-Net (CVPR 2021)           | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_VSD/TVSD-Net.zip)          | [link](#)          |
-| STICT$* (CVPR 2022)            | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_VSD/STICT.zip)          | [link](#)          |
-| SC-Cor (ECCV 2022)             | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_VSD/SC-Cor.zip)          | [link](#)          |
-| SCOTCH and SODA (CVPR 2023)    | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_VSD/SCOTCH_and_SODA.zip)          | [link](#)          |
-| ShadowSAM (TCSVT 2023)         | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_VSD/ShadowSAM.zip)          | [link](#)          |
+| TVSD-Net (CVPR 2021)           | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_VSD/TVSD-Net.zip)          | [link](https://github.com/eraserNut/ViSha)          |
+| STICT$* (CVPR 2022)            | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_VSD/STICT.zip)          | [link](https://github.com/yihong-97/STICT)          |
+| SC-Cor (ECCV 2022)             | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_VSD/SC-Cor.zip)          | [link](https://github.com/xmed-lab/SC-Cor)          |
+| SCOTCH and SODA (CVPR 2023)    | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_VSD/SCOTCH_and_SODA.zip)          | [link](https://github.com/lihaoliu-cambridge/scotch-and-soda)          |
+| ShadowSAM (TCSVT 2023)         | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_VSD/ShadowSAM.zip)          | [link](https://github.com/harrytea/Detect-AnyShadow)          |
 
 **Notes**:
 - Evaluation on an NVIDIA GeForce RTX 4090 GPU
