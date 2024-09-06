@@ -123,13 +123,13 @@ This repository contains the results and trained models for deep-learning method
 | ShadowSAM (TCSVT 2023) | 13.38            | 61.72              | 23.77             | 42.75          | 93.74      | 15.53             |
 
 **Weights**:
-| Methods                       | Weights  |
-|:-----------------------------:|:------------------:|
-| TVSD-Net (CVPR 2021)           | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_VSD/TVSD-Net.zip)          |
-| STICT$* (CVPR 2022)            | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_VSD/STICT.zip)          |
-| SC-Cor (ECCV 2022)             | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_VSD/SC-Cor.zip)          |
-| SCOTCH and SODA (CVPR 2023)    | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_VSD/SCOTCH_and_SODA.zip)          |
-| ShadowSAM (TCSVT 2023)         | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_VSD/ShadowSAM.zip)          |
+| Methods                       | Weights  | Codes  |
+|:-----------------------------:|:------------------:|:------------------:|
+| TVSD-Net (CVPR 2021)           | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_VSD/TVSD-Net.zip)          | [link](#)          |
+| STICT$* (CVPR 2022)            | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_VSD/STICT.zip)          | [link](#)          |
+| SC-Cor (ECCV 2022)             | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_VSD/SC-Cor.zip)          | [link](#)          |
+| SCOTCH and SODA (CVPR 2023)    | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_VSD/SCOTCH_and_SODA.zip)          | [link](#)          |
+| ShadowSAM (TCSVT 2023)         | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_VSD/ShadowSAM.zip)          | [link](#)          |
 
 **Notes**:
 - Evaluation on an NVIDIA GeForce RTX 4090 GPU
@@ -185,11 +185,12 @@ This repository contains the results and trained models for deep-learning method
 | SSISv2 (TPAMI 2023)            | 37.0          | 26.7          | 63.6              | 67.5              | 51.8             | 42.8             |
 
 ### Weights
-| Methods                        | Weights  |
-|:-------------------------------:|:------------------:|
-| LISA (CVPR 2020)               | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_ISD/LISA.zip)          |
-| SSIS (CVPR 2021)               | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_ISD/SSIS.zip)          |
-| SSISv2 (TPAMI 2023)            | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_ISD/SSISv2.zip)          |
+| Methods                        | Weights  | Codes  |
+|:-------------------------------:|:------------------:|:------------------:|
+| LISA (CVPR 2020)               | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_ISD/LISA.zip)          | [link](#)          |
+| SSIS (CVPR 2021)               | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_ISD/SSIS.zip)          | [link](#)          |
+| SSISv2 (TPAMI 2023)            | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_ISD/SSISv2.zip)          | [link](#)          |
+
 
 
 ### Datasets
@@ -352,10 +353,10 @@ This repository contains the results and trained models for deep-learning method
 | FSENet (ICCV 2023)                       | 2.46      | 31.251    | 0.948     | 0.161      | 29.40     | 19.37             |
 
 **Weights**:
-| Methods                                  | Weights  |
-|:----------------------------------------:|:------------------:|
-| BEDSR-Net (CVPR 2020)                    | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_DSR/BEDSR-Net.zip)          |
-| FSENet (ICCV 2023)                       | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_DSR/FSENet.zip)          |
+| Methods                                  | Weights  | Codes  |
+|:----------------------------------------:|:------------------:|:------------------:|
+| BEDSR-Net (CVPR 2020)                    | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_DSR/BEDSR-Net.zip)          | [link](#)          |
+| FSENet (ICCV 2023)                       | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_DSR/FSENet.zip)          | [link](#)          |
 
 **Notes**:
 - Evaluation on an NVIDIA GeForce RTX 4090 GPU
