@@ -125,8 +125,7 @@ You can download the weights and find the code repositories for these models bel
 | SCOTCH and SODA (CVPR 2023) | 10.36     | 61.24              | 25.76             | 43.50          | 53.11      | 16.16             |
 | ShadowSAM (TCSVT 2023) | 13.38            | 61.72              | 23.77             | 42.75          | 93.74      | 15.53             |
 
-**Trained Models and Code**
-
+### Trained Models and Code
 You can download the weights and find the code repositories for these models below:
 | Methods                       | Weights  | Codes  |
 |:-----------------------------:|:------------------:|:------------------:|
@@ -189,8 +188,7 @@ You can download the weights and find the code repositories for these models bel
 | SSIS (CVPR 2021)               | 32.1          | 26.6          | 58.6              | 64.0              | 46.4             | 41.0             |
 | SSISv2 (TPAMI 2023)            | 37.0          | 26.7          | 63.6              | 67.5              | 51.8             | 42.8             |
 
-**Trained Models and Code**
-
+### Trained Models and Code
 You can download the weights and find the code repositories for these models below:
 | Methods                        | Weights  | Codes  |
 |:-------------------------------:|:------------------:|:------------------:|
@@ -252,8 +250,7 @@ You can download the weights and find the code repositories for these models bel
 |            | ShadowMaskFormer (arXiv 2024)          | 4.15      | 25.13      | 0.798      | 0.249       | 2.95        | 28.34        | 0.849        | 0.211         | 2.28       | 14.25             |
 |            | HomoFormer (CVPR 2024)                 | 3.62      | 26.21      | 0.827      | 0.219       | 2.88        | 28.53        | 0.857        | 0.196         | 17.81      | 12.60             |
 
-**Trained Models and Code**
-
+### Trained Models and Code
 You can download the weights and find the code repositories for these models below:
 | Methods                                | Weights (256x256)  | Weights (512x512)  | Codes  |
 |:--------------------------------------:|:------------------:|:------------------:|:------------------:|
@@ -361,8 +358,7 @@ You can download the weights and find the code repositories for these models bel
 | BEDSR-Net (CVPR 2020)                    | 3.13      | 28.480    | 0.912     | 0.171      | 32.21     | 10.41             |
 | FSENet (ICCV 2023)                       | 2.46      | 31.251    | 0.948     | 0.161      | 29.40     | 19.37             |
 
-**Trained Models and Code**
-
+### Trained Models and Code
 You can download the weights and find the code repositories for these models below:
 | Methods                                  | Weights  | Codes  |
 |:----------------------------------------:|:------------------:|:------------------:|
