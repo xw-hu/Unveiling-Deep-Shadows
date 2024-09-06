@@ -45,20 +45,6 @@ This repository contains the results and trained models for deep-learning method
 |            | ECA (MM 2021)                             | 7.52             | 7.99              | 157.76     | 22.41             |
 |            | SDDNet (MM 2023)                          | 4.86             | 7.65              | 15.02      | 37.65             |
 
-### Trained Models and Code
-You can download the weights and find the code repositories for these models below:
-| Methods                                  | Weights (256x256)  | Weights (512x512)  | Code  |
-|:----------------------------------------:|:------------------:|:------------------:|:------------------:|
-| DSC (CVPR 2018, TPAMI 2020)              | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/DSC_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/DSC_512.zip)          | [link](https://github.com/stevewongv/DSC-PyTorch)          |
-| BDRAR (ECCV 2018)                        | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/BDRAR_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/BDRAR_512.zip)          | [link](https://github.com/zijundeng/BDRAR)          |
-| DSDNet# (CVPR 2019)                      | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/DSDNet_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/DSDNet_512.zip)          | [link](https://quanlzheng.github.io/projects/Distraction-aware-Shadow-Detection.html)          |
-| MTMT-Net$ (CVPR 2020)                    | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/MTMT-Net_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/MTMT-Net_512.zip)          | [link](https://github.com/eraserNut/MTMT)          |
-| FDRNet (ICCV 2021)                       | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/FDRNet_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/FDRNet_512.zip)          | [link](https://github.com/rayleizhu/FDRNet)          |
-| FSDNet* (TIP 2021)                       | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/FSDNet_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/FSDNet_512.zip)          | [link](https://github.com/xw-hu/FSDNet)          |
-| ECA (MM 2021)                            | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/ECA_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/ECA_512.zip)          | [link](https://github.com/AHU-VRV/ECA-ShadowDetection)          |
-| SDDNet (MM 2023)                         | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/SDDNet_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/SDDNet_512.zip)          | [link](https://github.com/rmcong/SDDNet_ACMMM23)          |
-
-
 **Notes**:
 - Evaluation on an NVIDIA GeForce RTX 4090 GPU
 - $: additional training data
@@ -72,6 +58,18 @@ You can download the weights and find the code repositories for these models bel
 | 256x256    | BER (↓)   | 11.10                    | 9.13            | 10.29             | 9.97                | 11.82            | 12.13            | 11.97        | 8.64          |
 | 512x512    | BER (↓)   | 11.62                    | 8.53            | 8.92              | 9.19                | 8.81             | 11.94            | 12.71        | 7.65          |
 
+### Trained Models and Code
+You can download the weights and find the code repositories for these models below:
+| Methods                                  | Weights (256x256)  | Weights (512x512)  | Code  |
+|:----------------------------------------:|:------------------:|:------------------:|:------------------:|
+| DSC (CVPR 2018, TPAMI 2020)              | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/DSC_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/DSC_512.zip)          | [link](https://github.com/stevewongv/DSC-PyTorch)          |
+| BDRAR (ECCV 2018)                        | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/BDRAR_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/BDRAR_512.zip)          | [link](https://github.com/zijundeng/BDRAR)          |
+| DSDNet# (CVPR 2019)                      | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/DSDNet_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/DSDNet_512.zip)          | [link](https://quanlzheng.github.io/projects/Distraction-aware-Shadow-Detection.html)          |
+| MTMT-Net$ (CVPR 2020)                    | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/MTMT-Net_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/MTMT-Net_512.zip)          | [link](https://github.com/eraserNut/MTMT)          |
+| FDRNet (ICCV 2021)                       | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/FDRNet_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/FDRNet_512.zip)          | [link](https://github.com/rayleizhu/FDRNet)          |
+| FSDNet* (TIP 2021)                       | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/FSDNet_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/FSDNet_512.zip)          | [link](https://github.com/xw-hu/FSDNet)          |
+| ECA (MM 2021)                            | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/ECA_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/ECA_512.zip)          | [link](https://github.com/AHU-VRV/ECA-ShadowDetection)          |
+| SDDNet (MM 2023)                         | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/SDDNet_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/SDDNet_512.zip)          | [link](https://github.com/rmcong/SDDNet_ACMMM23)          |
 
 ### Datasets
 - [SBU-Refine](https://github.com/hanyangclarence/SILT/releases/tag/refined_sbu)
@@ -124,6 +122,11 @@ You can download the weights and find the code repositories for these models bel
 | SCOTCH and SODA (CVPR 2023) | 10.36     | 61.24              | 25.76             | 43.50          | 53.11      | 16.16             |
 | ShadowSAM (TCSVT 2023) | 13.38            | 61.72              | 23.77             | 42.75          | 93.74      | 15.53             |
 
+**Notes**:
+- Evaluation on an NVIDIA GeForce RTX 4090 GPU
+- $: additional training data
+- *: real-time shadow detector
+
 ### Trained Models and Code
 You can download the weights and find the code repositories for these models below:
 | Methods                       | Weights  | Code  |
@@ -134,10 +137,6 @@ You can download the weights and find the code repositories for these models bel
 | SCOTCH and SODA (CVPR 2023)    | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_VSD/SCOTCH_and_SODA.zip)          | [link](https://github.com/lihaoliu-cambridge/scotch-and-soda)          |
 | ShadowSAM (TCSVT 2023)         | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_VSD/ShadowSAM.zip)          | [link](https://github.com/harrytea/Detect-AnyShadow)          |
 
-**Notes**:
-- Evaluation on an NVIDIA GeForce RTX 4090 GPU
-- $: additional training data
-- *: real-time shadow detector
 
 ### Dataset
 - [ViSha](https://erasernut.github.io/ViSha.html)
@@ -196,7 +195,6 @@ You can download the weights and find the code repositories for these models bel
 | SSISv2 (TPAMI 2023)            | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_ISD/SSISv2.zip)          | [link](https://github.com/stevewongv/SSIS)          |
 
 
-
 ### Datasets
 - [SOBA](https://drive.google.com/drive/folders/1MKxyq3R6AUeyLai9i9XWzG2C_n5f0ppP)
 - [SOBA-VID](https://github.com/HarryHsing/Video-Instance-Shadow-Detection)
@@ -249,24 +247,6 @@ You can download the weights and find the code repositories for these models bel
 |            | ShadowMaskFormer (arXiv 2024)          | 4.15      | 25.13      | 0.798      | 0.249       | 2.95        | 28.34        | 0.849        | 0.211         | 2.28       | 14.25             |
 |            | HomoFormer (CVPR 2024)                 | 3.62      | 26.21      | 0.827      | 0.219       | 2.88        | 28.53        | 0.857        | 0.196         | 17.81      | 12.60             |
 
-### Trained Models and Code
-You can download the weights and find the code repositories for these models below:
-| Methods                                | Weights (256x256)  | Weights (512x512)  | Code  |
-|:--------------------------------------:|:------------------:|:------------------:|:------------------:|
-| ST-CGAN (CVPR 2018)                    | [link](#)          | [link](#)          | [link](#)          |
-| SP+M-Net (ICCV 2019)                   | [link](#)          | [link](#)          | [link](#)          |
-| Mask-ShadowGAN (ICCV 2019)             | [link](#)          | [link](#)          | [link](#)          |
-| DSC (TPAMI 2020)                       | [link](#)          | [link](#)          | [link](#)          |
-| Auto (CVPR 2021)                       | [link](#)          | [link](#)          | [link](#)          |
-| G2R-ShadowNet (CVPR 2021)              | [link](#)          | [link](#)          | [link](#)          |
-| DC-ShadowNet (ICCV 2021)               | [link](#)          | [link](#)          | [link](#)          |
-| BMNet (CVPR 2022)                      | [link](#)          | [link](#)          | [link](#)          |
-| SG-ShadowNet (ECCV 2022)               | [link](#)          | [link](#)          | [link](#)          |
-| ShadowDiffusion (CVPR 2023)            | [link](#)          | [link](#)          | [link](#)          |
-| ShadowFormer (AAAI 2023)               | [link](#)          | [link](#)          | [link](#)          |
-| ShadowMaskFormer (arXiv 2024)          | [link](#)          | [link](#)          | [link](#)          |
-| HomoFormer (CVPR 2024)                 | [link](#)          | [link](#)          | [link](#)          |
-
 **Notes**:
 - Evaluation on an NVIDIA GeForce RTX 4090 GPU
 - LPIPS uses VGG as the extractor.
@@ -287,6 +267,24 @@ You can download the weights and find the code repositories for these models bel
 
 **Notes**:
 - DESOBA only labels cast shadows and we set the self shadows on objects as "don’t care" in evaluation. 
+
+### Trained Models and Code
+You can download the weights and find the code repositories for these models below:
+| Methods                                | Weights (256x256)  | Weights (512x512)  | Code  |
+|:--------------------------------------:|:------------------:|:------------------:|:------------------:|
+| ST-CGAN (CVPR 2018)                    | [link](#)          | [link](#)          | [link](#)          |
+| SP+M-Net (ICCV 2019)                   | [link](#)          | [link](#)          | [link](#)          |
+| Mask-ShadowGAN (ICCV 2019)             | [link](#)          | [link](#)          | [link](#)          |
+| DSC (TPAMI 2020)                       | [link](#)          | [link](#)          | [link](#)          |
+| Auto (CVPR 2021)                       | [link](#)          | [link](#)          | [link](#)          |
+| G2R-ShadowNet (CVPR 2021)              | [link](#)          | [link](#)          | [link](#)          |
+| DC-ShadowNet (ICCV 2021)               | [link](#)          | [link](#)          | [link](#)          |
+| BMNet (CVPR 2022)                      | [link](#)          | [link](#)          | [link](#)          |
+| SG-ShadowNet (ECCV 2022)               | [link](#)          | [link](#)          | [link](#)          |
+| ShadowDiffusion (CVPR 2023)            | [link](#)          | [link](#)          | [link](#)          |
+| ShadowFormer (AAAI 2023)               | [link](#)          | [link](#)          | [link](#)          |
+| ShadowMaskFormer (arXiv 2024)          | [link](#)          | [link](#)          | [link](#)          |
+| HomoFormer (CVPR 2024)                 | [link](#)          | [link](#)          | [link](#)          |
 
 ### Datasets
 - SRD [Training](https://drive.google.com/file/d/1W8vBRJYDG9imMgr9I2XaA13tlFIEHOjS/view?pli=1), [Test](https://drive.google.com/file/d/1GTi4BmQ0SJ7diDMmf-b7x2VismmXtfTo/view), and [Masks](https://yuhaoliu7456.github.io/projects/RRL-Net/index.html)
@@ -357,16 +355,16 @@ You can download the weights and find the code repositories for these models bel
 | BEDSR-Net (CVPR 2020)                    | 3.13      | 28.480    | 0.912     | 0.171      | 32.21     | 10.41             |
 | FSENet (ICCV 2023)                       | 2.46      | 31.251    | 0.948     | 0.161      | 29.40     | 19.37             |
 
+**Notes**:
+- Evaluation on an NVIDIA GeForce RTX 4090 GPU
+- LPIPS uses VGG as the extractor.
+
 ### Trained Models and Code
 You can download the weights and find the code repositories for these models below:
 | Methods                                  | Weights  | Code  |
 |:----------------------------------------:|:------------------:|:------------------:|
 | BEDSR-Net (CVPR 2020)                    | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_DSR/BEDSR-Net.zip)          | [link](https://github.com/IsHYuhi/BEDSR-Net_A_Deep_Shadow_Removal_Network_from_a_Single_Document_Image)          |
 | FSENet (ICCV 2023)                       | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_DSR/FSENet.zip)          | [link](https://github.com/CXH-Research/DocShadow-SD7K)          |
-
-**Notes**:
-- Evaluation on an NVIDIA GeForce RTX 4090 GPU
-- LPIPS uses VGG as the extractor.
 
 ### Dataset
 - [RDD](https://github.com/hyyh1314/RDD)
