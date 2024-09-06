@@ -78,7 +78,7 @@ This repository contains the results and trained models for deep-learning method
 7. **DSC**: Hu et al., "Direction-aware spatial context features for shadow detection", CVPR, 2018. Hu et al., "Direction-aware spatial context features for shadow detection and removal," TPAMI, 2020.
 8. **DC-DSPF**: Wang et al., "Densely cascaded shadow detection network via deeply supervised parallel fusion", IJCAI, 2018.  
 9. **CPNet**: Mohajerani et al., "CPNet: A context preserver convolutional neural network for detecting shadows in single RGB images", MMSP, 2018.  
-10. **A+D Net***: Le et al., "A+D Net: Training a shadow detector with adversarial shadow attenuation", ECCV, 2018.  
+10. **A+D Net**: Le et al., "A+D Net: Training a shadow detector with adversarial shadow attenuation", ECCV, 2018.  
 11. **BDRAR**: Zhu et al., "Bidirectional feature pyramid network with recurrent attention residual modules for shadow detection", ECCV, 2018.  
 12. **DSDNet**: Zheng et al., "Distraction-aware shadow detection", CVPR, 2019.  
 13. **ARGAN/ARGAN+SS**: Ding et al., "ARGAN: Attentive recurrent generative adversarial network for shadow detection and removal", ICCV, 2019.  
@@ -86,7 +86,7 @@ This repository contains the results and trained models for deep-learning method
 15. **MTMT-Net**: Chen et al., "A multi-task mean teacher for semi-supervised shadow detection", CVPR, 2020.  
 16. **DSSDNet**: Luo et al., "Deeply supervised convolutional neural network for shadow detection based on a novel aerial shadow imagery dataset", P&RS, 2020.  
 17. **FDRNet**: Zhu et al., "Mitigating intensity bias in shadow detection via feature decomposition and reweighting", ICCV, 2021.  
-18. **FSDNet***: Hu et al., "Revisiting shadow detection: A new benchmark dataset for complex world", TIP, 2021.  
+18. **FSDNet**: Hu et al., "Revisiting shadow detection: A new benchmark dataset for complex world", TIP, 2021.  
 19. **ECA**: Fang et al., "Robust shadow detection by exploring effective shadow contexts", ACM MM, 2021.  
 20. **RCMPNet**: Liao et al., "Shadow detection via predicting the confidence maps of shadow detection methods", ACM MM, 2021.  
 21. **SDCM**: Zhu et al., "Single image shadow detection via complementary mechanism", ACM MM, 2022.  
