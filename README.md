@@ -69,7 +69,7 @@ This repository contains the results and trained models for deep-learning method
 - BER: see this GitHub repository.
 
 ## Video Shadow Detection
-### Comparison of video shadow detection methods on ViSha: [Results]() \& [Models]()
+### Comparison of video shadow detection methods on ViSha: [Results](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/VideoShadowDetection.zip) \& [Models]()
 | Methods                       | BER (↓) | IoU [%] (↑) | TS [%] (↑) | AVG (↑) | Param. (M) | Infer. (frames/s) |
 |:-----------------------------:|:----------------:|:------------------:|:-----------------:|:--------------:|:----------:|:-----------------:|
 | TVSD-Net (CVPR 2021) | 14.21            | 56.36              | 22.69             | 39.53          | 60.83      | 15.50             |
