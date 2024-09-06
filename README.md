@@ -122,6 +122,15 @@ This repository contains the results and trained models for deep-learning method
 | SCOTCH and SODA (CVPR 2023) | 10.36     | 61.24              | 25.76             | 43.50          | 53.11      | 16.16             |
 | ShadowSAM (TCSVT 2023) | 13.38            | 61.72              | 23.77             | 42.75          | 93.74      | 15.53             |
 
+**Weights**:
+| Methods                       | Weights (512x512)  |
+|:-----------------------------:|:------------------:|
+| TVSD-Net (CVPR 2021)           | [link](#)          |
+| STICT$* (CVPR 2022)            | [link](#)          |
+| SC-Cor (ECCV 2022)             | [link](#)          |
+| SCOTCH and SODA (CVPR 2023)    | [link](#)          |
+| ShadowSAM (TCSVT 2023)         | [link](#)          |
+
 **Notes**:
 - Evaluation on an NVIDIA GeForce RTX 4090 GPU
 - $: additional training data
@@ -174,6 +183,14 @@ This repository contains the results and trained models for deep-learning method
 | LISA (CVPR 2020)               | 22.6          | 21.1          | 44.2              | 53.6              | 39.0             | 37.3             |
 | SSIS (CVPR 2021)               | 32.1          | 26.6          | 58.6              | 64.0              | 46.4             | 41.0             |
 | SSISv2 (TPAMI 2023)            | 37.0          | 26.7          | 63.6              | 67.5              | 51.8             | 42.8             |
+
+**Weights**:
+| Methods                        | Weights  |
+|:-------------------------------:|:------------------:|
+| LISA (CVPR 2020)               | [link](#)          |
+| SSIS (CVPR 2021)               | [link](#)          |
+| SSISv2 (TPAMI 2023)            | [link](#)          |
+
 
 ### Datasets
 - [SOBA](https://drive.google.com/drive/folders/1MKxyq3R6AUeyLai9i9XWzG2C_n5f0ppP)
