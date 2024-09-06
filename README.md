@@ -20,7 +20,6 @@ This repository contains the results and trained models for deep-learning method
 ## Image Shadow Detection
 
 ### Comparing image shadow detection methods on SBU-Refine and CUHK-Shadow
-#### You can download results at [Results-Part1](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowDetection-1.zip), [Results-Part2](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowDetection-2.zip) 
 
 | ![Cannot find!](./detection.png) |
 |:--------------------------------------:|
@@ -45,6 +44,9 @@ This repository contains the results and trained models for deep-learning method
 |            | FSDNet* (TIP 2021)                        | 6.80             | 8.84              | 4.39       | 134.47            |
 |            | ECA (MM 2021)                             | 7.52             | 7.99              | 157.76     | 22.41             |
 |            | SDDNet (MM 2023)                          | 4.86             | 7.65              | 15.02      | 37.65             |
+
+### Results
+You can download results at [Results-Part1](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowDetection-1.zip), [Results-Part2](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowDetection-2.zip) 
 
 
 ### Trained Models and Code
