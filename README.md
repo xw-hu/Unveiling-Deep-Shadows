@@ -188,9 +188,9 @@ This repository contains the results and trained models for deep-learning method
 ### Weights
 | Methods                        | Weights  | Codes  |
 |:-------------------------------:|:------------------:|:------------------:|
-| LISA (CVPR 2020)               | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_ISD/LISA.zip)          | [link](#)          |
-| SSIS (CVPR 2021)               | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_ISD/SSIS.zip)          | [link](#)          |
-| SSISv2 (TPAMI 2023)            | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_ISD/SSISv2.zip)          | [link](#)          |
+| LISA (CVPR 2020)               | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_ISD/LISA.zip)          | [link](https://github.com/stevewongv/InstanceShadowDetection)          |
+| SSIS (CVPR 2021)               | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_ISD/SSIS.zip)          | [link](https://github.com/stevewongv/SSIS)          |
+| SSISv2 (TPAMI 2023)            | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_ISD/SSISv2.zip)          | [link](https://github.com/stevewongv/SSIS)          |
 
 
 
@@ -356,8 +356,8 @@ This repository contains the results and trained models for deep-learning method
 **Weights**:
 | Methods                                  | Weights  | Codes  |
 |:----------------------------------------:|:------------------:|:------------------:|
-| BEDSR-Net (CVPR 2020)                    | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_DSR/BEDSR-Net.zip)          | [link](#)          |
-| FSENet (ICCV 2023)                       | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_DSR/FSENet.zip)          | [link](#)          |
+| BEDSR-Net (CVPR 2020)                    | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_DSR/BEDSR-Net.zip)          | [link](https://github.com/IsHYuhi/BEDSR-Net_A_Deep_Shadow_Removal_Network_from_a_Single_Document_Image)          |
+| FSENet (ICCV 2023)                       | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_DSR/FSENet.zip)          | [link](https://github.com/CXH-Research/DocShadow-SD7K)          |
 
 **Notes**:
 - Evaluation on an NVIDIA GeForce RTX 4090 GPU
