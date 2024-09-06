@@ -46,8 +46,7 @@ This repository contains the results and trained models for deep-learning method
 |            | SDDNet (MM 2023)                          | 4.86             | 7.65              | 15.02      | 37.65             |
 
 
-### Trained Models and Cod
-
+### Trained Models and Code
 You can download the weights and find the code repositories for these models below:
 | Methods                                  | Weights (256x256)  | Weights (512x512)  | Codes  |
 |:----------------------------------------:|:------------------:|:------------------:|:------------------:|
