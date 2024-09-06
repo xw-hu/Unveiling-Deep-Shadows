@@ -47,6 +47,7 @@ This repository contains the results and trained models for deep-learning method
 
 
 **Trained Models and Code**
+
 You can download the weights and find the code repositories for these models below:
 | Methods                                  | Weights (256x256)  | Weights (512x512)  | Codes  |
 |:----------------------------------------:|:------------------:|:------------------:|:------------------:|
