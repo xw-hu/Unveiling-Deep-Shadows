@@ -54,8 +54,8 @@ This repository contains the results and trained models for deep-learning method
 | MTMT-Net$ (CVPR 2020)                    | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/MTMT-Net_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/MTMT-Net_512.zip)          |
 | FDRNet (ICCV 2021)                       | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/FDRNet_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/FDRNet_512.zip)          |
 | FSDNet* (TIP 2021)                       | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/FSDNet_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/FSDNet_512.zip)          |
-| ECA (MM 2021)                            | [link]([#](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/ECA_256.zip))          | [link]([#](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/ECA_512.zip))          |
-| SDDNet (MM 2023)                         | [link]([#](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/SDDNet_256.zip))          | [link]([#](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/SDDNet_512.zip))          |
+| ECA (MM 2021)                            | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/ECA_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/ECA_512.zip)          |
+| SDDNet (MM 2023)                         | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/SDDNet_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SD/SDDNet_512.zip)          |
 
 **Notes**:
 - Evaluation on an NVIDIA GeForce RTX 4090 GPU
