@@ -19,7 +19,7 @@ This repository contains the results and trained models for deep-learning method
 
 ## Image Shadow Detection
 
-### Comparing image shadow detection methods on SBU-Refine and CUHK-Shadow: [Results-Part1](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowDetection-1.zip), [Results-Part2](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowDetection-2.zip) \& [Models]()
+### Comparing image shadow detection methods on SBU-Refine and CUHK-Shadow: [Results-Part1](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowDetection-1.zip), [Results-Part2](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowDetection-2.zip) 
 
 | ![Cannot find!](./detection.png) |
 |:--------------------------------------:|
@@ -69,7 +69,7 @@ This repository contains the results and trained models for deep-learning method
 - BER: see this GitHub repository.
 
 ## Video Shadow Detection
-### Comparison of video shadow detection methods on ViSha: [Results](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/VideoShadowDetection.zip) \& [Models]()
+### Comparison of video shadow detection methods on ViSha: [Results](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/VideoShadowDetection.zip) 
 | Methods                       | BER (↓) | IoU [%] (↑) | TS [%] (↑) | AVG (↑) | Param. (M) | Infer. (frames/s) |
 |:-----------------------------:|:----------------:|:------------------:|:-----------------:|:--------------:|:----------:|:-----------------:|
 | TVSD-Net (CVPR 2021) | 14.21            | 56.36              | 22.69             | 39.53          | 60.83      | 15.50             |
@@ -94,7 +94,7 @@ This repository contains the results and trained models for deep-learning method
   
 ## Instance Shadow Detection
 
-### Comparing image instance shadow detection methods on the SOBA-testing set: [Results & Models](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/InstanceShadowDetection_SOBA.zip)
+### Comparing image instance shadow detection methods on the SOBA-testing set: [Results](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/InstanceShadowDetection_SOBA.zip)
 
 | Methods                        | $SOAP_{segm}$ | $SOAP_{bbox}$ | Asso. $AP_{segm}$ | Asso. $AP_{bbox}$ | Ins. $AP_{segm}$ | Ins. $AP_{bbox}$ | Param. (M) | Infer. (images/s) |
 |:-------------------------------|:-------------:|:-------------:|:-----------------:|:-----------------:|:----------------:|:----------------:|:----------:|:-----------------:|
@@ -133,7 +133,7 @@ This repository contains the results and trained models for deep-learning method
 |:--------------------------------------:|
 |Shadow removal methods on the SRD (left) and ISTD+ (right) datasets: accuracy, parameters (indicated by the area of the bubbles), and speed.|
 
-### Comparing image shadow removal methods on SRD and ISTD+: [Results-Part1](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowRemoval-1.zip), [Results-Part2](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowRemoval-2.zip), [Results-Part3](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowRemoval-3.zip) \& [Models]()
+### Comparing image shadow removal methods on SRD and ISTD+: [Results-Part1](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowRemoval-1.zip), [Results-Part2](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowRemoval-2.zip), [Results-Part3](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowRemoval-3.zip)
 
 | Input Size | Methods                                | RMSE (SRD) (↓) | PSNR (SRD) (↑) | SSIM (SRD) (↑) | LPIPS (SRD) (↓) | RMSE (ISTD+) (↓) | PSNR (ISTD+) (↑) | SSIM (ISTD+) (↑) | LPIPS (ISTD+) (↓) | Params (M) | Infer. (images/s) |
 |:----------:|:--------------------------------------:|:---------:|:----------:|:----------:|:-----------:|:-----------:|:------------:|:------------:|:-------------:|:----------:|:-----------------:|
@@ -199,7 +199,7 @@ This repository contains the results and trained models for deep-learning method
 
 ## Document Shadow Removal
 
-### Comparing document shadow removal methods on RDD: [Results](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/DocShadowRemoval.zip) \& [Models]()
+### Comparing document shadow removal methods on RDD: [Results](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/DocShadowRemoval.zip) 
 
 | Methods                                  | RMSE (↓)  | PSNR (↑)  | SSIM (↑)  | LPIPS (↓)  | Param.(M) | Infer. (images/s) |
 |:----------------------------------------:|:---------:|:---------:|:---------:|:----------:|:---------:|:-----------------:|
