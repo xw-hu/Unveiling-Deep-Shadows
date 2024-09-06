@@ -19,8 +19,7 @@ This repository contains the results and trained models for deep-learning method
 
 ## Image Shadow Detection
 
-### Comparing image shadow detection methods on SBU-Refine and CUHK-Shadow
-#### You can download results at [Results-Part1](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowDetection-1.zip), [Results-Part2](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowDetection-2.zip) 
+### Comparing image shadow detection methods on SBU-Refine and CUHK-Shadow: [Results-Part1](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowDetection-1.zip), [Results-Part2](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowDetection-2.zip) 
 
 | ![Cannot find!](./detection.png) |
 |:--------------------------------------:|
