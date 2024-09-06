@@ -199,7 +199,7 @@ This repository contains the results and trained models for deep-learning method
 
 ## Document Shadow Removal
 
-### Comparing document shadow removal methods on RDD: [Results]() \& [Models]()
+### Comparing document shadow removal methods on RDD: [Results](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/DocShadowRemoval.zip) \& [Models]()
 
 | Methods                                  | RMSE (↓)  | PSNR (↑)  | SSIM (↑)  | LPIPS (↓)  | Param.(M) | Infer. (images/s) |
 |:----------------------------------------:|:---------:|:---------:|:---------:|:----------:|:---------:|:-----------------:|
