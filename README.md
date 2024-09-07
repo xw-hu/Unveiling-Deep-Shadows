@@ -147,16 +147,17 @@ You can download the weights and find the code repositories for these models bel
 - BER: see this GitHub repository.
 
 ### Papers
-1. **TVSD-Net**: Chen et al., "Triple-cooperative video shadow detection", CVPR, 2021.  
-2. **Hu et al.**: Hu et al., "Temporal feature warping for video shadow detection", arXiv, 2021.  
-3. **STICT***: Lu et al., "Video shadow detection via spatio-temporal interpolation consistency training", CVPR, 2022.  
-4. **SC-Cor**: Ding et al., "Learning shadow correspondence for video shadow detection", ECCV, 2022.  
-5. **STF-Net***: Lin and Wang, "Spatial-temporal fusion network for fast video shadow detection", VRCAI, 2022.  
-6. **SCOTCH and SODA**: Liu et al., "SCOTCH and SODA: a transformer video shadow detection framework", CVPR, 2023.  
-7. **ShadowSAM**: Wang et al., "Detect any shadow: segment anything for video shadow detection", TCSVT, 2023.  
-8. **RSM-Net**: Wang et al., "Language-driven interactive shadow detection", ACM MM, 2024.  
-9. **TBGDiff**: Zhou et al., "Timeline and boundary guided diffusion network for video shadow detection", ACM MM, 2024.  
-10. **Duan et al.**: Duan et al., "Two-stage video shadow detection via temporal-spatial adaption", ECCV, 2024.
+1. **TVSD-Net**: Chen et al., "Triple-cooperative video shadow detection", CVPR, 2021. [[paper]](https://openaccess.thecvf.com/content/CVPR2021/html/Chen_Triple-Cooperative_Video_Shadow_Detection_CVPR_2021_paper.html)  
+2. **Hu et al.**: Hu et al., "Temporal feature warping for video shadow detection", arXiv, 2021. [[paper]](https://arxiv.org/abs/2107.14287)  
+3. **STICT**: Lu et al., "Video shadow detection via spatio-temporal interpolation consistency training", CVPR, 2022. [[paper]](https://openaccess.thecvf.com/content/CVPR2022/html/Lu_Video_Shadow_Detection_via_Spatio-Temporal_Interpolation_Consistency_Training_CVPR_2022_paper.html)  
+4. **SC-Cor**: Ding et al., "Learning shadow correspondence for video shadow detection", ECCV, 2022. [[paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/7055_ECCV_2022_paper.php)  
+5. **STF-Net**: Lin and Wang, "Spatial-temporal fusion network for fast video shadow detection", VRCAI, 2022. [[paper]](https://dl.acm.org/doi/abs/10.1145/3566097.3566114)  
+6. **SCOTCH and SODA**: Liu et al., "SCOTCH and SODA: a transformer video shadow detection framework", CVPR, 2023. [[paper]](https://openaccess.thecvf.com/content/CVPR2023/html/Liu_SCOTCH_and_SODA_A_Transformer_Video_Shadow_Detection_Framework_CVPR_2023_paper.html)  
+7. **ShadowSAM**: Wang et al., "Detect any shadow: segment anything for video shadow detection", TCSVT, 2023. [[paper]](https://ieeexplore.ieee.org/document/10204020)  
+8. **RSM-Net**: Wang et al., "Language-driven interactive shadow detection", ACM MM, 2024. [[paper]](https://dl.acm.org/doi/abs/10.1145/3572517.3572532)  
+9. **TBGDiff**: Zhou et al., "Timeline and boundary guided diffusion network for video shadow detection", ACM MM, 2024. [[paper]](https://arxiv.org/abs/2402.02029)  
+10. **Duan et al.**: Duan et al., "Two-stage video shadow detection via temporal-spatial adaption", ECCV, 2024. [[paper]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/7244_ECCV_2024_paper.php)  
+
 
   
 ## Instance Shadow Detection
