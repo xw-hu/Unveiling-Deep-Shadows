@@ -306,53 +306,54 @@ You can download the weights and find the code repositories for these models bel
 - LPIPS: see this GitHub repository.
 
 ### Papers
-1. **CNN-CRF**: Khan et al., "Automatic shadow detection and removal from a single image", TPAMI, 2016.  
-2. **DeshadowNet**: Qu et al., "DeshadowNet: A multi-context embedding deep network for shadow removal", CVPR, 2017.  
-3. **ST-CGAN**: Wang et al., "Stacked conditional generative adversarial networks for jointly learning shadow detection and shadow removal", CVPR, 2018.  
-4. **AngularGAN**: Sidorov et al., "Conditional GANs for multi-illuminant color constancy: revolution or yet another approach?", CVPRW, 2019.  
-5. **ARGAN/ARGAN+SS**: Ding et al., "ARGAN: Attentive recurrent generative adversarial network for shadow detection and removal", ICCV, 2019.  
-6. **SP+M-Net**: Le et al., "Shadow removal via shadow image decomposition", ICCV, 2019.  
-7. **Mask-ShadowGAN**: Hu et al., "Mask-ShadowGAN: Learning to remove shadows from unpaired data", ICCV, 2019.  
-8. **DSC**: Hu et al., "Direction-aware spatial context features for shadow detection and removal", TPAMI, 2020.  
-9. **RIS-GAN**: Zhang et al., "RIS-GAN: Explore residual and illumination with generative adversarial networks for shadow removal", AAAI, 2020.  
-10. **DHAN+DA**: Cun et al., "Towards ghost-free shadow removal via dual hierarchical aggregation network and shadow matting GAN", AAAI, 2020.  
-11. **Param+M+D-Net**: Le et al., "From shadow segmentation to shadow removal", ECCV, 2020.  
-12. **SP+M+I-Net**: Le et al., "Physics-based shadow image decomposition for shadow removal", TPAMI, 2021.  
-13. **Auto**: Fu et al., "Auto-exposure fusion for single-image shadow removal", CVPR, 2021.  
-14. **G2R-ShadowNet**: Liu et al., "From shadow generation to shadow removal", CVPR, 2021.  
-15. **PUL**: Vasluianu et al., "Shadow removal with paired and unpaired learning", CVPRW, 2021.  
-16. **CANet**: Chen et al., "CANet: A context-aware network for shadow removal", ICCV, 2021.  
-17. **DC-ShadowNet**: Jin et al., "DC-ShadowNet: Single-image hard and soft shadow removal using unsupervised domain-classifier guided network", ICCV, 2021.  
-18. **LG-ShadowNet**: Liu et al., "Shadow removal by a lightness-guided network with training on unpaired data", TIP, 2021.  
-19. **EMDNet**: Zhu et al., "Efficient model-driven network for shadow removal", AAAI, 2022.  
-20. **CRFormer**: Wan et al., "CrFormer: A cross-region transformer for shadow removal", arXiv, 2022.  
-21. **BMNet**: Zhu et al., "Bijective mapping network for shadow removal", CVPR, 2022.  
-22. **G2C-DeshadowNet**: Gao et al., "Towards real-world shadow removal with a shadow simulation method and a two-stage framework", CVPRW, 2022.  
-23. **SG-ShadowNet**: Wan et al., "Style-guided shadow removal", ECCV, 2022.  
-24. **CNSNet**: Yu et al., "CNSNet: A cleanness-navigated-shadow network for shadow removal", ECCVW, 2022.  
+1. **CNN-CRF**: Khan et al., "Automatic shadow detection and removal from a single image", TPAMI, 2016. [[paper]](https://ieeexplore.ieee.org/abstract/document/7172555)
+2. **DeshadowNet**: Qu et al., "DeshadowNet: A multi-context embedding deep network for shadow removal", CVPR, 2017. [[paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Qu_DeshadowNet_A_Multi-Context_CVPR_2017_paper.pdf)  
+3. **ST-CGAN**: Wang et al., "Stacked conditional generative adversarial networks for jointly learning shadow detection and shadow removal", CVPR, 2018. [[paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Stacked_Conditional_Generative_CVPR_2018_paper.pdf)  
+4. **AngularGAN**: Sidorov et al., "Conditional GANs for multi-illuminant color constancy: revolution or yet another approach?", CVPRW, 2019. [[paper]](https://openaccess.thecvf.com/content_CVPRW_2019/html/NTIRE/Sidorov_Conditional_GANs_for_Multi-Illuminant_Color_Constancy_Revolution_or_yet_Another_CVPRW_2019_paper.html) 
+5. **ARGAN/ARGAN+SS**: Ding et al., "ARGAN: Attentive recurrent generative adversarial network for shadow detection and removal", ICCV, 2019. [[paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Ding_ARGAN_Attentive_Recurrent_Generative_Adversarial_Network_for_Shadow_Detection_and_ICCV_2019_paper.pdf)  
+6. **SP+M-Net**: Le et al., "Shadow removal via shadow image decomposition", ICCV, 2019. [[paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Le_Shadow_Removal_via_Shadow_Image_Decomposition_ICCV_2019_paper.pdf)  
+7. **Mask-ShadowGAN**: Hu et al., "Mask-ShadowGAN: Learning to remove shadows from unpaired data", ICCV, 2019. [[paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Hu_Mask-ShadowGAN_Learning_to_Remove_Shadows_From_Unpaired_Data_ICCV_2019_paper.pdf)  
+8. **DSC**: Hu et al., "Direction-aware spatial context features for shadow detection and removal", TPAMI, 2020. [[paper]](https://ieeexplore.ieee.org/abstract/document/8723605)  
+9. **RIS-GAN**: Zhang et al., "RIS-GAN: Explore residual and illumination with generative adversarial networks for shadow removal", AAAI, 2020. [[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/6979)  
+10. **DHAN+DA**: Cun et al., "Towards ghost-free shadow removal via dual hierarchical aggregation network and shadow matting GAN", AAAI, 2020. [[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/6695)  
+11. **Param+M+D-Net**: Le et al., "From shadow segmentation to shadow removal", ECCV, 2020. [[paper]](https://arxiv.org/pdf/2008.00267.pdf)  
+12. **SP+M+I-Net**: Le et al., "Physics-based shadow image decomposition for shadow removal", TPAMI, 2021. [[paper]](https://arxiv.org/pdf/2012.13018.pdf)  
+13. **Auto**: Fu et al., "Auto-exposure fusion for single-image shadow removal", CVPR, 2021. [[paper]](https://openaccess.thecvf.com/content/CVPR2021/html/Fu_Auto-Exposure_Fusion_for_Single-Image_Shadow_Removal_CVPR_2021_paper.html)  
+14. **G2R-ShadowNet**: Liu et al., "From shadow generation to shadow removal", CVPR, 2021. [[paper]](https://openaccess.thecvf.com/content/CVPR2021/html/Liu_From_Shadow_Generation_To_Shadow_Removal_CVPR_2021_paper.html)  
+15. **PUL**: Vasluianu et al., "Shadow removal with paired and unpaired learning", CVPRW, 2021. [[paper]](https://openaccess.thecvf.com/content/CVPR2021W/NTIRE/html/Vasluianu_Shadow_Removal_With_Paired_and_Unpaired_Learning_CVPRW_2021_paper.html)
+16. **CANet**: Chen et al., "CANet: A context-aware network for shadow removal", ICCV, 2021. [[paper]](https://openaccess.thecvf.com/content/ICCV2021/html/Chen_CANet_A_Context-Aware_Network_for_Shadow_Removal_ICCV_2021_paper.html)  
+17. **DC-ShadowNet**: Jin et al., "DC-ShadowNet: Single-image hard and soft shadow removal using unsupervised domain-classifier guided network", ICCV, 2021. [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Jin_DC-ShadowNet_Single-Image_Hard_and_Soft_Shadow_Removal_Using_Unsupervised_Domain-Classifier_ICCV_2021_paper.pdf)  
+18. **LG-ShadowNet**: Liu et al., "Shadow removal by a lightness-guided network with training on unpaired data", TIP, 2021. [[paper]](https://ieeexplore.ieee.org/abstract/document/9318562)  
+19. **EMDNet**: Zhu et al., "Efficient model-driven network for shadow removal", AAAI, 2022. [[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/20276)  
+20. **CRFormer**: Wan et al., "CRFormer: A cross-region transformer for shadow removal", arXiv, 2022. [[paper]](https://arxiv.org/pdf/2207.01600.pdf)  
+21. **BMNet**: Zhu et al., "Bijective mapping network for shadow removal", CVPR, 2022. [[paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhu_Bijective_Mapping_Network_for_Shadow_Removal_CVPR_2022_paper.pdf)  
+22. **G2C-DeshadowNet**: Gao et al., "Towards real-world shadow removal with a shadow simulation method and a two-stage framework", CVPRW, 2022. [[paper]](https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/html/Gao_Towards_Real-World_Shadow_Removal_With_a_Shadow_Simulation_Method_and_CVPRW_2022_paper.html)
+23. **SG-ShadowNet**: Wan et al., "Style-guided shadow removal", ECCV, 2022. [[paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136790353.pdf)  
+24. **CNSNet**: Yu et al., "CNSNet: A cleanness-navigated-shadow network for shadow removal", ECCVW, 2022. [[paper]](https://link.springer.com/chapter/10.1007/978-3-031-25063-7_14)  
 25. **ShadowDiffusion(J)**: Jin et al., "ShadowDiffusion: Diffusion-based shadow removal using classifier-driven attention and structure preservation", arXiv, 2022.  
-26. **ShadowDiffusion(G)**: Guo et al., "ShadowDiffusion: When degradation prior meets diffusion model for shadow removal", CVPR, 2023.  
-27. **MStructNet**: Liu et al., "Structure-informed shadow removal networks", TIP, 2023.  
-28. **Self-ShadowGAN**: Jiang et al., "Learning to remove shadows from a single image", IJCV, 2023.  
-29. **ShadowFormer**: Guo et al., "ShadowFormer: Global context helps shadow removal", AAAI, 2023.  
-30. **SpA-Former**: Liu et al., "SpA-Former: An effective and lightweight transformer for image shadow removal", IJCNN, 2023.  
-31. **DNSR**: Vasluianu et al., "DNSR: A novel benchmark for high-resolution image shadow removal", CVPRW, 2023.  
-32. **TSRFormer**: Chang et al., "TSRFormer: Transformer-based two-stage refinement for single image shadow removal", CVPRW, 2023.  
-33. **PES**: Cui et al., "Pyramid ensemble structure for high-resolution image shadow removal", CVPRW, 2023.  
-34. **BCDiff**: Guo et al., "Boundary-aware divide and conquer: A diffusion-based solution for unsupervised shadow removal", ICCV, 2023.  
-35. **Inpaint4shadow**: Li et al., "Leveraging inpainting for single-image shadow removal", ICCV, 2023.  
-36. **LRA&LDRA**: Yücel et al., "LRA&LDRA: Rethinking residual predictions for efficient shadow detection and removal", WACV, 2023.  
-37. **SHARDS**: Sen et al., "SHARDS: Efficient shadow removal using dual stage network for high-resolution images", WACV, 2023.  
-38. **TBRNet**: Liu et al., "A shadow imaging bilinear model and three-branch residual network for shadow removal", TNNLS, 2023.  
-39. **PRNet**: Wang et al., "Progressive recurrent network for shadow removal", CVIU, 2024.  
-40. **DeS3**: Jin et al., "DeS3: Adaptive attention-driven self and soft shadow removal using ViT similarity", AAAI, 2024.  
-41. **Recasting**: Liu et al., "Recasting regional lighting for shadow removal", AAAI, 2024.  
-42. **LFG-Diffusion**: Mei et al., "Latent feature-guided diffusion models for shadow removal", WACV, 2024.  
-43. **ShadowMaskFormer**: Li et al., "ShadowMaskFormer: Mask augmented patch embeddings for shadow removal", arXiv, 2024.  
-44. **ShadowRefiner**: Dong et al., "ShadowRefiner: Towards mask-free shadow removal via fast Fourier transformer", CVPRW, 2024.  
-45. **HomoFormer**: Xiao et al., "HomoFormer: Homogenized transformer for image shadow removal", CVPR, 2024.  
-46. **SG-GAN+DBRM**: Zeng et al., "Semantic-guided adversarial diffusion model for self-supervised shadow removal", arXiv, 2024.  
-47. **Diff-Shadow**: Luo et al., "Diff-Shadow: Global-guided diffusion model for shadow removal", arXiv, 2024.
+26. **ShadowDiffusion(G)**: Guo et al., "ShadowDiffusion: When degradation prior meets diffusion model for shadow removal", CVPR, 2023. [[paper]](https://openaccess.thecvf.com/content/CVPR2023/html/Guo_ShadowDiffusion_When_Degradation_Prior_Meets_Diffusion_Model_for_Shadow_Removal_CVPR_2023_paper.html)  
+27. **MStructNet**: Liu et al., "Structure-informed shadow removal networks", TIP, 2023. [[paper]](https://ieeexplore.ieee.org/abstract/document/10287249)
+28. **Self-ShadowGAN**: Jiang et al., "Learning to remove shadows from a single image", IJCV, 2023. [[paper]](https://link.springer.com/article/10.1007/s11263-023-01823-9) 
+29. **ShadowFormer**: Guo et al., "ShadowFormer: Global context helps shadow removal", AAAI, 2023. [[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/25148)  
+30. **SpA-Former**: Liu et al., "SpA-Former: An effective and lightweight transformer for image shadow removal", IJCNN, 2023. [[paper]](https://ieeexplore.ieee.org/abstract/document/10191081) 
+31. **WSRD**: Vasluianu et al., "WSRD: A novel benchmark for high-resolution image shadow removal", CVPRW, 2023. [[paper]](https://openaccess.thecvf.com/content/CVPR2023W/NTIRE/html/Vasluianu_WSRD_A_Novel_Benchmark_for_High_Resolution_Image_Shadow_Removal_CVPRW_2023_paper.html)  
+32. **TSRFormer**: Chang et al., "TSRFormer: Transformer-based two-stage refinement for single image shadow removal", CVPRW, 2023. [[paper]](https://openaccess.thecvf.com/content/CVPR2023W/NTIRE/html/Chang_TSRFormer_Transformer_Based_Two-Stage_Refinement_for_Single_Image_Shadow_Removal_CVPRW_2023_paper.html) 
+33. **PES**: Cui et al., "Pyramid ensemble structure for high-resolution image shadow removal", CVPRW, 2023. [[paper]](https://openaccess.thecvf.com/content/CVPR2023W/NTIRE/html/Cui_Pyramid_Ensemble_Structure_for_High_Resolution_Image_Shadow_Removal_CVPRW_2023_paper.html) 
+34. **BCDiff**: Guo et al., "Boundary-aware divide and conquer: A diffusion-based solution for unsupervised shadow removal", ICCV, 2023. [[paper]](http://openaccess.thecvf.com/content/ICCV2023/papers/Guo_Boundary-Aware_Divide_and_Conquer_A_Diffusion-Based_Solution_for_Unsupervised_Shadow_ICCV_2023_paper.pdf)  
+35. **Inpaint4shadow**: Li et al., "Leveraging inpainting for single-image shadow removal", ICCV, 2023. [[paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Leveraging_Inpainting_for_Single-Image_Shadow_Removal_ICCV_2023_paper.pdf)  
+36. **LRA&LDRA**: Yücel et al., "LRA&LDRA: Rethinking residual predictions for efficient shadow detection and removal", WACV, 2023. [[paper]](https://openaccess.thecvf.com/content/WACV2023/html/Yucel_LRALDRA_Rethinking_Residual_Predictions_for_Efficient_Shadow_Detection_and_Removal_WACV_2023_paper.html)  
+37. **SHARDS**: Sen et al., "SHARDS: Efficient shadow removal using dual stage network for high-resolution images", WACV, 2023. [[paper]](https://openaccess.thecvf.com/content/WACV2023/html/Sen_SHARDS_Efficient_Shadow_Removal_Using_Dual_Stage_Network_for_High-Resolution_WACV_2023_paper.html)
+38. **TBRNet**: Liu et al., "A shadow imaging bilinear model and three-branch residual network for shadow removal", TNNLS, 2023. [[paper]](https://ieeexplore.ieee.org/abstract/document/10205508) 
+39. **PRNet**: Wang et al., "Progressive recurrent network for shadow removal", CVIU, 2024. [[paper]](https://www.sciencedirect.com/science/article/pii/S1077314223002412?casa_token=aBTDEP6tj98AAAAA:eKc5HwxXzyPKNwVwkGouEtK5Jg2oX2FsF4eFJQXFXdtO9ve-yQ-nxjWBlLW0_82ARi-zJB4gaA) 
+40. **DeS3**: Jin et al., "DeS3: Adaptive attention-driven self and soft shadow removal using ViT similarity", AAAI, 2024. [[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/28041)  
+41. **Recasting**: Liu et al., "Recasting regional lighting for shadow removal", AAAI, 2024. [[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/28172)  
+42. **LFG-Diffusion**: Mei et al., "Latent feature-guided diffusion models for shadow removal", WACV, 2024. [[paper]](https://openaccess.thecvf.com/content/WACV2024/papers/Mei_Latent_Feature-Guided_Diffusion_Models_for_Shadow_Removal_WACV_2024_paper.pdf)  
+43. **ShadowMaskFormer**: Li et al., "ShadowMaskFormer: Mask augmented patch embeddings for shadow removal", arXiv, 2024. [[paper]](https://arxiv.org/abs/2404.18433) 
+44. **ShadowRefiner**: Dong et al., "ShadowRefiner: Towards mask-free shadow removal via fast Fourier transformer", CVPRW, 2024. [[paper]](https://arxiv.org/abs/2406.02559) 
+45. **HomoFormer**: Xiao et al., "HomoFormer: Homogenized transformer for image shadow removal", CVPR, 2024. [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Xiao_HomoFormer_Homogenized_Transformer_for_Image_Shadow_Removal_CVPR_2024_paper.pdf)  
+46. **SG-GAN+DBRM**: Zeng et al., "Semantic-guided adversarial diffusion model for self-supervised shadow removal", arXiv, 2024. [[paper]](https://arxiv.org/abs/2407.01104) 
+47. **Diff-Shadow**: Luo et al., "Diff-Shadow: Global-guided diffusion model for shadow removal", arXiv, 2024. [[paper]](https://arxiv.org/pdf/2407.16214)
+
 
 ## Document Shadow Removal
 
