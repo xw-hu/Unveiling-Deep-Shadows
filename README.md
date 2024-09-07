@@ -261,7 +261,7 @@ You can download the weights and find the code repositories for these models bel
 - Mask-ShadowGAN and DC-ShadowNet are unsupervised methods.
 - G2R-ShadowNet is a weakly-supervised method.
 - The PyTorch implementation of [DSC](https://github.com/stevewongv/DSC-PyTorch/tree/master) for shadow removal based on [DSC (Caffe)](https://github.com/xw-hu/DSC).
-- The PyTorch implementation of [ST-CGAN](https://github.com/IsHYuhi/ST-CGAN_Stacked_Conditional_Generative_Adversarial_Networks?tab=readme-ov-file).
+- The unofficial PyTorch implementation of [ST-CGAN](https://github.com/IsHYuhi/ST-CGAN_Stacked_Conditional_Generative_Adversarial_Networks?tab=readme-ov-file).
 
 ### Cross-dataset generalization evaluation. Trained on SRD and tested on DESOBA: [Results-Part1](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowRemoval_CrossVal-1.zip), [Results-Part2](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowRemoval_CrossVal-2.zip), [Results-Part3](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowRemoval_CrossVal-3.zip), [Results-Part4](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowRemoval_CrossVal-4.zip), [Results-Part5](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowRemoval_CrossVal-5.zip)
 
