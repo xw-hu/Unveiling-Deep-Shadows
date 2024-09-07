@@ -379,16 +379,16 @@ You can download the weights and find the code repositories for these models bel
 - [RDD](https://github.com/hyyh1314/RDD)
 
 ### Papers
-1. **BEDSR-Net**: Lin et al., "BEDSR-Net: A deep shadow removal network from a single document image", CVPR, 2020.  
-2. **BGShadowNet**: Zhang et al., "Document image shadow removal guided by color-aware background", CVPR, 2023.  
-3. **FSENet**: Li et al., "High-resolution document shadow removal via a large-scale real-world dataset and a frequency-aware shadow erasing net", ICCV, 2023.
+1. **BEDSR-Net**: Lin et al., "BEDSR-Net: A deep shadow removal network from a single document image", CVPR, 2020. [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/html/Lin_BEDSR-Net_A_Deep_Shadow_Removal_Network_From_a_Single_Document_CVPR_2020_paper.html) 
+2. **BGShadowNet**: Zhang et al., "Document image shadow removal guided by color-aware background", CVPR, 2023. [[paper]](https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Document_Image_Shadow_Removal_Guided_by_Color-Aware_Background_CVPR_2023_paper.html) 
+3. **FSENet**: Li et al., "High-resolution document shadow removal via a large-scale real-world dataset and a frequency-aware shadow erasing net", ICCV, 2023. [[paper]](https://openaccess.thecvf.com/content/ICCV2023/html/Li_High-Resolution_Document_Shadow_Removal_via_A_Large-Scale_Real-World_Dataset_and_ICCV_2023_paper.html)
 
 ## Facial Shadow Removal  
-1. **Zhang et al.**: Zhang et al., "Portrait shadow manipulation", SIGGRAPH, 2020.  
-2. **He et al.**: He et al., "Unsupervised portrait shadow removal via generative priors", ACM MM, 2021.  
-3. **GS+C**: Liu et al., "Blind removal of facial foreign shadows", BMVC, 2022.  
-4. **Lyu et al.**: Lyu et al., "Portrait eyeglasses and shadow removal by leveraging 3D synthetic data", CVPR, 2022.  
-5. **GraphFFNet**: Zhang et al., "Facial image shadow removal via graph-based feature fusion", CGF (PG), 2023.
+1. **Zhang et al.**: Zhang et al., "Portrait shadow manipulation", SIGGRAPH, 2020. [[paper]](https://dl.acm.org/doi/abs/10.1145/3386569.3392390) 
+2. **He et al.**: He et al., "Unsupervised portrait shadow removal via generative priors", ACM MM, 2021. [[paper]](https://dl.acm.org/doi/abs/10.1145/3474085.3475663)
+3. **GS+C**: Liu et al., "Blind removal of facial foreign shadows", BMVC, 2022. [[paper]](https://cvlab.cse.msu.edu/pdfs/Liu_Hou_Huang_Ren_Liu_BMVC2022.pdf) 
+4. **Lyu et al.**: Lyu et al., "Portrait eyeglasses and shadow removal by leveraging 3D synthetic data", CVPR, 2022. [[paper]](https://openaccess.thecvf.com/content/CVPR2022/html/Lyu_Portrait_Eyeglasses_and_Shadow_Removal_by_Leveraging_3D_Synthetic_Data_CVPR_2022_paper.html)
+5. **GraphFFNet**: Zhang et al., "Facial image shadow removal via graph-based feature fusion", CGF (PG), 2023. [[paper]](https://doi.org/10.1111/cgf.14944)
 
 ## Image Shadow Generation  
 1. **ShadowGAN**: Zhang et al., "ShadowGAN: Shadow synthesis for virtual objects with conditional adversarial networks", CVM, 2019. (for Composition)  
