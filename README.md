@@ -82,7 +82,7 @@ You can download the weights and find the code repositories for these models bel
 ### Papers
 1. **CNN-CRF**: 
    - Khan et al., "Automatic feature learning for robust shadow detection", CVPR, 2014. [[paper]](https://openaccess.thecvf.com/content_cvpr_2014/html/Khan_Automatic_Feature_Learning_2014_CVPR_paper.html)
-   - Khan et al., "Automatic shadow detection and removal from a single image", TPAMI, 2016. [[paper]](https://ieeexplore.ieee.org/document/7429389)  
+   - Khan et al., "Automatic shadow detection and removal from a single image", TPAMI, 2016. [[paper]](https://ieeexplore.ieee.org/abstract/document/7172555?casa_token=eGiL1QX5oocAAAAA:qUGtcnWFc2GSbarl4N17k2VaWhLGThgulg4iT-vpnsNUCWrLb4y8oRXjMkj-IbCv_nug3ebk-A)  
 2. **SCNN-LinearOpt**: Shen et al., "Shadow optimization from structured deep edge detection", CVPR, 2015. [[paper]](https://openaccess.thecvf.com/content_cvpr_2015/html/Shen_Shadow_Optimization_From_2015_CVPR_paper.html)  
 3. **Stacked-CNN**: 
    - Vicente et al., "Large-scale training of shadow detectors with noisily-annotated shadow examples", ECCV, 2016. [[paper]](https://link.springer.com/chapter/10.1007/978-3-319-46487-9_37)
