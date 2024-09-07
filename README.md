@@ -8,6 +8,47 @@ https://arxiv.org/abs/2409.02108
 
 This repository contains the results and trained models for deep-learning methods used in shadow detection, removal, and generation, as presented in our paper "Unveiling Deep Shadows: A Survey on Image and Video Shadow Detection, Removal, and Generation in the Era of Deep Learning." This paper presents a comprehensive survey of shadow detection, removal, and generation in images and videos within the deep learning landscape over the past decade, covering tasks, deep models, datasets, and evaluation metrics. Key contributions include a comprehensive survey of shadow analysis, standardization of experimental comparisons, exploration of the relationships among model size, speed, and performance, a cross-dataset generalization study, identification of open issues and future directions, and provision of publicly available resources to support further research.
 
+## Table of Contents
+
+1. [Highlights](#highlights)
+2. [Image Shadow Detection](#image-shadow-detection)
+   - [Comparing Image Shadow Detection Methods](#comparing-image-shadow-detection-methods)
+   - [Cross-Dataset Generalization Evaluation](#cross-dataset-generalization-evaluation)
+   - [Trained Models and Code](#trained-models-and-code)
+   - [Datasets](#datasets)
+   - [Metrics](#metrics)
+   - [Papers](#papers)
+3. [Video Shadow Detection](#video-shadow-detection)
+   - [Comparison of Video Shadow Detection Methods](#comparison-of-video-shadow-detection-methods)
+   - [Trained Models and Code](#trained-models-and-code-video)
+   - [Dataset](#dataset)
+   - [Metrics](#metrics-video)
+   - [Papers](#papers-video)
+4. [Instance Shadow Detection](#instance-shadow-detection)
+   - [Comparing Image Instance Shadow Detection Methods](#comparing-image-instance-shadow-detection-methods)
+   - [Cross-Dataset Generalization Evaluation](#cross-dataset-generalization-evaluation-instance)
+   - [Trained Models and Code](#trained-models-and-code-instance)
+   - [Datasets](#datasets-instance)
+   - [Metrics](#metrics-instance)
+   - [Papers](#papers-instance)
+5. [Image Shadow Removal](#image-shadow-removal)
+   - [Comparing Image Shadow Removal Methods](#comparing-image-shadow-removal-methods)
+   - [Cross-Dataset Generalization Evaluation](#cross-dataset-generalization-evaluation-removal)
+   - [Trained Models and Code](#trained-models-and-code-removal)
+   - [Datasets](#datasets-removal)
+   - [Metrics](#metrics-removal)
+   - [Papers](#papers-removal)
+6. [Document Shadow Removal](#document-shadow-removal)
+   - [Comparing Document Shadow Removal Methods](#comparing-document-shadow-removal-methods)
+   - [Trained Models and Code](#trained-models-and-code-document)
+   - [Dataset](#dataset-document)
+   - [Papers](#papers-document)
+7. [Facial Shadow Removal](#facial-shadow-removal)
+   - [Papers](#papers-facial)
+8. [Image Shadow Generation](#image-shadow-generation)
+   - [Papers](#papers-generation)
+9. [Bibtex](#bibtex)
+
 ## Highlights
 + A Comprehensive Survey of Shadow Analysis in the Deep Learning Era.
 + Fair Comparisons of the Existing Methods. Unified platform + newly refined datasets with corrected noisy labels and ground-truth images.
