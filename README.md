@@ -280,19 +280,19 @@ You can download the weights and find the code repositories for these models bel
 You can download the weights and find the code repositories for these models below:
 | Methods                                | Weights (256x256)  | Weights (512x512)  | Code  |
 |:--------------------------------------:|:------------------:|:------------------:|:------------------:|
-| ST-CGAN (CVPR 2018)                    | [link](#)          | [link](#)          | [link](#)          |
-| SP+M-Net (ICCV 2019)                   | [link](#)          | [link](#)          | [link](#)          |
-| Mask-ShadowGAN (ICCV 2019)             | [link](#)          | [link](#)          | [link](#)          |
-| DSC (TPAMI 2020)                       | [link](#)          | [link](#)          | [link](#)          |
-| Auto (CVPR 2021)                       | [link](#)          | [link](#)          | [link](#)          |
-| G2R-ShadowNet (CVPR 2021)              | [link](#)          | [link](#)          | [link](#)          |
-| DC-ShadowNet (ICCV 2021)               | [link](#)          | [link](#)          | [link](#)          |
-| BMNet (CVPR 2022)                      | [link](#)          | [link](#)          | [link](#)          |
-| SG-ShadowNet (ECCV 2022)               | [link](#)          | [link](#)          | [link](#)          |
-| ShadowDiffusion (CVPR 2023)            | [link](#)          | [link](#)          | [link](#)          |
-| ShadowFormer (AAAI 2023)               | [link](#)          | [link](#)          | [link](#)          |
-| ShadowMaskFormer (arXiv 2024)          | [link](#)          | [link](#)          | [link](#)          |
-| HomoFormer (CVPR 2024)                 | [link](#)          | [link](#)          | [link](#)          |
+| ST-CGAN (CVPR 2018)                    | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SR/SP+M-Net_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SR/SP+M-Net_512.zip)          | [link](#)          |
+| SP+M-Net (ICCV 2019)                   | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SR/SP+M-Net_256.zip)          | [link](#)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SR/SP+M-Net_512.zip)          |
+| Mask-ShadowGAN (ICCV 2019)             | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SR/Mask-ShadowGAN_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SR/Mask-ShadowGAN_512.zip)          | [link](#)          |
+| DSC (TPAMI 2020)                       | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SR/DSC_removal_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SR/DSC_removal_512.zip)          | [link](#)          |
+| Auto (CVPR 2021)                       | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SR/Auto_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SR/Auto_512.zip)          | [link](#)          |
+| G2R-ShadowNet (CVPR 2021)              | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SR/G2R-ShadowNet_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SR/G2R-ShadowNet_512.zip)          | [link](#)          |
+| DC-ShadowNet (ICCV 2021)               | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SR/DC-ShadowNet_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SR/DC-ShadowNet_512.zip)          | [link](#)          |
+| BMNet (CVPR 2022)                      | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SR/BMNet_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SR/BMNet_512.zip)          | [link](#)          |
+| SG-ShadowNet (ECCV 2022)               | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SR/SG-ShadowNet_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SR/SG-ShadowNet_512.zip)          | [link](#)          |
+| ShadowDiffusion (CVPR 2023)            | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SR/ShadowDiffusion_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SR/ShadowDiffusion_512.zip)          | [link](#)          |
+| ShadowFormer (AAAI 2023)               | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SR/ShadowFormer_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SR/ShadowFormer_512.zip)          | [link](#)          |
+| ShadowMaskFormer (arXiv 2024)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SR/ShadowMaskFormer_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SR/ShadowMaskFormer_512.zip)          | [link](#)          |
+| HomoFormer (CVPR 2024)                 | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SR/HomoFormer_256.zip)          | [link](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Weights_SR/HomoFormer_512.zip)          | [link](#)          |
 
 ### Datasets
 - SRD [Training](https://drive.google.com/file/d/1W8vBRJYDG9imMgr9I2XaA13tlFIEHOjS/view?pli=1), [Test](https://drive.google.com/file/d/1GTi4BmQ0SJ7diDMmf-b7x2VismmXtfTo/view), and [Masks](https://yuhaoliu7456.github.io/projects/RRL-Net/index.html)
