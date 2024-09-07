@@ -207,7 +207,7 @@ You can download the weights and find the code repositories for these models bel
 ### Papers
 1. **LISA**: Wang et al., "Instance shadow detection", CVPR, 2020. [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Instance_Shadow_Detection_CVPR_2020_paper.html)  
 2. **SSIS**: Wang et al., "Single-stage instance shadow detection with bidirectional relation learning", CVPR, 2021. [[paper]](https://openaccess.thecvf.com/content/CVPR2021/html/Wang_Single-Stage_Instance_Shadow_Detection_With_Bidirectional_Relation_Learning_CVPR_2021_paper.html)  
-3. **SSISv2**: Wang et al., "Instance shadow detection with a single-stage detector", TPAMI, 2023. [[paper]](https://ieeexplore.ieee.org/document/9632389)  
+3. **SSISv2**: Wang et al., "Instance shadow detection with a single-stage detector", TPAMI, 2023. [[paper]](https://arxiv.org/abs/2207.04614)  
 4. **ViShadow**: Xing et al., "Video instance shadow detection", arXiv, 2022. [[paper]](https://arxiv.org/abs/2211.12827)  
 
 
