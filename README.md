@@ -398,7 +398,7 @@ You can download the weights and find the code repositories for these models bel
 ## Video Shadow Removal
 
 ### Papers
-1. **PSTNet**: Chen et al., "Learning physical-spatiotemporal features for video shadow removal,” IEEE Trans. Circuits Syst. Video Technol., 2024. [[paper]](https://ieeexplore.ieee.org/abstract/document/10445327)
+1. **PSTNet**: Chen et al., "Learning physical-spatiotemporal features for video shadow removal,” TCSVT, 2024. [[paper]](https://ieeexplore.ieee.org/abstract/document/10445327)
 
 ## Document Shadow Removal
 
