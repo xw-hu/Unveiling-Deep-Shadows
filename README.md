@@ -399,7 +399,7 @@ You can download the weights and find the code repositories for these models bel
 - [DESOBA](https://github.com/bcmi/Object-Shadow-Generation-Dataset-DESOBA)
 
 ### Metrics
-- MAE: [this repository](https://github.com/xw-hu/Unveiling-Deep-Shadows/blob/main/eval_ShadowRemoval.py)
+- RMSE: [this repository](https://github.com/xw-hu/Unveiling-Deep-Shadows/blob/main/eval_ShadowRemoval.py)
 - PSNE: [this repository](https://github.com/xw-hu/Unveiling-Deep-Shadows/blob/main/eval_ShadowRemoval.py)
 - SSIM: [this repository](https://github.com/xw-hu/Unveiling-Deep-Shadows/blob/main/eval_ShadowRemoval.py)
 - LPIPS: [this repository](https://github.com/xw-hu/Unveiling-Deep-Shadows/blob/main/eval_ShadowRemoval.py)
