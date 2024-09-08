@@ -395,6 +395,10 @@ You can download the weights and find the code repositories for these models bel
 46. **SG-GAN+DBRM**: Zeng et al., "Semantic-guided adversarial diffusion model for self-supervised shadow removal", arXiv, 2024. [[paper]](https://arxiv.org/abs/2407.01104) 
 47. **Diff-Shadow**: Luo et al., "Diff-Shadow: Global-guided diffusion model for shadow removal", arXiv, 2024. [[paper]](https://arxiv.org/pdf/2407.16214)
 
+## Video Shadow Removal
+
+### Papers
+1. **PSTNet**: Chen et al., "Learning physical-spatiotemporal features for video shadow removal,” IEEE Trans. Circuits Syst. Video Technol., 2024. [[paper]](https://ieeexplore.ieee.org/abstract/document/10445327)
 
 ## Document Shadow Removal
 
