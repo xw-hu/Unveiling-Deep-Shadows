@@ -1,0 +1,12 @@
+imageio==2.34.1
+matplotlib==3.7.5
+medpy==0.5.1
+numpy==1.24.4
+opencv-python==4.9.0.80
+Pillow==10.3.0
+scikit-image==0.21.0
+scipy==1.10.1
+torch==2.0.1
+torchvision==0.15.2
+tqdm==4.66.4
+lpips==0.1.4
