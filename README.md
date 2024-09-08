@@ -136,7 +136,7 @@ You can download the weights and find the code repositories for these models bel
 - SRD [Training](https://drive.google.com/file/d/1W8vBRJYDG9imMgr9I2XaA13tlFIEHOjS/view?pli=1), [Test](https://drive.google.com/file/d/1GTi4BmQ0SJ7diDMmf-b7x2VismmXtfTo/view), and [Masks](https://yuhaoliu7456.github.io/projects/RRL-Net/index.html)
 
 ### Metric
-- BER: see this GitHub repository.
+- BER: [this repository](https://github.com/xw-hu/Unveiling-Deep-Shadows/blob/main/eval_ShadowDetection.py) 
 
 ### Papers
 1. **CNN-CRF**: 
