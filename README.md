@@ -10,16 +10,20 @@ This repository contains the results and trained models for deep-learning method
 
 ## Table of Contents
 
+## Table of Contents
+
 1. [Highlights](#highlights)
 2. [Image Shadow Detection](#image-shadow-detection)
    - [Comparing Image Shadow Detection Methods](#comparing-image-shadow-detection-methods)
    - [Cross-Dataset Generalization Evaluation](#cross-dataset-generalization-evaluation)
+   - [Qualitative Results](#qualitative-results-image-shadow-detection)
    - [Trained Models and Code](#trained-models-and-code)
    - [Datasets](#datasets)
    - [Metrics](#metrics)
    - [Papers](#papers)
 3. [Video Shadow Detection](#video-shadow-detection)
    - [Comparison of Video Shadow Detection Methods](#comparison-of-video-shadow-detection-methods)
+   - [Qualitative Results](#qualitative-results-video-shadow-detection)
    - [Trained Models and Code](#trained-models-and-code-1)
    - [Dataset](#dataset)
    - [Metrics](#metrics-1)
@@ -27,6 +31,7 @@ This repository contains the results and trained models for deep-learning method
 4. [Instance Shadow Detection](#instance-shadow-detection)
    - [Comparing Image Instance Shadow Detection Methods](#comparing-image-instance-shadow-detection-methods)
    - [Cross-Dataset Generalization Evaluation](#cross-dataset-generalization-evaluation-1)
+   - [Qualitative Results](#qualitative-results-instance-shadow-detection)
    - [Trained Models and Code](#trained-models-and-code-2)
    - [Datasets](#datasets-1)
    - [Metrics](#metrics-2)
@@ -34,12 +39,14 @@ This repository contains the results and trained models for deep-learning method
 5. [Image Shadow Removal](#image-shadow-removal)
    - [Comparing Image Shadow Removal Methods](#comparing-image-shadow-removal-methods)
    - [Cross-Dataset Generalization Evaluation](#cross-dataset-generalization-evaluation-2)
+   - [Qualitative Results](#qualitative-results-image-shadow-removal)
    - [Trained Models and Code](#trained-models-and-code-3)
    - [Datasets](#datasets-2)
    - [Metrics](#metrics-3)
    - [Papers](#papers-3)
 6. [Document Shadow Removal](#document-shadow-removal)
    - [Comparing Document Shadow Removal Methods](#comparing-document-shadow-removal-methods)
+   - [Qualitative Results](#qualitative-results-document-shadow-removal)
    - [Trained Models and Code](#trained-models-and-code-4)
    - [Dataset](#dataset)
    - [Papers](#papers-4)
@@ -48,6 +55,7 @@ This repository contains the results and trained models for deep-learning method
 8. [Image Shadow Generation](#image-shadow-generation)
    - [Papers](#papers-6)
 9. [Bibtex](#bibtex)
+
 
 ## Highlights
 + A Comprehensive Survey of Shadow Analysis in the Deep Learning Era.
