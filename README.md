@@ -107,7 +107,7 @@ This repository contains the results and trained models for deep-learning method
 - *: real-time shadow detector
 - #: extra supervision from other methods
 
-### Cross-dataset generalization evaluation. Trained on SBU-Refine and tested on SRD
+### Cross-dataset generalization evaluation trained on SBU-Refine and tested on SRD
 
 | Input Size | Metric | DSC (CVPR 2018, TPAMI 2020) | BDRAR (ECCV 2018) | DSDNet# (CVPR 2019) | MTMT-Net$ (CVPR 2020) | FDRNet (ICCV 2021) | FSDNet* (TIP 2021) | ECA (MM 2021) | SDDNet (MM 2023) |
 |:----------:|:-------:|:------------------------:|:---------------:|:-----------------:|:-------------------:|:----------------:|:----------------:|:-----------:|:--------------:|
@@ -261,7 +261,7 @@ You can download the weights and find the code repositories for these models bel
 | SSISv2 (TPAMI 2023)     | 17.7          | 15.0          | 34.5              | 37.2              | 31.0             | 28.4             | 76.77      | 1.91              |
 
 
-### Cross-dataset generalization evaluation. Trained on SOBA and tested on SOBA-VID
+### Cross-dataset generalization evaluation trained on SOBA and tested on SOBA-VID
 
 | Methods                        | $SOAP_{segm}$ | $SOAP_{bbox}$ | Asso. $AP_{segm}$ | Asso. $AP_{bbox}$ | Ins. $AP_{segm}$ | Ins. $AP_{bbox}$ |
 |:-------------------------------:|:-------------:|:-------------:|:-----------------:|:-----------------:|:----------------:|:----------------:|
@@ -352,7 +352,7 @@ You can download the weights and find the code repositories for these models bel
 - The PyTorch implementation of [DSC](https://github.com/stevewongv/DSC-PyTorch/tree/master) for shadow removal based on [DSC (Caffe)](https://github.com/xw-hu/DSC).
 - The unofficial PyTorch implementation of [ST-CGAN](https://github.com/IsHYuhi/ST-CGAN_Stacked_Conditional_Generative_Adversarial_Networks?tab=readme-ov-file).
 
-### Cross-dataset generalization evaluation. Trained on SRD and tested on DESOBA
+### Cross-dataset generalization evaluation trained on SRD and tested on DESOBA
 
 | Input Size | Metric | ST-CGAN (CVPR 2018) | SP+M-Net (ICCV 2019) | Mask-ShadowGAN (ICCV 2019) | DSC (TPAMI 2020) | Auto (CVPR 2021) | G2R-ShadowNet (CVPR 2021) | DC-ShadowNet (ICCV 2021) | BMNet (CVPR 2022) | SG-ShadowNet (ECCV 2022) | ShadowDiffusion (CVPR 2023) | ShadowFormer (AAAI 2023) | ShadowMaskFormer (arXiv 2024) | HomoFormer (CVPR 2024) |
 |:----------:|:-------:|:-----------------:|:--------------------:|:-------------------------:|:---------------:|:---------------:|:-------------------------:|:-----------------------:|:----------------:|:-----------------------:|:-------------------------:|:----------------------:|:--------------------------:|:-----------------------:|
