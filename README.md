@@ -25,7 +25,7 @@ This repository contains the results and trained models for deep-learning method
    - [Weights and Code](#weights-and-code-1)
    - [Datasets](#datasets-1)
    - [Metric](#metric-1)
-   - [Papers](#papers-1)
+   - [Papers](#papers-image-shadow-detection)
 
 2. [**Video Shadow Detection**](#video-shadow-detection)
    - [Comparison of video shadow detection methods on ViSha](#comparison-of-video-shadow-detection-methods-on-visha)
@@ -33,7 +33,7 @@ This repository contains the results and trained models for deep-learning method
    - [Weights and Code](#weights-and-code-2)
    - [Dataset](#dataset-2)
    - [Metrics](#metrics-2)
-   - [Papers](#papers-2)
+   - [Papers](#papers-video-shadow-detection)
 
 3. [**Instance Shadow Detection**](#instance-shadow-detection)
    - [Comparing image instance shadow detection methods on the SOBA-testing set](#comparing-image-instance-shadow-detection-methods-on-the-soba-testing-set)
@@ -43,7 +43,7 @@ This repository contains the results and trained models for deep-learning method
    - [Weights and Code](#weights-and-code-3)
    - [Datasets](#datasets-3)
    - [Metrics](#metrics-3)
-   - [Papers](#papers-3)
+   - [Papers](#papers-instance-shadow-detection)
 
 4. [**Image Shadow Removal**](#image-shadow-removal)
    - [Comparing image shadow removal methods on SRD and ISTD+](#comparing-image-shadow-removal-methods-on-srd-and-istd)
@@ -52,26 +52,25 @@ This repository contains the results and trained models for deep-learning method
    - [Weights and Code](#weights-and-code-4)
    - [Datasets](#datasets-4)
    - [Metrics](#metrics-4)
-   - [Papers](#papers-4)
+   - [Papers](#papers-image-shadow-removal)
 
 5. [**Video Shadow Removal**](#video-shadow-removal)
-   - [Papers](#papers-5)
+   - [Papers](#papers-video-shadow-removal)
 
 6. [**Document Shadow Removal**](#document-shadow-removal)
    - [Comparing document shadow removal methods on RDD](#comparing-document-shadow-removal-methods-on-rdd)
    - [Qualitative Results](#qualitative-results-5)
    - [Weights and Code](#weights-and-code-5)
    - [Dataset](#dataset-5)
-   - [Papers](#papers-6)
+   - [Papers](#papers-document-shadow-removal)
 
 7. [**Facial Shadow Removal**](#facial-shadow-removal)
-   - [Papers](#papers-7)
+   - [Papers](#papers-facial-shadow-removal)
 
 8. [**Image Shadow Generation**](#image-shadow-generation)
-   - [Papers](#papers-8)
+   - [Papers](#papers-image-shadow-generation)
 
 9. [**Bibtex**](#bibtex)
-
 
 
 ## Image Shadow Detection
