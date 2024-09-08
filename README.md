@@ -61,7 +61,7 @@ This repository contains the results and trained models for deep-learning method
   - [Papers](#papers-6)
 - [Image Shadow Generation](#image-shadow-generation)
   - [Papers](#papers-7)
-
+- [Bibtex](#bibtex)
 
 ## Image Shadow Detection
 
