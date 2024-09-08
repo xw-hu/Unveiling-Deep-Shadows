@@ -237,7 +237,7 @@ You can download the weights and find the code repositories for these models bel
 | SSIS (CVPR 2021)       | 29.9          | 26.8          | 52.3              | 59.2              | 43.5             | 41.5             | 57.87      | 5.83              |
 | SSISv2 (TPAMI 2023)     | 35.3          | 29.0          | 59.2              | 63.0              | 50.2             | 44.4             | 76.77      | 5.17              |
 
-### Comparing image instance shadow detection methods on the SOBA-challenge set: [Results](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/InstanceShadowDetection_SOBA-challenge.zip) 
+### Comparing image instance shadow detection methods on the SOBA-challenge set
 
 | Methods                        | $SOAP_{segm}$ | $SOAP_{bbox}$ | Asso. $AP_{segm}$ | Asso. $AP_{bbox}$ | Ins. $AP_{segm}$ | Ins. $AP_{bbox}$ | Param. (M) | Infer. (images/s) |
 |:-------------------------------:|:-------------:|:-------------:|:-----------------:|:-----------------:|:----------------:|:----------------:|:----------:|:-----------------:|
@@ -258,7 +258,8 @@ You can download the weights and find the code repositories for these models bel
 
 - #### Results for SOBA and SOBA-challenge Datasets:
 
-   - [Results-Part1](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/InstanceShadowDetection_SOBA.zip)
+   - [Results-SOBA](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/InstanceShadowDetection_SOBA.zip)
+   - [Results-SBOA-challenge](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/InstanceShadowDetection_SOBA-challenge.zip)
 
 - #### Cross-Dataset Generalization Evaluation:
 
@@ -297,7 +298,7 @@ You can download the weights and find the code repositories for these models bel
 |:--------------------------------------:|
 |Shadow removal methods on the SRD (left) and ISTD+ (right) datasets: accuracy, parameters (indicated by the area of the bubbles), and speed.|
 
-### Comparing image shadow removal methods on SRD and ISTD+: [Results-Part1](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowRemoval-1.zip), [Results-Part2](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowRemoval-2.zip), [Results-Part3](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowRemoval-3.zip)
+### Comparing image shadow removal methods on SRD and ISTD+
 
 | Input Size | Methods                                | RMSE (SRD) (↓) | PSNR (SRD) (↑) | SSIM (SRD) (↑) | LPIPS (SRD) (↓) | RMSE (ISTD+) (↓) | PSNR (ISTD+) (↑) | SSIM (ISTD+) (↑) | LPIPS (ISTD+) (↓) | Params (M) | Infer. (images/s) |
 |:----------:|:--------------------------------------:|:---------:|:----------:|:----------:|:-----------:|:-----------:|:------------:|:------------:|:-------------:|:----------:|:-----------------:|
@@ -336,7 +337,7 @@ You can download the weights and find the code repositories for these models bel
 - The PyTorch implementation of [DSC](https://github.com/stevewongv/DSC-PyTorch/tree/master) for shadow removal based on [DSC (Caffe)](https://github.com/xw-hu/DSC).
 - The unofficial PyTorch implementation of [ST-CGAN](https://github.com/IsHYuhi/ST-CGAN_Stacked_Conditional_Generative_Adversarial_Networks?tab=readme-ov-file).
 
-### Cross-dataset generalization evaluation. Trained on SRD and tested on DESOBA: [Results-Part1](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowRemoval_CrossVal-1.zip), [Results-Part2](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowRemoval_CrossVal-2.zip), [Results-Part3](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowRemoval_CrossVal-3.zip), [Results-Part4](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowRemoval_CrossVal-4.zip), [Results-Part5](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowRemoval_CrossVal-5.zip)
+### Cross-dataset generalization evaluation. Trained on SRD and tested on DESOBA
 
 | Input Size | Metric | ST-CGAN (CVPR 2018) | SP+M-Net (ICCV 2019) | Mask-ShadowGAN (ICCV 2019) | DSC (TPAMI 2020) | Auto (CVPR 2021) | G2R-ShadowNet (CVPR 2021) | DC-ShadowNet (ICCV 2021) | BMNet (CVPR 2022) | SG-ShadowNet (ECCV 2022) | ShadowDiffusion (CVPR 2023) | ShadowFormer (AAAI 2023) | ShadowMaskFormer (arXiv 2024) | HomoFormer (CVPR 2024) |
 |:----------:|:-------:|:-----------------:|:--------------------:|:-------------------------:|:---------------:|:---------------:|:-------------------------:|:-----------------------:|:----------------:|:-----------------------:|:-------------------------:|:----------------------:|:--------------------------:|:-----------------------:|
@@ -349,6 +350,26 @@ You can download the weights and find the code repositories for these models bel
 **Notes**:
 - DESOBA only labels cast shadows and we set the self shadows on objects as "don’t care" in evaluation. 
 
+
+### Results
+
+- #### Results for SRD and ISTD+ Datasets:
+
+   - [Results-Part1](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowRemoval-1.zip)
+   - [Results-Part2](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowRemoval-2.zip)
+   - [Results-Part3](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowRemoval-3.zip)
+
+- #### Cross-Dataset Generalization Evaluation:
+
+   Trained on SRD and tested on DESOBA dataset:
+   
+   - [Results-Part1](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowRemoval_CrossVal-1.zip)
+   - [Results-Part2](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowRemoval_CrossVal-2.zip)
+   - [Results-Part3](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowRemoval_CrossVal-3.zip)
+   - [Results-Part4](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowRemoval_CrossVal-4.zip)
+   - [Results-Part5](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowRemoval_CrossVal-5.zip)
+ 
+  
 ### Trained Models and Code
 You can download the weights and find the code repositories for these models below:
 | Methods                                | Weights (256x256)  | Weights (512x512)  | Code  |
@@ -434,7 +455,7 @@ You can download the weights and find the code repositories for these models bel
 
 ## Document Shadow Removal
 
-### Comparing document shadow removal methods on RDD: [Results](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/DocShadowRemoval.zip) 
+### Comparing document shadow removal methods on RDD 
 
 | Methods                                  | RMSE (↓)  | PSNR (↑)  | SSIM (↑)  | LPIPS (↓)  | Param.(M) | Infer. (images/s) |
 |:----------------------------------------:|:---------:|:---------:|:---------:|:----------:|:---------:|:-----------------:|
@@ -445,6 +466,12 @@ You can download the weights and find the code repositories for these models bel
 - Evaluation on an NVIDIA GeForce RTX 4090 GPU
 - LPIPS uses VGG as the extractor.
 
+### Results
+
+- #### Results for RDD Dataset:
+
+   - [Results](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/DocShadowRemoval.zip) 
+ 
 ### Trained Models and Code
 You can download the weights and find the code repositories for these models below:
 | Methods                                  | Weights  | Code  |
