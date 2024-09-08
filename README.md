@@ -31,8 +31,8 @@ This repository contains the results and trained models for deep-learning method
    - [Comparison of video shadow detection methods on ViSha](#comparison-of-video-shadow-detection-methods-on-visha)
    - [Qualitative Results](#qualitative-results-2)
    - [Weights and Code](#weights-and-code-2)
-   - [Dataset](#dataset)
-   - [Metrics](#metrics)
+   - [Dataset](#dataset-2)
+   - [Metrics](#metrics-2)
    - [Papers](#papers-2)
 
 3. [**Instance Shadow Detection**](#instance-shadow-detection)
@@ -41,8 +41,8 @@ This repository contains the results and trained models for deep-learning method
    - [Cross-dataset generalization evaluation. Trained on SOBA and tested on SOBA-VID](#cross-dataset-generalization-evaluation-trained-on-soba-and-tested-on-soba-vid)
    - [Qualitative Results](#qualitative-results-3)
    - [Weights and Code](#weights-and-code-3)
-   - [Datasets](#datasets-2)
-   - [Metrics](#metrics-2)
+   - [Datasets](#datasets-3)
+   - [Metrics](#metrics-3)
    - [Papers](#papers-3)
 
 4. [**Image Shadow Removal**](#image-shadow-removal)
@@ -50,8 +50,8 @@ This repository contains the results and trained models for deep-learning method
    - [Cross-dataset generalization evaluation. Trained on SRD and tested on DESOBA](#cross-dataset-generalization-evaluation-trained-on-srd-and-tested-on-desoba)
    - [Qualitative Results](#qualitative-results-4)
    - [Weights and Code](#weights-and-code-4)
-   - [Datasets](#datasets-3)
-   - [Metrics](#metrics-3)
+   - [Datasets](#datasets-4)
+   - [Metrics](#metrics-4)
    - [Papers](#papers-4)
 
 5. [**Video Shadow Removal**](#video-shadow-removal)
@@ -61,7 +61,7 @@ This repository contains the results and trained models for deep-learning method
    - [Comparing document shadow removal methods on RDD](#comparing-document-shadow-removal-methods-on-rdd)
    - [Qualitative Results](#qualitative-results-5)
    - [Weights and Code](#weights-and-code-5)
-   - [Dataset](#dataset-2)
+   - [Dataset](#dataset-5)
    - [Papers](#papers-6)
 
 7. [**Facial Shadow Removal**](#facial-shadow-removal)
@@ -71,6 +71,7 @@ This repository contains the results and trained models for deep-learning method
    - [Papers](#papers-8)
 
 9. [**Bibtex**](#bibtex)
+
 
 
 ## Image Shadow Detection
