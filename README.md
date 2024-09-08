@@ -17,14 +17,14 @@ This repository contains the results and trained models for deep-learning method
    - [Comparing Image Shadow Detection Methods](#comparing-image-shadow-detection-methods)
    - [Cross-Dataset Generalization Evaluation](#cross-dataset-generalization-evaluation)
    - [Qualitative Results](#qualitative-results-1)
-   - [Trained Models and Code](#trained-models-and-code)
+   - [Weights and Code](#trained-models-and-code)
    - [Datasets](#datasets)
    - [Metrics](#metrics)
    - [Papers](#papers)
 3. [Video Shadow Detection](#video-shadow-detection)
    - [Comparison of Video Shadow Detection Methods](#comparison-of-video-shadow-detection-methods)
    - [Qualitative Results](#qualitative-results-2)
-   - [Trained Models and Code](#trained-models-and-code-1)
+   - [Weights and Code](#trained-models-and-code-1)
    - [Dataset](#dataset)
    - [Metrics](#metrics-1)
    - [Papers](#papers-1)
@@ -32,7 +32,7 @@ This repository contains the results and trained models for deep-learning method
    - [Comparing Image Instance Shadow Detection Methods](#comparing-image-instance-shadow-detection-methods)
    - [Cross-Dataset Generalization Evaluation](#cross-dataset-generalization-evaluation-1)
    - [Qualitative Results](#qualitative-results-3)
-   - [Trained Models and Code](#trained-models-and-code-2)
+   - [Weights and Code](#trained-models-and-code-2)
    - [Datasets](#datasets-1)
    - [Metrics](#metrics-2)
    - [Papers](#papers-2)
@@ -40,14 +40,14 @@ This repository contains the results and trained models for deep-learning method
    - [Comparing Image Shadow Removal Methods](#comparing-image-shadow-removal-methods)
    - [Cross-Dataset Generalization Evaluation](#cross-dataset-generalization-evaluation-2)
    - [Qualitative Results](#qualitative-results-4)
-   - [Trained Models and Code](#trained-models-and-code-3)
+   - [Weights and Code](#trained-models-and-code-3)
    - [Datasets](#datasets-2)
    - [Metrics](#metrics-3)
    - [Papers](#papers-3)
 6. [Document Shadow Removal](#document-shadow-removal)
    - [Comparing Document Shadow Removal Methods](#comparing-document-shadow-removal-methods)
    - [Qualitative Results](#qualitative-results-5)
-   - [Trained Models and Code](#trained-models-and-code-4)
+   - [Weights and Code](#trained-models-and-code-4)
    - [Dataset](#dataset)
    - [Papers](#papers-4)
 7. [Facial Shadow Removal](#facial-shadow-removal)
@@ -120,7 +120,7 @@ This repository contains the results and trained models for deep-learning method
    
    - [Cross-Dataset Results](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowDetection_CrossVal.zip)
 
-### Trained Models and Code
+### Weights and Code
 You can download the weights and find the code repositories for these models below:
 | Methods                                  | Weights (256x256)  | Weights (512x512)  | Code  |
 |:----------------------------------------:|:------------------:|:------------------:|:------------------:|
@@ -202,7 +202,7 @@ You can download the weights and find the code repositories for these models bel
 
    - [Results](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/VideoShadowDetection.zip)
   
-### Trained Models and Code
+### Weights and Code
 You can download the weights and find the code repositories for these models below:
 | Methods                       | Weights  | Code  |
 |:-----------------------------:|:------------------:|:------------------:|
@@ -276,7 +276,7 @@ You can download the weights and find the code repositories for these models bel
    - [Cross-Dataset Results](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/InstanceShadowDetection_SOBA-VID_CrossVal.zip)
 
 
-### Trained Models and Code
+### Weights and Code
 You can download the weights and find the code repositories for these models below:
 | Methods                        | Weights  | Code  |
 |:-------------------------------:|:------------------:|:------------------:|
@@ -378,7 +378,7 @@ You can download the weights and find the code repositories for these models bel
    - [Results-Part5](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowRemoval_CrossVal-5.zip)
  
   
-### Trained Models and Code
+### Weights and Code
 You can download the weights and find the code repositories for these models below:
 | Methods                                | Weights (256x256)  | Weights (512x512)  | Code  |
 |:--------------------------------------:|:------------------:|:------------------:|:------------------:|
@@ -480,7 +480,7 @@ You can download the weights and find the code repositories for these models bel
 
    - [Results](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/DocShadowRemoval.zip) 
  
-### Trained Models and Code
+### Weights and Code
 You can download the weights and find the code repositories for these models below:
 | Methods                                  | Weights  | Code  |
 |:----------------------------------------:|:------------------:|:------------------:|
