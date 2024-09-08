@@ -99,7 +99,7 @@ This repository contains the results and trained models for deep-learning method
 | 256x256    | BER (↓)   | 11.10                    | 9.13            | 10.29             | 9.97                | 11.82            | 12.13            | 11.97        | 8.64          |
 | 512x512    | BER (↓)   | 11.62                    | 8.53            | 8.92              | 9.19                | 8.81             | 11.94            | 12.71        | 7.65          |
 
-### Results
+### Qualitative Results
 
 - #### Results for SBU-Refine and CUHK-Shadow Datasets:
 
@@ -188,7 +188,7 @@ You can download the weights and find the code repositories for these models bel
 - $: additional training data
 - *: real-time shadow detector
 
-### Results
+### Qualitative Results
 
 - #### Results for ViSha Dataset:
 
@@ -254,7 +254,7 @@ You can download the weights and find the code repositories for these models bel
 | SSIS (CVPR 2021)               | 32.1          | 26.6          | 58.6              | 64.0              | 46.4             | 41.0             |
 | SSISv2 (TPAMI 2023)            | 37.0          | 26.7          | 63.6              | 67.5              | 51.8             | 42.8             |
 
-### Results
+### Qualitative Results
 
 - #### Results for SOBA and SOBA-challenge Datasets:
 
@@ -351,7 +351,7 @@ You can download the weights and find the code repositories for these models bel
 - DESOBA only labels cast shadows and we set the self shadows on objects as "don’t care" in evaluation. 
 
 
-### Results
+### Qualitative Results
 
 - #### Results for SRD and ISTD+ Datasets:
 
@@ -466,7 +466,7 @@ You can download the weights and find the code repositories for these models bel
 - Evaluation on an NVIDIA GeForce RTX 4090 GPU
 - LPIPS uses VGG as the extractor.
 
-### Results
+### Qualitative Results
 
 - #### Results for RDD Dataset:
 
