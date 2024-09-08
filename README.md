@@ -214,9 +214,9 @@ You can download the weights and find the code repositories for these models bel
 - [ViSha](https://erasernut.github.io/ViSha.html)
 
 ### Metrics
-- TS: see this GitHub repository.
-- IoU: see this GitHub repository.
-- BER: see this GitHub repository.
+- TS: [this repository](https://github.com/xw-hu/Unveiling-Deep-Shadows/blob/main/eval_VideoShadowDetection.py) \& [pre-computed optical flow](https://github.com/xw-hu/Unveiling-Deep-Shadows/blob/main/generate_opticalflow_for_temporal_stability.py)
+- IoU: [this repository](https://github.com/xw-hu/Unveiling-Deep-Shadows/blob/main/eval_VideoShadowDetection.py)
+- BER: [this repository](https://github.com/xw-hu/Unveiling-Deep-Shadows/blob/main/eval_VideoShadowDetection.py)
 
 ### Papers
 1. **TVSD-Net**: Chen et al., "Triple-cooperative video shadow detection", CVPR, 2021. [[paper]](https://openaccess.thecvf.com/content/CVPR2021/html/Chen_Triple-Cooperative_Video_Shadow_Detection_CVPR_2021_paper.html)  
