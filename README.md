@@ -8,55 +8,6 @@ https://arxiv.org/abs/2409.02108
 
 This repository contains the results and trained models for deep-learning methods used in shadow detection, removal, and generation, as presented in our paper "Unveiling Deep Shadows: A Survey on Image and Video Shadow Detection, Removal, and Generation in the Era of Deep Learning." This paper presents a comprehensive survey of shadow detection, removal, and generation in images and videos within the deep learning landscape over the past decade, covering tasks, deep models, datasets, and evaluation metrics. Key contributions include a comprehensive survey of shadow analysis, standardization of experimental comparisons, exploration of the relationships among model size, speed, and performance, a cross-dataset generalization study, identification of open issues and future directions, and provision of publicly available resources to support further research.
 
-## Table of Contents
-
-## Table of Contents
-
-1. [Highlights](#highlights)
-2. [Image Shadow Detection](#image-shadow-detection)
-   - [Comparing Image Shadow Detection Methods](#comparing-image-shadow-detection-methods)
-   - [Cross-Dataset Generalization Evaluation](#cross-dataset-generalization-evaluation)
-   - [Qualitative Results](#qualitative-results-1)
-   - [Weights and Code](#trained-models-and-code)
-   - [Datasets](#datasets)
-   - [Metrics](#metrics)
-   - [Papers](#papers)
-3. [Video Shadow Detection](#video-shadow-detection)
-   - [Comparison of Video Shadow Detection Methods](#comparison-of-video-shadow-detection-methods)
-   - [Qualitative Results](#qualitative-results-2)
-   - [Weights and Code](#trained-models-and-code-1)
-   - [Dataset](#dataset)
-   - [Metrics](#metrics-1)
-   - [Papers](#papers-1)
-4. [Instance Shadow Detection](#instance-shadow-detection)
-   - [Comparing Image Instance Shadow Detection Methods](#comparing-image-instance-shadow-detection-methods)
-   - [Cross-Dataset Generalization Evaluation](#cross-dataset-generalization-evaluation-1)
-   - [Qualitative Results](#qualitative-results-3)
-   - [Weights and Code](#trained-models-and-code-2)
-   - [Datasets](#datasets-1)
-   - [Metrics](#metrics-2)
-   - [Papers](#papers-2)
-5. [Image Shadow Removal](#image-shadow-removal)
-   - [Comparing Image Shadow Removal Methods](#comparing-image-shadow-removal-methods)
-   - [Cross-Dataset Generalization Evaluation](#cross-dataset-generalization-evaluation-2)
-   - [Qualitative Results](#qualitative-results-4)
-   - [Weights and Code](#trained-models-and-code-3)
-   - [Datasets](#datasets-2)
-   - [Metrics](#metrics-3)
-   - [Papers](#papers-3)
-6. [Document Shadow Removal](#document-shadow-removal)
-   - [Comparing Document Shadow Removal Methods](#comparing-document-shadow-removal-methods)
-   - [Qualitative Results](#qualitative-results-5)
-   - [Weights and Code](#trained-models-and-code-4)
-   - [Dataset](#dataset)
-   - [Papers](#papers-4)
-7. [Facial Shadow Removal](#facial-shadow-removal)
-   - [Papers](#papers-5)
-8. [Image Shadow Generation](#image-shadow-generation)
-   - [Papers](#papers-6)
-9. [Bibtex](#bibtex)
-
-
 ## Highlights
 + A Comprehensive Survey of Shadow Analysis in the Deep Learning Era.
 + Fair Comparisons of the Existing Methods. Unified platform + newly refined datasets with corrected noisy labels and ground-truth images.
@@ -64,6 +15,62 @@ This repository contains the results and trained models for deep-learning method
 + Cross-Dataset Generalization Study. Assess the generalization capability of deep models across diverse datasets.
 + Overview of Open Issues and Future Directions with AIGC and Large Models.
 + Publicly Available Results, Trained Models, and Evaluation Metrics.
+
+## Table of Contents
+
+1. [**Image Shadow Detection**](#image-shadow-detection)
+   - [Comparing image shadow detection methods on SBU-Refine and CUHK-Shadow](#comparing-image-shadow-detection-methods-on-sbu-refine-and-cuhk-shadow)
+   - [Cross-dataset generalization evaluation. Trained on SBU-Refine and tested on SRD](#cross-dataset-generalization-evaluation-trained-on-sbu-refine-and-tested-on-srd)
+   - [Qualitative Results](#qualitative-results-1)
+   - [Weights and Code](#weights-and-code-1)
+   - [Datasets](#datasets-1)
+   - [Metric](#metric-1)
+   - [Papers](#papers-1)
+
+2. [**Video Shadow Detection**](#video-shadow-detection)
+   - [Comparison of video shadow detection methods on ViSha](#comparison-of-video-shadow-detection-methods-on-visha)
+   - [Qualitative Results](#qualitative-results-2)
+   - [Weights and Code](#weights-and-code-2)
+   - [Dataset](#dataset)
+   - [Metrics](#metrics)
+   - [Papers](#papers-2)
+
+3. [**Instance Shadow Detection**](#instance-shadow-detection)
+   - [Comparing image instance shadow detection methods on the SOBA-testing set](#comparing-image-instance-shadow-detection-methods-on-the-soba-testing-set)
+   - [Comparing image instance shadow detection methods on the SOBA-challenge set](#comparing-image-instance-shadow-detection-methods-on-the-soba-challenge-set)
+   - [Cross-dataset generalization evaluation. Trained on SOBA and tested on SOBA-VID](#cross-dataset-generalization-evaluation-trained-on-soba-and-tested-on-soba-vid)
+   - [Qualitative Results](#qualitative-results-3)
+   - [Weights and Code](#weights-and-code-3)
+   - [Datasets](#datasets-2)
+   - [Metrics](#metrics-2)
+   - [Papers](#papers-3)
+
+4. [**Image Shadow Removal**](#image-shadow-removal)
+   - [Comparing image shadow removal methods on SRD and ISTD+](#comparing-image-shadow-removal-methods-on-srd-and-istd)
+   - [Cross-dataset generalization evaluation. Trained on SRD and tested on DESOBA](#cross-dataset-generalization-evaluation-trained-on-srd-and-tested-on-desoba)
+   - [Qualitative Results](#qualitative-results-4)
+   - [Weights and Code](#weights-and-code-4)
+   - [Datasets](#datasets-3)
+   - [Metrics](#metrics-3)
+   - [Papers](#papers-4)
+
+5. [**Video Shadow Removal**](#video-shadow-removal)
+   - [Papers](#papers-5)
+
+6. [**Document Shadow Removal**](#document-shadow-removal)
+   - [Comparing document shadow removal methods on RDD](#comparing-document-shadow-removal-methods-on-rdd)
+   - [Qualitative Results](#qualitative-results-5)
+   - [Weights and Code](#weights-and-code-5)
+   - [Dataset](#dataset-2)
+   - [Papers](#papers-6)
+
+7. [**Facial Shadow Removal**](#facial-shadow-removal)
+   - [Papers](#papers-7)
+
+8. [**Image Shadow Generation**](#image-shadow-generation)
+   - [Papers](#papers-8)
+
+9. [**Bibtex**](#bibtex)
 
 
 ## Image Shadow Detection
