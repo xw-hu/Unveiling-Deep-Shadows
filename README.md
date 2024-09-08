@@ -60,7 +60,7 @@ This repository contains the results and trained models for deep-learning method
 
 ## Image Shadow Detection
 
-### Comparing image shadow detection methods on SBU-Refine and CUHK-Shadow: [Results-Part1](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowDetection-1.zip), [Results-Part2](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowDetection-2.zip) 
+### Comparing image shadow detection methods on SBU-Refine and CUHK-Shadow
 
 | ![Cannot find!](./detection.png) |
 |:--------------------------------------:|
@@ -92,12 +92,25 @@ This repository contains the results and trained models for deep-learning method
 - *: real-time shadow detector
 - #: extra supervision from other methods
 
-### Cross-dataset generalization evaluation. Trained on SBU-Refine and tested on SRD: [Results](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowDetection_CrossVal.zip)
+### Cross-dataset generalization evaluation. Trained on SBU-Refine and tested on SRD
 
 | Input Size | Metric | DSC (CVPR 2018, TPAMI 2020) | BDRAR (ECCV 2018) | DSDNet# (CVPR 2019) | MTMT-Net$ (CVPR 2020) | FDRNet (ICCV 2021) | FSDNet* (TIP 2021) | ECA (MM 2021) | SDDNet (MM 2023) |
 |:----------:|:-------:|:------------------------:|:---------------:|:-----------------:|:-------------------:|:----------------:|:----------------:|:-----------:|:--------------:|
 | 256x256    | BER (↓)   | 11.10                    | 9.13            | 10.29             | 9.97                | 11.82            | 12.13            | 11.97        | 8.64          |
 | 512x512    | BER (↓)   | 11.62                    | 8.53            | 8.92              | 9.19                | 8.81             | 11.94            | 12.71        | 7.65          |
+
+### Results
+
+- #### Results for SBU-Refine and CUHK-Shadow Datasets:
+
+   - [Results-Part1](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowDetection-1.zip)
+   - [Results-Part2](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowDetection-2.zip)
+
+- #### Cross-Dataset Generalization Evaluation:
+
+   Trained on SBU-Refine and tested on SRD dataset:
+   
+   - [Cross-Dataset Results](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/ShadowDetection_CrossVal.zip)
 
 ### Trained Models and Code
 You can download the weights and find the code repositories for these models below:
@@ -161,7 +174,7 @@ You can download the weights and find the code repositories for these models bel
 
 
 ## Video Shadow Detection
-### Comparison of video shadow detection methods on ViSha: [Results](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/VideoShadowDetection.zip) 
+### Comparison of video shadow detection methods on ViSha
 | Methods                       | BER (↓) | IoU [%] (↑) | TS [%] (↑) | AVG (↑) | Param. (M) | Infer. (frames/s) |
 |:-----------------------------:|:----------------:|:------------------:|:-----------------:|:--------------:|:----------:|:-----------------:|
 | TVSD-Net (CVPR 2021) | 14.21            | 56.36              | 22.69             | 39.53          | 60.83      | 15.50             |
@@ -175,6 +188,12 @@ You can download the weights and find the code repositories for these models bel
 - $: additional training data
 - *: real-time shadow detector
 
+### Results
+
+- #### Results for ViSha Dataset:
+
+   - [Results](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/VideoShadowDetection.zip)
+  
 ### Trained Models and Code
 You can download the weights and find the code repositories for these models below:
 | Methods                       | Weights  | Code  |
@@ -210,7 +229,7 @@ You can download the weights and find the code repositories for these models bel
   
 ## Instance Shadow Detection
 
-### Comparing image instance shadow detection methods on the SOBA-testing set: [Results](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/InstanceShadowDetection_SOBA.zip)
+### Comparing image instance shadow detection methods on the SOBA-testing set
 
 | Methods                        | $SOAP_{segm}$ | $SOAP_{bbox}$ | Asso. $AP_{segm}$ | Asso. $AP_{bbox}$ | Ins. $AP_{segm}$ | Ins. $AP_{bbox}$ | Param. (M) | Infer. (images/s) |
 |:-------------------------------:|:-------------:|:-------------:|:-----------------:|:-----------------:|:----------------:|:----------------:|:----------:|:-----------------:|
@@ -227,13 +246,26 @@ You can download the weights and find the code repositories for these models bel
 | SSISv2 (TPAMI 2023)     | 17.7          | 15.0          | 34.5              | 37.2              | 31.0             | 28.4             | 76.77      | 1.91              |
 
 
-### Cross-dataset generalization evaluation. Trained on SOBA and tested on SOBA-VID: [Results](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/InstanceShadowDetection_SOBA-VID_CrossVal.zip)
+### Cross-dataset generalization evaluation. Trained on SOBA and tested on SOBA-VID
 
 | Methods                        | $SOAP_{segm}$ | $SOAP_{bbox}$ | Asso. $AP_{segm}$ | Asso. $AP_{bbox}$ | Ins. $AP_{segm}$ | Ins. $AP_{bbox}$ |
 |:-------------------------------:|:-------------:|:-------------:|:-----------------:|:-----------------:|:----------------:|:----------------:|
 | LISA (CVPR 2020)               | 22.6          | 21.1          | 44.2              | 53.6              | 39.0             | 37.3             |
 | SSIS (CVPR 2021)               | 32.1          | 26.6          | 58.6              | 64.0              | 46.4             | 41.0             |
 | SSISv2 (TPAMI 2023)            | 37.0          | 26.7          | 63.6              | 67.5              | 51.8             | 42.8             |
+
+### Results
+
+- #### Results for SOBA and SOBA-challenge Datasets:
+
+   - [Results-Part1](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/InstanceShadowDetection_SOBA.zip)
+
+- #### Cross-Dataset Generalization Evaluation:
+
+   Trained on SOBA and tested on SOBA-VID dataset:
+   
+   - [Cross-Dataset Results](https://github.com/xw-hu/Unveiling-Deep-Shadows/releases/download/Results/InstanceShadowDetection_SOBA-VID_CrossVal.zip)
+
 
 ### Trained Models and Code
 You can download the weights and find the code repositories for these models below:
