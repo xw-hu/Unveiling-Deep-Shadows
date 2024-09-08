@@ -399,10 +399,11 @@ You can download the weights and find the code repositories for these models bel
 - [DESOBA](https://github.com/bcmi/Object-Shadow-Generation-Dataset-DESOBA)
 
 ### Metrics
-- MAE: see this GitHub repository.
-- PSNE: see this GitHub repository.
-- SSIM: see this GitHub repository.
-- LPIPS: see this GitHub repository.
+- MAE: [this repository](https://github.com/xw-hu/Unveiling-Deep-Shadows/blob/main/eval_ShadowRemoval.py)
+- PSNE: [this repository](https://github.com/xw-hu/Unveiling-Deep-Shadows/blob/main/eval_ShadowRemoval.py)
+- SSIM: [this repository](https://github.com/xw-hu/Unveiling-Deep-Shadows/blob/main/eval_ShadowRemoval.py)
+- LPIPS: [this repository](https://github.com/xw-hu/Unveiling-Deep-Shadows/blob/main/eval_ShadowRemoval.py)
+- Above metrics with don't care: [this repository](https://github.com/xw-hu/Unveiling-Deep-Shadows/blob/main/eval_ShadowRemoval_DESOBA.py)
 
 ### Papers
 1. **CNN-CRF**: Khan et al., "Automatic shadow detection and removal from a single image", TPAMI, 2016. [[paper]](https://ieeexplore.ieee.org/abstract/document/7172555)
