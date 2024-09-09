@@ -494,6 +494,7 @@ You can download the weights and find the code repositories for these models bel
 3. **FSENet**: Li et al., "High-resolution document shadow removal via a large-scale real-world dataset and a frequency-aware shadow erasing net", ICCV, 2023. [[paper]](https://openaccess.thecvf.com/content/ICCV2023/html/Li_High-Resolution_Document_Shadow_Removal_via_A_Large-Scale_Real-World_Dataset_and_ICCV_2023_paper.html)
 
 ## Facial Shadow Removal  
+### Papers
 1. **Zhang et al.**: Zhang et al., "Portrait shadow manipulation", SIGGRAPH, 2020. [[paper]](https://dl.acm.org/doi/abs/10.1145/3386569.3392390) 
 2. **He et al.**: He et al., "Unsupervised portrait shadow removal via generative priors", ACM MM, 2021. [[paper]](https://dl.acm.org/doi/abs/10.1145/3474085.3475663)
 3. **GS+C**: Liu et al., "Blind removal of facial foreign shadows", BMVC, 2022. [[paper]](https://cvlab.cse.msu.edu/pdfs/Liu_Hou_Huang_Ren_Liu_BMVC2022.pdf) 
@@ -501,6 +502,7 @@ You can download the weights and find the code repositories for these models bel
 5. **GraphFFNet**: Zhang et al., "Facial image shadow removal via graph-based feature fusion", CGF (PG), 2023. [[paper]](https://doi.org/10.1111/cgf.14944)
 
 ## Image Shadow Generation  
+### Papers
 1. **ShadowGAN**: Zhang et al., "ShadowGAN: Shadow synthesis for virtual objects with conditional adversarial networks", CVM, 2019. (for Composition)  [[paper]](https://link.springer.com/article/10.1007/s41095-019-0136-1)
 2. **Mask-ShadowGAN**: Hu et al., "Mask-ShadowGAN: Learning to remove shadows from unpaired data", ICCV, 2019. (for Shadow Removal)  [[paper]](https://openaccess.thecvf.com/content_ICCV_2019/html/Hu_Mask-ShadowGAN_Learning_to_Remove_Shadows_From_Unpaired_Data_ICCV_2019_paper.html)
 3. **ARShadowGAN**: Liu et al., "ARShadowGAN: Shadow generative adversarial network for augmented reality in single light scenes", CVPR, 2020. (for Composition)  [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/html/Liu_ARShadowGAN_Shadow_Generative_Adversarial_Network_for_Augmented_Reality_in_Single_CVPR_2020_paper.html)
