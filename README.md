@@ -2,7 +2,10 @@
 
 by [Xiaowei Hu*](https://xw-hu.github.io/), [Zhenghao Xing*](https://harryhsing.github.io/), [Tianyu Wang](https://stevewongv.github.io/), [Chi-Wing Fu](https://www.cse.cuhk.edu.hk/~cwfu/), and [Pheng-Ann Heng](http://www.cse.cuhk.edu.hk/~pheng)             
 
-https://arxiv.org/abs/2409.02108
+https://arxiv.org/abs/2409.02108               
+
+[中文解读1](https://blog.csdn.net/moxibingdao/article/details/141980315)             
+[中文解读2](https://mp.weixin.qq.com/s/T5NgOP4_a1lwjQ6QArdbrQ)             
 
 ***
 
