@@ -4,8 +4,7 @@ by [Xiaowei Hu*](https://xw-hu.github.io/), [Zhenghao Xing*](https://harryhsing.
 
 https://arxiv.org/abs/2409.02108               
 
-[中文解读1](https://blog.csdn.net/moxibingdao/article/details/141980315)             
-[中文解读2](https://mp.weixin.qq.com/s/T5NgOP4_a1lwjQ6QArdbrQ)             
+[中文解读1](https://blog.csdn.net/moxibingdao/article/details/141980315), [中文解读2](https://mp.weixin.qq.com/s/T5NgOP4_a1lwjQ6QArdbrQ)             
 
 ***
 
