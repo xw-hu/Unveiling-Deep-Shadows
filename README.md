@@ -1,4 +1,4 @@
-# Unveiling Deep Shadows: A Survey on Image and Video Shadow Detection, Removal, and Generation in the Era of Deep Learning
+# Unveiling Deep Shadows: A Survey and Benchmark on Image and Video Shadow Detection, Removal, and Generation in the Deep Learning Era
 
 by [Xiaowei Hu*](https://xw-hu.github.io/), [Zhenghao Xing*](https://harryhsing.github.io/), [Tianyu Wang](https://stevewongv.github.io/), [Chi-Wing Fu](https://www.cse.cuhk.edu.hk/~cwfu/), and [Pheng-Ann Heng](http://www.cse.cuhk.edu.hk/~pheng)             
 
@@ -527,7 +527,7 @@ You can download the weights and find the code repositories for these models bel
 If you find our work, results, models, and unified evaluation code useful, please consider citing our paper as follows:
 ```
 @article{hu2024unveiling,
-  title={Unveiling Deep Shadows: A Survey on Image and Video Shadow Detection, Removal, and Generation in the Era of Deep Learning},
+  title={Unveiling Deep Shadows: A Survey and Benchmark on Image and Video Shadow Detection, Removal, and Generation in the Deep Learning Era},
   author={Hu, Xiaowei and Xing, Zhenghao and Wang, Tianyu and Fu, Chi-Wing and Heng, Pheng-Ann},
   journal={arXiv preprint arXiv:2409.02108},
   year={2024}
