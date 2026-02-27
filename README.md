@@ -2,7 +2,9 @@
 
 by [Xiaowei Hu*](https://xw-hu.github.io/), [Zhenghao Xing*](https://harryhsing.github.io/), [Tianyu Wang](https://stevewongv.github.io/), [Chi-Wing Fu](https://www.cse.cuhk.edu.hk/~cwfu/), and [Pheng-Ann Heng](http://www.cse.cuhk.edu.hk/~pheng)             
 
-https://arxiv.org/abs/2409.02108               
+International Journal of Computer Vision (**IJCV**) 2026.
+
+https://arxiv.org/abs/2409.02108v3                                
 
 [中文解读1](https://blog.csdn.net/moxibingdao/article/details/141980315), [中文解读2](https://mp.weixin.qq.com/s/T5NgOP4_a1lwjQ6QArdbrQ)             
 
@@ -11,12 +13,13 @@ https://arxiv.org/abs/2409.02108
 This repository contains the results and trained models for deep-learning methods used in shadow detection, removal, and generation, as presented in our paper "Unveiling Deep Shadows: A Survey and Benchmark on Image and Video Shadow Detection, Removal, and Generation in the Deep Learning Era." This paper presents a comprehensive survey and an evaluation benchmark of shadow detection, removal, and generation in images and videos within the deep learning landscape over the past decade, covering tasks, deep models, datasets, and evaluation metrics. Key contributions include a comprehensive survey of shadow analysis, standardization of experimental comparisons, exploration of the relationships among model size, speed, and performance, a cross-dataset generalization study, identification of open issues and future directions, and provision of publicly available resources to support further research.
 
 ## Highlights
-+ A Comprehensive Survey and Benchmark of Shadow Analysis in the Deep Learning Era.
-+ Fair Comparisons of the Existing Methods. Unified platform + newly refined datasets with corrected noisy labels and ground-truth images.
-+ Exploration of Model Size, Speed, and Performance Relationships. A more comprehensive comparison of different evaluation aspects.
-+ Cross-Dataset Generalization Study. Assess the generalization capability of deep models across diverse datasets.
-+ Overview of Open Issues and Future Directions with AIGC and Large Models.
-+ Publicly Available Results, Trained Models, and Evaluation Metrics.
++ A Comprehensive Survey and Benchmark of Shadow Analysis in the Deep Learning Era.           
++ Fair Comparisons of the Existing Methods. Unified platform + newly refined datasets with corrected noisy labels and ground-truth images.        
++ Exploration of Model Size, Speed, and Performance Relationships. A more comprehensive comparison of different evaluation aspects.         
++ Cross-Dataset Generalization Study. Assess the generalization capability of deep models across diverse datasets.     
++ Synthesized Trends, Insights, and Open Challenges.        
++ Overview of Open Issues and Future Directions with AIGC and Large Models.     
++ Publicly Available Results, Trained Models, and Evaluation Metrics.        
 
 ## Table of Contents
 - [Image Shadow Detection](#image-shadow-detection)
@@ -526,10 +529,10 @@ You can download the weights and find the code repositories for these models bel
 ## Bibtex
 If you find our work, results, models, and unified evaluation code useful, please consider citing our paper as follows:
 ```
-@article{hu2024unveiling,
+@article{hu2026unveiling,
   title={Unveiling Deep Shadows: A Survey and Benchmark on Image and Video Shadow Detection, Removal, and Generation in the Deep Learning Era},
   author={Hu, Xiaowei and Xing, Zhenghao and Wang, Tianyu and Fu, Chi-Wing and Heng, Pheng-Ann},
-  journal={arXiv preprint arXiv:2409.02108},
-  year={2024}
+  journal={International Journal of Computer Vision (IJCV)},
+  year={2026}
 }
 ```
